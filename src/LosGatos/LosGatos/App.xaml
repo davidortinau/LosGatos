@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LosGatos.App">
     <Application.Resources>
-
+        <ResourceDictionary Source="Common/Styles/DefaultTheme.xaml"/>
     </Application.Resources>
 </Application>

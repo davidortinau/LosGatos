@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace LosGatos
+namespace LosGatos.Pages
 {
     public partial class MainPage : ContentPage
     {
