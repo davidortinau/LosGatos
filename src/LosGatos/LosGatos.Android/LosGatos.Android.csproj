@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -57,7 +56,7 @@
     <PackageReference Include="Xamarin.CommunityToolkit">
       <Version>1.0.0-preview1089</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1558-pre3" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1560" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre3" />
   </ItemGroup>
   <ItemGroup>
@@ -93,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LosGatos\LosGatos.csproj">
-      <Project>{23A30535-39AC-4ED1-A053-951BFC61CD17}</Project>
+      <Project>{91F56D2B-9335-4C0E-B45C-24DAADF6C1C8}</Project>
       <Name>LosGatos</Name>
     </ProjectReference>
   </ItemGroup>

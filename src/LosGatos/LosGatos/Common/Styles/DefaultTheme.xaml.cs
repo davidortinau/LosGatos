@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 [assembly: ExportFont("fa-solid-900.ttf", Alias = "FontAwesome")]
 [assembly: ExportFont("ProductSans-Regular.ttf", Alias = "Product")]
