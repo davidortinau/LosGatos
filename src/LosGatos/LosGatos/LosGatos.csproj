@@ -11,6 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Common\Assets\shutterstock_183490616.svg" />
+    <None Remove="Common\Assets\shutterstock_183490631.svg" />
+    <None Remove="Common\Assets\shutterstock_186919337.svg" />
+    <None Remove="Common\Assets\shutterstock_188816654.svg" />
+    <None Remove="Common\Assets\shutterstock_208551202.svg" />
+    <None Remove="Common\Assets\shutterstock_553119223.svg" />
     <None Remove="Common\Fonts\fa-solid-900.ttf" />
     <None Remove="Common\Fonts\norwester.otf" />
     <None Remove="Common\Fonts\ProductSans-Regular.ttf" />
@@ -25,8 +31,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Resizetizer.NT" Version="0.2.0" />
+    <PackageReference Include="Sharpnado.Shadows" Version="1.2.0" />
     <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0-preview1089" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.1558-pre3" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SharedImage Include="Common\Assets\business_cat.png" />
+    <SharedImage Include="Common\Assets\shutterstock_183490616.svg" />
+    <SharedImage Include="Common\Assets\shutterstock_183490631.svg" />
+    <SharedImage Include="Common\Assets\shutterstock_186919337.svg" />
+    <SharedImage Include="Common\Assets\shutterstock_188816654.svg" />
+    <SharedImage Include="Common\Assets\shutterstock_208551202.svg" />
+    <SharedImage Include="Common\Assets\shutterstock_553119223.svg" />
   </ItemGroup>
 </Project>

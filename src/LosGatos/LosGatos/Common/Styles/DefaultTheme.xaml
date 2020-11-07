@@ -29,8 +29,8 @@
     <Color x:Key="White">#ffffff</Color>
 
     <!-- Theme Colors -->
-    <Color x:Key="BackgroundColorDark">#000000</Color>
-    <Color x:Key="BackgroundColorLight">#ffffff</Color>
+    <Color x:Key="BackgroundColorDark">#2c2c2c</Color>
+    <Color x:Key="BackgroundColorLight">#f6f6f6</Color>
     <Color x:Key="TextPrimaryColor_Dark">#FFFFFF</Color>
     <Color x:Key="TextPrimaryColor_Light">#323130</Color>
     <Color x:Key="TextSecondaryColor_Dark">#FFFFFF</Color>
@@ -48,6 +48,8 @@
     <Color x:Key="NavBarTitleColor">#FFFFFF</Color>
 
     <Color x:Key="TitleColor">#FFFFFF</Color>
+    
+    
 
     <!-- Sizes -->
     <x:Double x:Key="SpacingSmall">5</x:Double>
