@@ -35,9 +35,7 @@
     <Color x:Key="TextPrimaryColor_Light">#323130</Color>
     <Color x:Key="TextSecondaryColor_Dark">#FFFFFF</Color>
     <Color x:Key="TextSecondaryColor_Light">#a3a2a0</Color>
-
-    
-
+        
     <!-- Semantic Colors -->
     <Color x:Key="Success">#FF3300</Color>
     <Color x:Key="Info">#ffded6</Color>
@@ -87,6 +85,7 @@
         <Setter Property="Shell.NavBarHasShadow"
                 Value="False"/>
     </Style>
+
     <Style BasedOn="{StaticResource BaseStyle}"
            ApplyToDerivedTypes="True"
            TargetType="FlyoutItem" />
@@ -109,43 +108,43 @@
     </Style>
 
     <Style
-            TargetType="Layout"
-            ApplyToDerivedTypes="True"
-            Class="FlyoutItemGridStyle">
+        TargetType="Layout"
+        ApplyToDerivedTypes="True"
+        Class="FlyoutItemGridStyle">
 
-            <Setter
-                Property="HeightRequest"
-                Value="44" />
-            <Setter
-                Property="VisualStateManager.VisualStateGroups">
-                <VisualStateGroupList>
-                    <VisualStateGroup
-                        x:Name="CommonStates">
-                        <VisualState
-                            x:Name="Normal">
-                            <VisualState.Setters>
+        <Setter
+            Property="HeightRequest"
+            Value="44" />
+        <Setter
+            Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup
+                    x:Name="CommonStates">
+                    <VisualState
+                        x:Name="Normal">
+                        <VisualState.Setters>
 
-                            </VisualState.Setters>
-                        </VisualState>
-                        <VisualState
-                            x:Name="Selected">
-                            <VisualState.Setters>
-                                <Setter
-                                    Property="BackgroundColor"
-                                    Value="#FF3300" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState
+                        x:Name="Selected">
+                        <VisualState.Setters>
+                            <Setter
+                                Property="BackgroundColor"
+                                Value="#FF3300" />
 
-                            </VisualState.Setters>
-                        </VisualState>
-                        <VisualState
-                            x:Name="Disabled">
-                            <VisualState.Setters>
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState
+                        x:Name="Disabled">
+                        <VisualState.Setters>
 
-                            </VisualState.Setters>
-                        </VisualState>
-                    </VisualStateGroup>
-                </VisualStateGroupList>
-            </Setter>
-        </Style>
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
 
     <!-- ContentPage -->
     <Style TargetType="Page" ApplyToDerivedTypes="True">
@@ -157,9 +156,11 @@
         <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource TextPrimaryColor_Dark}, Light={StaticResource TextPrimaryColor_Light}}"/>
         <Setter Property="FontSize" Value="{StaticResource TextSizeBody}" />
     </Style>
+
     <Style x:Key="BaseLabel" TargetType="Label">
         <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource TextPrimaryColor_Dark}, Light={StaticResource TextPrimaryColor_Light}}"/>
     </Style>
+
     <Style x:Key="TextHeadline" TargetType="Label" BasedOn="{StaticResource BaseLabel}">
         <Setter Property="FontSize" Value="{StaticResource TextSizeHeadline}" />
         <Setter Property="FontFamily" Value="Roboto"/>
@@ -204,7 +205,6 @@
     <Style x:Key="TextLink" TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource ThemePrimary}" />
     </Style>
-
 
     <!-- Buttons -->
     <Style x:Key="PrimaryButton" TargetType="Button">
@@ -286,13 +286,7 @@
         <Setter Property="BackgroundColor" Value="{StaticResource White}"/>
         <Setter Property="PlaceholderColor" Value="{StaticResource NeutralSecondary}"/>
         <Setter Property="TextColor" Value="{StaticResource NeutralPrimary}"/>
-        <!--<Setter Property="">
-            <effects:EntryRemoveLine/>
-        </Setter>-->
-
     </Style>
-
-    <!-- Picker -->
 
     <!-- Switch -->
     <Style TargetType="Switch">
@@ -381,12 +375,6 @@
         <Setter Property="BackgroundColor" Value="{StaticResource NeutralLighter}"/>
     </Style>
 
-    <x:String x:Key="LineBreak">&#x0a;</x:String>
-
-    <!--<ResourceDictionary.MergedDictionaries>
-        <fluent:Buttons/>
-    </ResourceDictionary.MergedDictionaries>-->
-
-    
+    <x:String x:Key="LineBreak">&#x0a;</x:String>   
 
 </ResourceDictionary>

@@ -2,9 +2,84 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:common="clr-namespace:Common"
+             xmlns:pages="clr-namespace:LosGatos.Pages"
+             xmlns:theme="clr-namespace:LosGatos.Styles" 
+             xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit" 
              x:Class="LosGatos.Pages.MainPage">
-
     <ContentPage.Resources>
+        <Color x:Key="TabIconColor">#979797</Color>
+            <Color x:Key="TabSelectedIconColor">#2E2545</Color>
+
+             <ControlTemplate
+		        x:Key="TabItemTemplate">
+                <Grid>
+                    <Image
+				        Grid.Row="0"
+				        VerticalOptions="Start"
+				        HorizontalOptions="Center"
+				        WidthRequest="24"
+				        HeightRequest="24"
+                        Margin="6"
+				        Source="{TemplateBinding CurrentIcon}" /> 
+                </Grid>
+             </ControlTemplate>
+
+            <ControlTemplate
+                x:Key="BasketTabItemTemplate">
+                <Grid>
+                    <ImageButton
+                        InputTransparent="True"
+                        Source="{TemplateBinding CurrentIcon}"
+                        Padding="18"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Start"
+                        BackgroundColor="#2E2545"
+                        HeightRequest="72"
+                        WidthRequest="72"
+                        Margin="0, 0, 0, 36">
+                        <ImageButton.CornerRadius>
+                            <OnPlatform x:TypeArguments="x:Int32">
+                                <On Platform="iOS" Value="36"/>
+                                <On Platform="Android" Value="60"/>
+                            </OnPlatform>
+                        </ImageButton.CornerRadius>
+                    </ImageButton>
+                </Grid>
+             </ControlTemplate>
+    
+            <Style
+		        x:Key="TabItemStyle"
+		        TargetType="toolkit:TabViewItem">
+                <Setter
+			        Property="TextColor"
+			        Value="#979797" />
+                <Setter
+			        Property="TextColorSelected"
+			        Value="#FF0000" />
+                <Setter
+			        Property="Scale"
+			        Value="0.85" />
+            </Style>
+
+            <Style
+		        x:Key="CustomTabStyle"
+		        TargetType="toolkit:TabView">
+                <Setter
+			        Property="IsTabTransitionEnabled"
+			        Value="True" />
+                <Setter
+			        Property="TabStripBackgroundColor"
+			        Value="#E6F9F9F9" />
+                <Setter
+			        Property="TabStripHeight"
+			        Value="74" />
+                <Setter
+			        Property="TabContentBackgroundColor"
+			        Value="#F5F5F5" />
+                <Setter
+			        Property="TabStripPlacement"
+			        Value="Bottom" />
+            </Style>
         <!-- Gradients -->
         <Color x:Key="DarkBlue">#0e94bf</Color>
         <Color x:Key="LightBlue">#ecf1f5</Color>
@@ -54,7 +129,7 @@
         </Grid>
     </NavigationPage.TitleView>
 
-    <Grid Margin="15" RowDefinitions="184,380,44,140,*">
+    <Grid Margin="15" RowDefinitions="184,380,44,140,*,*">
         
         <!-- Category Cards -->
         
@@ -230,6 +305,95 @@
         
 
         <!-- Popular Cards -->
-    </Grid>
 
+        <!-- Tabs -->
+        <toolkit:TabView
+            Grid.Row="5"
+                Style="{StaticResource CustomTabStyle}">
+                <!-- HOME TAB -->
+                <toolkit:TabViewItem
+                    ControlTemplate="{StaticResource TabItemTemplate}"
+                    Style="{StaticResource TabItemStyle}">
+                    <toolkit:TabViewItem.Icon>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.Home}"
+                            Color="{StaticResource TabIconColor}"/>
+                    </toolkit:TabViewItem.Icon>
+                    <toolkit:TabViewItem.IconSelected>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.Home}"
+                            Color="{StaticResource TabSelectedIconColor}"/>
+                    </toolkit:TabViewItem.IconSelected>
+                    <pages:HomePage />
+                </toolkit:TabViewItem>
+                <!-- FAVOURITE TAB -->
+                <toolkit:TabViewItem
+                    ControlTemplate="{StaticResource TabItemTemplate}"
+                    Style="{StaticResource TabItemStyle}">
+                    <toolkit:TabViewItem.Icon>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.Heart}"
+                            Color="{StaticResource TabIconColor}" />
+                    </toolkit:TabViewItem.Icon>
+                    <toolkit:TabViewItem.IconSelected>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.Heart}"
+                            Color="{StaticResource TabSelectedIconColor}"/>
+                    </toolkit:TabViewItem.IconSelected>
+                    <pages:FavouritePage />
+                </toolkit:TabViewItem>
+                <!-- BASKET TAB -->
+                <toolkit:TabViewItem
+                    ControlTemplate="{StaticResource BasketTabItemTemplate}"
+                    Style="{StaticResource TabItemStyle}">
+                    <toolkit:TabViewItem.Icon>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.ShoppingBag}"
+                            Color="#FFFFFF" />
+                    </toolkit:TabViewItem.Icon>
+                </toolkit:TabViewItem>
+                <!-- SETTINGS TAB -->
+                <toolkit:TabViewItem
+                    ControlTemplate="{StaticResource TabItemTemplate}"
+                    Style="{StaticResource TabItemStyle}">
+                    <toolkit:TabViewItem.Icon>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.Cog}"
+                            Color="{StaticResource TabIconColor}" />
+                    </toolkit:TabViewItem.Icon>
+                    <toolkit:TabViewItem.IconSelected>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.Cog}"
+                            Color="{StaticResource TabSelectedIconColor}"/>
+                    </toolkit:TabViewItem.IconSelected>
+                    <pages:SettingsPage />
+                </toolkit:TabViewItem>
+                <!-- PROFILE TAB -->
+                <toolkit:TabViewItem
+                    ControlTemplate="{StaticResource TabItemTemplate}"
+                    Style="{StaticResource TabItemStyle}">
+                    <toolkit:TabViewItem.Icon>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.User}"
+                            Color="{StaticResource TabIconColor}" />
+                    </toolkit:TabViewItem.Icon>
+                    <toolkit:TabViewItem.IconSelected>
+                        <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.User}"
+                            Color="{StaticResource TabSelectedIconColor}"/>
+                    </toolkit:TabViewItem.IconSelected>
+                    <pages:ProfilePage />
+                </toolkit:TabViewItem>
+            </toolkit:TabView>
+    </Grid>
+             
 </ContentPage>
