@@ -7,7 +7,7 @@ namespace LosGatos
     {
         public App()
         {
-            Device.SetFlags(new string[] { "Brush_Experimental" });
+            Device.SetFlags(new string[] { "Brush_Experimental", "Shapes_Experimental" });
 
             InitializeComponent();
 

@@ -6,18 +6,18 @@
     x:Class="LosGatos.Pages.HomePage">
     <ContentView.Resources>
         <!-- Gradients -->
-        <Color x:Key="DarkBlue">#0e94bf</Color>
-        <Color x:Key="LightBlue">#ecf1f5</Color>
-        <Color x:Key="VeryLightBlue">#440596FF</Color>
-        <Color x:Key="DarkGreen">#6DD400</Color>
-        <Color x:Key="LightGreen">#44D7B6</Color>
+        <Color x:Key="DarkBlue">#FDEE3D</Color>
+        <Color x:Key="LightBlue">#FFFFFF</Color>
+        <Color x:Key="DarkGreen">#76B3AF</Color>
+        <Color x:Key="LightGreen">#FFFFFF</Color>
         <LinearGradientBrush x:Key="BlueGradient" StartPoint="0,1" EndPoint="1,0">
-            <GradientStop Color="{StaticResource DarkBlue}" Offset="0" />
-            <GradientStop Color="{StaticResource LightBlue}" Offset="1" />
+            
+            <GradientStop Color="{StaticResource LightBlue}" Offset="1.0" />
+            <GradientStop Color="{StaticResource DarkBlue}" Offset="0.1" />
         </LinearGradientBrush>
-        <LinearGradientBrush x:Key="GreenGradient" StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="{StaticResource DarkGreen}" Offset="0.0" />
+        <LinearGradientBrush x:Key="GreenGradient" StartPoint="0,1" EndPoint="1,0">
             <GradientStop Color="{StaticResource LightGreen}" Offset="1.0" />
+            <GradientStop Color="{StaticResource DarkGreen}" Offset="0.1" />
         </LinearGradientBrush>
     </ContentView.Resources>
     
@@ -30,16 +30,17 @@
                     HorizontalScrollBarVisibility="Never" 
                     VerticalScrollBarVisibility="Never"
                     Orientation="Horizontal">
-                <StackLayout Orientation="Horizontal" IsClippedToBounds="False">
+                <StackLayout Orientation="Horizontal" IsClippedToBounds="False"
+                             Spacing="20">
 
                     <Grid RowDefinitions="30,100,20"
                         ColumnDefinitions="133"
                       IsClippedToBounds="False"
                         >
                         <BoxView 
-                        CornerRadius="24"
-                        Grid.Row="1"
-                        Background="{StaticResource BlueGradient}"/>
+                            CornerRadius="24"
+                            Grid.Row="1"
+                            Background="{StaticResource BlueGradient}"/>
                         <Label Text="Business"
                         Grid.Row="1"
                         TextColor="#006081"
@@ -49,15 +50,14 @@
                         FontSize="18"
                         />
 
-                        <Image Source="business_cat.png"
-                        VerticalOptions="Start"
-                        HorizontalOptions="Center"
-                        HeightRequest="100"
-                        WidthRequest="100"
-                        Aspect="AspectFill"
-                        Grid.Row="0"
-                        Grid.RowSpan="2"
-                        />
+                        <Image Source="shutterstock_183490616.png"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Center"
+                            WidthRequest="75"
+                            Aspect="AspectFit"
+                            Grid.Row="0"
+                            Grid.RowSpan="2"
+                            />
                     </Grid>
 
                     <Grid RowDefinitions="30,100"
@@ -77,14 +77,13 @@
                         FontSize="18"
                         />
 
-                        <Image Source="business_cat.png"
-                        VerticalOptions="Start"
-                        HorizontalOptions="Center"
-                        HeightRequest="100"
-                        WidthRequest="100"
-                        Aspect="AspectFill"
-                        Grid.Row="0"
-                        Grid.RowSpan="2"
+                        <Image Source="shutterstock_183490631.png"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Center"
+                            WidthRequest="75"
+                            Aspect="AspectFit"
+                            Grid.Row="0"
+                            Grid.RowSpan="2"
                         />
                     </Grid>
 
@@ -97,35 +96,41 @@
                     Grid.Row="1">
                 <StackLayout Orientation="Horizontal">
 
-                    <Grid RowDefinitions="50,142,142"
+                    <Grid RowDefinitions="50,80,142"
                         ColumnDefinitions="284"
+                          RowSpacing="0"
+                          VerticalOptions="Start"
                         >
                         <BoxView 
-                        CornerRadius="24"
-                        Grid.Row="1"
-                        Grid.RowSpan="2"
-                        BackgroundColor="White"/>
+                            CornerRadius="24"
+                            Grid.Row="1"
+                            Grid.RowSpan="2"
+                            BackgroundColor="White"/>
 
                         <Grid
-                        Grid.Row="2"
-                        Margin="24,0"
-                        BackgroundColor="LightBlue"
-                        RowDefinitions="*,*,*"
-                        ColumnDefinitions="*,*,*">
+                            Grid.Row="2"
+                            VerticalOptions="Start"
+                            Margin="24,0"
+                            RowDefinitions="24,24,*"
+                            ColumnDefinitions="*,*,*">
                             <Label
-                            Grid.ColumnSpan="2"
-                            Text="Lausanne chair"
-                            FontSize="14"/>
+                                Grid.ColumnSpan="3"
+                                Text="Lausanne chair"
+                                FontFamily="Product"
+                                FontAttributes="Bold"
+                                FontSize="20"/>
                             <Label
-                            Grid.ColumnSpan="2"
-                            Grid.Row="1"
-                            Text="BoConcept"
-                            TextColor="{StaticResource TextSecondaryColor_Light}"
-                            FontSize="14"/>
+                                Grid.ColumnSpan="2"
+                                Grid.Row="1"
+                                Text="BoConcept"
+                                TextColor="{StaticResource TextSecondaryColor_Light}"
+                                FontFamily="Product"
+                                FontSize="18"/>
                             <Label Grid.Column="2"
                                Grid.ColumnSpan="2"
-                               HorizontalOptions="End"
-                               >
+                                   FontFamily="Product"
+                                   FontSize="18"
+                               HorizontalOptions="End">
                                 <Label.FormattedText>
                                     <FormattedString>
                                         <Span FontFamily="FontAwesome"
@@ -141,10 +146,10 @@
                             Grid.Row="2"
                             VerticalOptions="Center"
                             Text="$200"
-                            FontSize="14"/>
+                                FontFamily="Product"
+                            FontSize="20"/>
 
                             <StackLayout Orientation="Horizontal"
-                                     BackgroundColor="Purple"
                                      Grid.Row="2"
                             Grid.Column="2"
                                      Grid.ColumnSpan="2">
@@ -176,15 +181,18 @@
                                 FontSize="16"/>
                             </StackLayout>
                         </Grid>
-
-                        <Image Source="shutterstock_183490616.png"
-                        VerticalOptions="Start"
-                        HorizontalOptions="Center"
-                        HeightRequest="200"
-                        Aspect="AspectFill"
-                        Grid.Row="0"
-                        Grid.RowSpan="3"
-                        />
+                        <Image Source="shutterstock_553119223.png"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Center"
+                               WidthRequest="300"
+                            Aspect="AspectFit"
+                            Grid.Row="0"
+                            Grid.RowSpan="3"
+                        >
+                            <Image.Clip>
+                                <RectangleGeometry Rect="0,0,300,120"/>
+                            </Image.Clip>
+                        </Image>
 
                     </Grid>
 

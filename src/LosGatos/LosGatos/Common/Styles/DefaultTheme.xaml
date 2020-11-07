@@ -4,11 +4,11 @@
                     x:Class="Common.Styles.DefaultTheme">
 
     <!-- Colors -->
-    <Color x:Key="ThemePrimary">#FF3300</Color>
+    <Color x:Key="ThemePrimary">#fd7b38</Color>
     <Color x:Key="ThemeLighterAlt">#fff7f5</Color>
     <Color x:Key="ThemeLighter">#ffded6</Color>
-    <Color x:Key="ThemeTertiary">#ff8566</Color>
-    <Color x:Key="ThemeSecondary">#ff4b1f</Color>
+    <Color x:Key="ThemeTertiary">#ffc200</Color>
+    <Color x:Key="ThemeSecondary">#2e2545</Color>
     <Color x:Key="ThemeDarkAlt">#e62e00</Color>
     <Color x:Key="ThemeDark">#c22700</Color>
     <Color x:Key="ThemeDarker">#8f1d00</Color>
@@ -155,6 +155,7 @@
     <Style TargetType="Label">
         <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource TextPrimaryColor_Dark}, Light={StaticResource TextPrimaryColor_Light}}"/>
         <Setter Property="FontSize" Value="{StaticResource TextSizeBody}" />
+        <Setter Property="FontFamily" Value="Product"/>
     </Style>
 
     <Style x:Key="BaseLabel" TargetType="Label">
