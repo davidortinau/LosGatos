@@ -1,8 +1,5 @@
-﻿using Xamarin.Forms;
-
-namespace Common
+﻿namespace LosGatos.Styles
 {
-
     static class IconFont
     {
         // FontAwesome
