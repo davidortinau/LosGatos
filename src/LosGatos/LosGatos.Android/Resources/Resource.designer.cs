@@ -11455,10 +11455,25 @@ namespace LosGatos.Droid
 			public const int shutterstock_183490616 = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int tooltip_frame_dark = 2131165312;
+			public const int shutterstock_183490631 = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int tooltip_frame_light = 2131165313;
+			public const int shutterstock_186919337 = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int shutterstock_188816654 = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int shutterstock_208551202 = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int shutterstock_553119223 = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int tooltip_frame_dark = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int tooltip_frame_light = 2131165318;
 			
 			static Drawable()
 			{

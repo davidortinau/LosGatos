@@ -2,13 +2,202 @@
 <ContentView
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:theme="clr-namespace:LosGatos.Styles" 
     x:Class="LosGatos.Pages.HomePage">
+    <ContentView.Resources>
+        <!-- Gradients -->
+        <Color x:Key="DarkBlue">#0e94bf</Color>
+        <Color x:Key="LightBlue">#ecf1f5</Color>
+        <Color x:Key="VeryLightBlue">#440596FF</Color>
+        <Color x:Key="DarkGreen">#6DD400</Color>
+        <Color x:Key="LightGreen">#44D7B6</Color>
+        <LinearGradientBrush x:Key="BlueGradient" StartPoint="0,1" EndPoint="1,0">
+            <GradientStop Color="{StaticResource DarkBlue}" Offset="0" />
+            <GradientStop Color="{StaticResource LightBlue}" Offset="1" />
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="GreenGradient" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="{StaticResource DarkGreen}" Offset="0.0" />
+            <GradientStop Color="{StaticResource LightGreen}" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentView.Resources>
+    
     <ContentView.Content>
-        <Grid>
-            <Label
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                Text="HOME TAB" />
+        <Grid Margin="15" RowDefinitions="184,380,44,140,*,*">
+
+            <!-- Category Cards -->
+
+            <ScrollView Grid.Row="0" IsClippedToBounds="False" 
+                    HorizontalScrollBarVisibility="Never" 
+                    VerticalScrollBarVisibility="Never"
+                    Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" IsClippedToBounds="False">
+
+                    <Grid RowDefinitions="30,100,20"
+                        ColumnDefinitions="133"
+                      IsClippedToBounds="False"
+                        >
+                        <BoxView 
+                        CornerRadius="24"
+                        Grid.Row="1"
+                        Background="{StaticResource BlueGradient}"/>
+                        <Label Text="Business"
+                        Grid.Row="1"
+                        TextColor="#006081"
+                        HorizontalOptions="Center"
+                        VerticalOptions="End"
+                        Margin="0,0,0,10"
+                        FontSize="18"
+                        />
+
+                        <Image Source="business_cat.png"
+                        VerticalOptions="Start"
+                        HorizontalOptions="Center"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        Aspect="AspectFill"
+                        Grid.Row="0"
+                        Grid.RowSpan="2"
+                        />
+                    </Grid>
+
+                    <Grid RowDefinitions="30,100"
+                        ColumnDefinitions="133"
+                        >
+                        <BoxView 
+                        CornerRadius="24"
+                        Grid.Row="1"
+                        Background="{StaticResource GreenGradient}"/>
+
+                        <Label Text="Business"
+                        Grid.Row="1"
+                        TextColor="#006081"
+                        HorizontalOptions="Center"
+                        VerticalOptions="End"
+                        Margin="0,0,0,10"
+                        FontSize="18"
+                        />
+
+                        <Image Source="business_cat.png"
+                        VerticalOptions="Start"
+                        HorizontalOptions="Center"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        Aspect="AspectFill"
+                        Grid.Row="0"
+                        Grid.RowSpan="2"
+                        />
+                    </Grid>
+
+                </StackLayout>
+            </ScrollView>
+
+            <!-- Product Cards -->
+
+            <ScrollView Orientation="Horizontal"
+                    Grid.Row="1">
+                <StackLayout Orientation="Horizontal">
+
+                    <Grid RowDefinitions="50,142,142"
+                        ColumnDefinitions="284"
+                        >
+                        <BoxView 
+                        CornerRadius="24"
+                        Grid.Row="1"
+                        Grid.RowSpan="2"
+                        BackgroundColor="White"/>
+
+                        <Grid
+                        Grid.Row="2"
+                        Margin="24,0"
+                        BackgroundColor="LightBlue"
+                        RowDefinitions="*,*,*"
+                        ColumnDefinitions="*,*,*">
+                            <Label
+                            Grid.ColumnSpan="2"
+                            Text="Lausanne chair"
+                            FontSize="14"/>
+                            <Label
+                            Grid.ColumnSpan="2"
+                            Grid.Row="1"
+                            Text="BoConcept"
+                            TextColor="{StaticResource TextSecondaryColor_Light}"
+                            FontSize="14"/>
+                            <Label Grid.Column="2"
+                               Grid.ColumnSpan="2"
+                               HorizontalOptions="End"
+                               >
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontFamily="FontAwesome"
+                                          Text="{x:Static theme:IconFont.Star}"
+                                          TextColor="{StaticResource ThemeTertiary}"/>
+                                        <Span Text="(3.5)" TextColor="{StaticResource NeutralLight}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label
+                            Grid.ColumnSpan="2"
+                            Grid.Row="2"
+                            VerticalOptions="Center"
+                            Text="$200"
+                            FontSize="14"/>
+
+                            <StackLayout Orientation="Horizontal"
+                                     BackgroundColor="Purple"
+                                     Grid.Row="2"
+                            Grid.Column="2"
+                                     Grid.ColumnSpan="2">
+                                <Button                             
+                                CornerRadius="25"
+                                BorderWidth="0"
+                                Padding="0"
+                                VerticalOptions="Center"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                HorizontalOptions="End"
+                                BackgroundColor="{StaticResource ThemePrimary}"
+                                FontFamily="FontAwesome"
+                                Text="{x:Static theme:IconFont.Heart}"
+                                TextColor="White"
+                                FontSize="16"/>
+                                <Button                             
+                                CornerRadius="25"
+                                Padding="0"
+                                BorderWidth="0"
+                                VerticalOptions="Center"
+                                WidthRequest="50"
+                                HeightRequest="50"
+                                HorizontalOptions="End"
+                                BackgroundColor="{StaticResource ThemeSecondary}"
+                                FontFamily="FontAwesome"
+                                Text="{x:Static theme:IconFont.Plus}"
+                                TextColor="White"
+                                FontSize="16"/>
+                            </StackLayout>
+                        </Grid>
+
+                        <Image Source="shutterstock_183490616.png"
+                        VerticalOptions="Start"
+                        HorizontalOptions="Center"
+                        HeightRequest="200"
+                        Aspect="AspectFill"
+                        Grid.Row="0"
+                        Grid.RowSpan="3"
+                        />
+
+                    </Grid>
+
+
+
+                </StackLayout>
+
+
+            </ScrollView>
+
+
+
+            <!-- Popular Cards -->
         </Grid>
     </ContentView.Content>
 </ContentView>
