@@ -25,6 +25,2718 @@ namespace LosGatos.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.SharedTransitions.Resource.Animation.abc_fade_in = global::LosGatos.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_fade_out = global::LosGatos.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_grow_fade_in_from_bottom = global::LosGatos.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_popup_enter = global::LosGatos.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_popup_exit = global::LosGatos.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LosGatos.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_slide_in_bottom = global::LosGatos.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_slide_in_top = global::LosGatos.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_slide_out_bottom = global::LosGatos.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_slide_out_top = global::LosGatos.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_tooltip_enter = global::LosGatos.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Plugin.SharedTransitions.Resource.Animation.abc_tooltip_exit = global::LosGatos.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::LosGatos.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::LosGatos.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::LosGatos.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::LosGatos.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::LosGatos.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::LosGatos.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::LosGatos.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::LosGatos.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::LosGatos.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::LosGatos.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::LosGatos.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::LosGatos.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Plugin.SharedTransitions.Resource.Animation.design_bottom_sheet_slide_in = global::LosGatos.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.SharedTransitions.Resource.Animation.design_bottom_sheet_slide_out = global::LosGatos.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.SharedTransitions.Resource.Animation.design_snackbar_in = global::LosGatos.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.SharedTransitions.Resource.Animation.design_snackbar_out = global::LosGatos.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.SharedTransitions.Resource.Animation.EnterFromLeft = global::LosGatos.Droid.Resource.Animation.EnterFromLeft;
+			global::Plugin.SharedTransitions.Resource.Animation.EnterFromRight = global::LosGatos.Droid.Resource.Animation.EnterFromRight;
+			global::Plugin.SharedTransitions.Resource.Animation.enter_bottom = global::LosGatos.Droid.Resource.Animation.enter_bottom;
+			global::Plugin.SharedTransitions.Resource.Animation.enter_left = global::LosGatos.Droid.Resource.Animation.enter_left;
+			global::Plugin.SharedTransitions.Resource.Animation.enter_right = global::LosGatos.Droid.Resource.Animation.enter_right;
+			global::Plugin.SharedTransitions.Resource.Animation.enter_top = global::LosGatos.Droid.Resource.Animation.enter_top;
+			global::Plugin.SharedTransitions.Resource.Animation.ExitToLeft = global::LosGatos.Droid.Resource.Animation.ExitToLeft;
+			global::Plugin.SharedTransitions.Resource.Animation.ExitToRight = global::LosGatos.Droid.Resource.Animation.ExitToRight;
+			global::Plugin.SharedTransitions.Resource.Animation.exit_bottom = global::LosGatos.Droid.Resource.Animation.exit_bottom;
+			global::Plugin.SharedTransitions.Resource.Animation.exit_left = global::LosGatos.Droid.Resource.Animation.exit_left;
+			global::Plugin.SharedTransitions.Resource.Animation.exit_right = global::LosGatos.Droid.Resource.Animation.exit_right;
+			global::Plugin.SharedTransitions.Resource.Animation.exit_top = global::LosGatos.Droid.Resource.Animation.exit_top;
+			global::Plugin.SharedTransitions.Resource.Animation.fade_in = global::LosGatos.Droid.Resource.Animation.fade_in;
+			global::Plugin.SharedTransitions.Resource.Animation.fade_out = global::LosGatos.Droid.Resource.Animation.fade_out;
+			global::Plugin.SharedTransitions.Resource.Animation.flip_in = global::LosGatos.Droid.Resource.Animation.flip_in;
+			global::Plugin.SharedTransitions.Resource.Animation.flip_out = global::LosGatos.Droid.Resource.Animation.flip_out;
+			global::Plugin.SharedTransitions.Resource.Animation.fragment_close_enter = global::LosGatos.Droid.Resource.Animation.fragment_close_enter;
+			global::Plugin.SharedTransitions.Resource.Animation.fragment_close_exit = global::LosGatos.Droid.Resource.Animation.fragment_close_exit;
+			global::Plugin.SharedTransitions.Resource.Animation.fragment_fade_enter = global::LosGatos.Droid.Resource.Animation.fragment_fade_enter;
+			global::Plugin.SharedTransitions.Resource.Animation.fragment_fade_exit = global::LosGatos.Droid.Resource.Animation.fragment_fade_exit;
+			global::Plugin.SharedTransitions.Resource.Animation.fragment_fast_out_extra_slow_in = global::LosGatos.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Plugin.SharedTransitions.Resource.Animation.fragment_open_enter = global::LosGatos.Droid.Resource.Animation.fragment_open_enter;
+			global::Plugin.SharedTransitions.Resource.Animation.fragment_open_exit = global::LosGatos.Droid.Resource.Animation.fragment_open_exit;
+			global::Plugin.SharedTransitions.Resource.Animator.design_appbar_state_list_animator = global::LosGatos.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.SharedTransitions.Resource.Animator.design_fab_hide_motion_spec = global::LosGatos.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Plugin.SharedTransitions.Resource.Animator.design_fab_show_motion_spec = global::LosGatos.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Plugin.SharedTransitions.Resource.Animator.mtrl_btn_state_list_anim = global::LosGatos.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Plugin.SharedTransitions.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::LosGatos.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Plugin.SharedTransitions.Resource.Animator.mtrl_chip_state_list_anim = global::LosGatos.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Plugin.SharedTransitions.Resource.Animator.mtrl_fab_hide_motion_spec = global::LosGatos.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Plugin.SharedTransitions.Resource.Animator.mtrl_fab_show_motion_spec = global::LosGatos.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Plugin.SharedTransitions.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::LosGatos.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Plugin.SharedTransitions.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::LosGatos.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarDivider = global::LosGatos.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarItemBackground = global::LosGatos.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarPopupTheme = global::LosGatos.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarSize = global::LosGatos.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarSplitStyle = global::LosGatos.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarStyle = global::LosGatos.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarTabBarStyle = global::LosGatos.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarTabStyle = global::LosGatos.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarTabTextStyle = global::LosGatos.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarTheme = global::LosGatos.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionBarWidgetTheme = global::LosGatos.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionButtonStyle = global::LosGatos.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionDropDownStyle = global::LosGatos.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionLayout = global::LosGatos.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionMenuTextAppearance = global::LosGatos.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionMenuTextColor = global::LosGatos.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeBackground = global::LosGatos.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeCloseButtonStyle = global::LosGatos.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeCloseDrawable = global::LosGatos.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeCopyDrawable = global::LosGatos.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeCutDrawable = global::LosGatos.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeFindDrawable = global::LosGatos.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModePasteDrawable = global::LosGatos.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModePopupWindowStyle = global::LosGatos.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeSelectAllDrawable = global::LosGatos.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeShareDrawable = global::LosGatos.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeSplitBackground = global::LosGatos.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeStyle = global::LosGatos.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionModeWebSearchDrawable = global::LosGatos.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionOverflowButtonStyle = global::LosGatos.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionOverflowMenuStyle = global::LosGatos.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionProviderClass = global::LosGatos.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.SharedTransitions.Resource.Attribute.actionViewClass = global::LosGatos.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.SharedTransitions.Resource.Attribute.activityChooserViewStyle = global::LosGatos.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.alertDialogButtonGroupStyle = global::LosGatos.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.alertDialogCenterButtons = global::LosGatos.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.SharedTransitions.Resource.Attribute.alertDialogStyle = global::LosGatos.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.alertDialogTheme = global::LosGatos.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.allowStacking = global::LosGatos.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.SharedTransitions.Resource.Attribute.alpha = global::LosGatos.Droid.Resource.Attribute.alpha;
+			global::Plugin.SharedTransitions.Resource.Attribute.alphabeticModifiers = global::LosGatos.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.SharedTransitions.Resource.Attribute.arrowHeadLength = global::LosGatos.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.SharedTransitions.Resource.Attribute.arrowShaftLength = global::LosGatos.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.SharedTransitions.Resource.Attribute.autoCompleteTextViewStyle = global::LosGatos.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.autoSizeMaxTextSize = global::LosGatos.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.autoSizeMinTextSize = global::LosGatos.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.autoSizePresetSizes = global::LosGatos.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.SharedTransitions.Resource.Attribute.autoSizeStepGranularity = global::LosGatos.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.SharedTransitions.Resource.Attribute.autoSizeTextType = global::LosGatos.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.SharedTransitions.Resource.Attribute.background = global::LosGatos.Droid.Resource.Attribute.background;
+			global::Plugin.SharedTransitions.Resource.Attribute.backgroundSplit = global::LosGatos.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.SharedTransitions.Resource.Attribute.backgroundStacked = global::LosGatos.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.SharedTransitions.Resource.Attribute.backgroundTint = global::LosGatos.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.backgroundTintMode = global::LosGatos.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.barLength = global::LosGatos.Droid.Resource.Attribute.barLength;
+			global::Plugin.SharedTransitions.Resource.Attribute.behavior_autoHide = global::LosGatos.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.SharedTransitions.Resource.Attribute.behavior_fitToContents = global::LosGatos.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Plugin.SharedTransitions.Resource.Attribute.behavior_hideable = global::LosGatos.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.SharedTransitions.Resource.Attribute.behavior_overlapTop = global::LosGatos.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.SharedTransitions.Resource.Attribute.behavior_peekHeight = global::LosGatos.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.behavior_skipCollapsed = global::LosGatos.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.SharedTransitions.Resource.Attribute.borderlessButtonStyle = global::LosGatos.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.borderWidth = global::LosGatos.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.bottomAppBarStyle = global::LosGatos.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.bottomNavigationStyle = global::LosGatos.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.bottomSheetDialogTheme = global::LosGatos.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.bottomSheetStyle = global::LosGatos.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxBackgroundColor = global::LosGatos.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxBackgroundMode = global::LosGatos.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxCollapsedPaddingTop = global::LosGatos.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxCornerRadiusBottomEnd = global::LosGatos.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxCornerRadiusBottomStart = global::LosGatos.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxCornerRadiusTopEnd = global::LosGatos.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxCornerRadiusTopStart = global::LosGatos.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxStrokeColor = global::LosGatos.Droid.Resource.Attribute.boxStrokeColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.boxStrokeWidth = global::LosGatos.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonBarButtonStyle = global::LosGatos.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonBarNegativeButtonStyle = global::LosGatos.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonBarNeutralButtonStyle = global::LosGatos.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonBarPositiveButtonStyle = global::LosGatos.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonBarStyle = global::LosGatos.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonCompat = global::LosGatos.Droid.Resource.Attribute.buttonCompat;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonGravity = global::LosGatos.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonIconDimen = global::LosGatos.Droid.Resource.Attribute.buttonIconDimen;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonPanelSideLayout = global::LosGatos.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonStyle = global::LosGatos.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonStyleSmall = global::LosGatos.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonTint = global::LosGatos.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.buttonTintMode = global::LosGatos.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.cardBackgroundColor = global::LosGatos.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.cardCornerRadius = global::LosGatos.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.SharedTransitions.Resource.Attribute.cardElevation = global::LosGatos.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.SharedTransitions.Resource.Attribute.cardMaxElevation = global::LosGatos.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.SharedTransitions.Resource.Attribute.cardPreventCornerOverlap = global::LosGatos.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.SharedTransitions.Resource.Attribute.cardUseCompatPadding = global::LosGatos.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.cardViewStyle = global::LosGatos.Droid.Resource.Attribute.cardViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.checkboxStyle = global::LosGatos.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.checkedChip = global::LosGatos.Droid.Resource.Attribute.checkedChip;
+			global::Plugin.SharedTransitions.Resource.Attribute.checkedIcon = global::LosGatos.Droid.Resource.Attribute.checkedIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.checkedIconEnabled = global::LosGatos.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.checkedIconVisible = global::LosGatos.Droid.Resource.Attribute.checkedIconVisible;
+			global::Plugin.SharedTransitions.Resource.Attribute.checkedTextViewStyle = global::LosGatos.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipBackgroundColor = global::LosGatos.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipCornerRadius = global::LosGatos.Droid.Resource.Attribute.chipCornerRadius;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipEndPadding = global::LosGatos.Droid.Resource.Attribute.chipEndPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipGroupStyle = global::LosGatos.Droid.Resource.Attribute.chipGroupStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipIcon = global::LosGatos.Droid.Resource.Attribute.chipIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipIconEnabled = global::LosGatos.Droid.Resource.Attribute.chipIconEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipIconSize = global::LosGatos.Droid.Resource.Attribute.chipIconSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipIconTint = global::LosGatos.Droid.Resource.Attribute.chipIconTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipIconVisible = global::LosGatos.Droid.Resource.Attribute.chipIconVisible;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipMinHeight = global::LosGatos.Droid.Resource.Attribute.chipMinHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipSpacing = global::LosGatos.Droid.Resource.Attribute.chipSpacing;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipSpacingHorizontal = global::LosGatos.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipSpacingVertical = global::LosGatos.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipStandaloneStyle = global::LosGatos.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipStartPadding = global::LosGatos.Droid.Resource.Attribute.chipStartPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipStrokeColor = global::LosGatos.Droid.Resource.Attribute.chipStrokeColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipStrokeWidth = global::LosGatos.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.chipStyle = global::LosGatos.Droid.Resource.Attribute.chipStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.closeIcon = global::LosGatos.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.closeIconEnabled = global::LosGatos.Droid.Resource.Attribute.closeIconEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.closeIconEndPadding = global::LosGatos.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.closeIconSize = global::LosGatos.Droid.Resource.Attribute.closeIconSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.closeIconStartPadding = global::LosGatos.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.closeIconTint = global::LosGatos.Droid.Resource.Attribute.closeIconTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.closeIconVisible = global::LosGatos.Droid.Resource.Attribute.closeIconVisible;
+			global::Plugin.SharedTransitions.Resource.Attribute.closeItemLayout = global::LosGatos.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.collapseContentDescription = global::LosGatos.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.SharedTransitions.Resource.Attribute.collapsedTitleGravity = global::LosGatos.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.SharedTransitions.Resource.Attribute.collapsedTitleTextAppearance = global::LosGatos.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.collapseIcon = global::LosGatos.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.color = global::LosGatos.Droid.Resource.Attribute.color;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorAccent = global::LosGatos.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorBackgroundFloating = global::LosGatos.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorButtonNormal = global::LosGatos.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorControlActivated = global::LosGatos.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorControlHighlight = global::LosGatos.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorControlNormal = global::LosGatos.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorError = global::LosGatos.Droid.Resource.Attribute.colorError;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorPrimary = global::LosGatos.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorPrimaryDark = global::LosGatos.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorSecondary = global::LosGatos.Droid.Resource.Attribute.colorSecondary;
+			global::Plugin.SharedTransitions.Resource.Attribute.colorSwitchThumbNormal = global::LosGatos.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.SharedTransitions.Resource.Attribute.commitIcon = global::LosGatos.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentDescription = global::LosGatos.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentInsetEnd = global::LosGatos.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentInsetEndWithActions = global::LosGatos.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentInsetLeft = global::LosGatos.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentInsetRight = global::LosGatos.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentInsetStart = global::LosGatos.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentInsetStartWithNavigation = global::LosGatos.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentPadding = global::LosGatos.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentPaddingBottom = global::LosGatos.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentPaddingLeft = global::LosGatos.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentPaddingRight = global::LosGatos.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentPaddingTop = global::LosGatos.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.SharedTransitions.Resource.Attribute.contentScrim = global::LosGatos.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.SharedTransitions.Resource.Attribute.controlBackground = global::LosGatos.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.coordinatorLayoutStyle = global::LosGatos.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.cornerRadius = global::LosGatos.Droid.Resource.Attribute.cornerRadius;
+			global::Plugin.SharedTransitions.Resource.Attribute.counterEnabled = global::LosGatos.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.counterMaxLength = global::LosGatos.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.SharedTransitions.Resource.Attribute.counterOverflowTextAppearance = global::LosGatos.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.counterTextAppearance = global::LosGatos.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.customNavigationLayout = global::LosGatos.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.defaultQueryHint = global::LosGatos.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.SharedTransitions.Resource.Attribute.dialogCornerRadius = global::LosGatos.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Plugin.SharedTransitions.Resource.Attribute.dialogPreferredPadding = global::LosGatos.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.dialogTheme = global::LosGatos.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.displayOptions = global::LosGatos.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.SharedTransitions.Resource.Attribute.divider = global::LosGatos.Droid.Resource.Attribute.divider;
+			global::Plugin.SharedTransitions.Resource.Attribute.dividerHorizontal = global::LosGatos.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.SharedTransitions.Resource.Attribute.dividerPadding = global::LosGatos.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.dividerVertical = global::LosGatos.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableBottomCompat = global::LosGatos.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableEndCompat = global::LosGatos.Droid.Resource.Attribute.drawableEndCompat;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableLeftCompat = global::LosGatos.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableRightCompat = global::LosGatos.Droid.Resource.Attribute.drawableRightCompat;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableSize = global::LosGatos.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableStartCompat = global::LosGatos.Droid.Resource.Attribute.drawableStartCompat;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableTint = global::LosGatos.Droid.Resource.Attribute.drawableTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableTintMode = global::LosGatos.Droid.Resource.Attribute.drawableTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawableTopCompat = global::LosGatos.Droid.Resource.Attribute.drawableTopCompat;
+			global::Plugin.SharedTransitions.Resource.Attribute.drawerArrowStyle = global::LosGatos.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.dropdownListPreferredItemHeight = global::LosGatos.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.dropDownListViewStyle = global::LosGatos.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.editTextBackground = global::LosGatos.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.editTextColor = global::LosGatos.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.editTextStyle = global::LosGatos.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.elevation = global::LosGatos.Droid.Resource.Attribute.elevation;
+			global::Plugin.SharedTransitions.Resource.Attribute.enforceMaterialTheme = global::LosGatos.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.enforceTextAppearance = global::LosGatos.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.errorEnabled = global::LosGatos.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.errorTextAppearance = global::LosGatos.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LosGatos.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.expanded = global::LosGatos.Droid.Resource.Attribute.expanded;
+			global::Plugin.SharedTransitions.Resource.Attribute.expandedTitleGravity = global::LosGatos.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.SharedTransitions.Resource.Attribute.expandedTitleMargin = global::LosGatos.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.SharedTransitions.Resource.Attribute.expandedTitleMarginBottom = global::LosGatos.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.SharedTransitions.Resource.Attribute.expandedTitleMarginEnd = global::LosGatos.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.expandedTitleMarginStart = global::LosGatos.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.expandedTitleMarginTop = global::LosGatos.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.SharedTransitions.Resource.Attribute.expandedTitleTextAppearance = global::LosGatos.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.fabAlignmentMode = global::LosGatos.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.fabCradleMargin = global::LosGatos.Droid.Resource.Attribute.fabCradleMargin;
+			global::Plugin.SharedTransitions.Resource.Attribute.fabCradleRoundedCornerRadius = global::LosGatos.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Plugin.SharedTransitions.Resource.Attribute.fabCradleVerticalOffset = global::LosGatos.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Plugin.SharedTransitions.Resource.Attribute.fabCustomSize = global::LosGatos.Droid.Resource.Attribute.fabCustomSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.fabSize = global::LosGatos.Droid.Resource.Attribute.fabSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.fastScrollEnabled = global::LosGatos.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::LosGatos.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::LosGatos.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.fastScrollVerticalThumbDrawable = global::LosGatos.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.fastScrollVerticalTrackDrawable = global::LosGatos.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.firstBaselineToTopHeight = global::LosGatos.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.floatingActionButtonStyle = global::LosGatos.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.font = global::LosGatos.Droid.Resource.Attribute.font;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontFamily = global::LosGatos.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontProviderAuthority = global::LosGatos.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontProviderCerts = global::LosGatos.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontProviderFetchStrategy = global::LosGatos.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontProviderFetchTimeout = global::LosGatos.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontProviderPackage = global::LosGatos.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontProviderQuery = global::LosGatos.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontStyle = global::LosGatos.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontVariationSettings = global::LosGatos.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.SharedTransitions.Resource.Attribute.fontWeight = global::LosGatos.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.foregroundInsidePadding = global::LosGatos.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.gapBetweenBars = global::LosGatos.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.SharedTransitions.Resource.Attribute.goIcon = global::LosGatos.Droid.Resource.Attribute.goIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.headerLayout = global::LosGatos.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.height = global::LosGatos.Droid.Resource.Attribute.height;
+			global::Plugin.SharedTransitions.Resource.Attribute.helperText = global::LosGatos.Droid.Resource.Attribute.helperText;
+			global::Plugin.SharedTransitions.Resource.Attribute.helperTextEnabled = global::LosGatos.Droid.Resource.Attribute.helperTextEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.helperTextTextAppearance = global::LosGatos.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.hideMotionSpec = global::LosGatos.Droid.Resource.Attribute.hideMotionSpec;
+			global::Plugin.SharedTransitions.Resource.Attribute.hideOnContentScroll = global::LosGatos.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.SharedTransitions.Resource.Attribute.hideOnScroll = global::LosGatos.Droid.Resource.Attribute.hideOnScroll;
+			global::Plugin.SharedTransitions.Resource.Attribute.hintAnimationEnabled = global::LosGatos.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.hintEnabled = global::LosGatos.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.hintTextAppearance = global::LosGatos.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.homeAsUpIndicator = global::LosGatos.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.SharedTransitions.Resource.Attribute.homeLayout = global::LosGatos.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.hoveredFocusedTranslationZ = global::LosGatos.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Plugin.SharedTransitions.Resource.Attribute.icon = global::LosGatos.Droid.Resource.Attribute.icon;
+			global::Plugin.SharedTransitions.Resource.Attribute.iconEndPadding = global::LosGatos.Droid.Resource.Attribute.iconEndPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.iconGravity = global::LosGatos.Droid.Resource.Attribute.iconGravity;
+			global::Plugin.SharedTransitions.Resource.Attribute.iconifiedByDefault = global::LosGatos.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.SharedTransitions.Resource.Attribute.iconPadding = global::LosGatos.Droid.Resource.Attribute.iconPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.iconSize = global::LosGatos.Droid.Resource.Attribute.iconSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.iconStartPadding = global::LosGatos.Droid.Resource.Attribute.iconStartPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.iconTint = global::LosGatos.Droid.Resource.Attribute.iconTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.iconTintMode = global::LosGatos.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.imageButtonStyle = global::LosGatos.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.indeterminateProgressStyle = global::LosGatos.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.initialActivityCount = global::LosGatos.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.SharedTransitions.Resource.Attribute.insetForeground = global::LosGatos.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.SharedTransitions.Resource.Attribute.isLightTheme = global::LosGatos.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemBackground = global::LosGatos.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemHorizontalPadding = global::LosGatos.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemHorizontalTranslationEnabled = global::LosGatos.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemIconPadding = global::LosGatos.Droid.Resource.Attribute.itemIconPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemIconSize = global::LosGatos.Droid.Resource.Attribute.itemIconSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemIconTint = global::LosGatos.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemPadding = global::LosGatos.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemSpacing = global::LosGatos.Droid.Resource.Attribute.itemSpacing;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemTextAppearance = global::LosGatos.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemTextAppearanceActive = global::LosGatos.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemTextAppearanceInactive = global::LosGatos.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Plugin.SharedTransitions.Resource.Attribute.itemTextColor = global::LosGatos.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.keylines = global::LosGatos.Droid.Resource.Attribute.keylines;
+			global::Plugin.SharedTransitions.Resource.Attribute.labelVisibilityMode = global::LosGatos.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.lastBaselineToBottomHeight = global::LosGatos.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout = global::LosGatos.Droid.Resource.Attribute.layout;
+			global::Plugin.SharedTransitions.Resource.Attribute.layoutManager = global::LosGatos.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_anchor = global::LosGatos.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_anchorGravity = global::LosGatos.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_behavior = global::LosGatos.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_collapseMode = global::LosGatos.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_collapseParallaxMultiplier = global::LosGatos.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_dodgeInsetEdges = global::LosGatos.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_insetEdge = global::LosGatos.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_keyline = global::LosGatos.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_scrollFlags = global::LosGatos.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.SharedTransitions.Resource.Attribute.layout_scrollInterpolator = global::LosGatos.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.SharedTransitions.Resource.Attribute.liftOnScroll = global::LosGatos.Droid.Resource.Attribute.liftOnScroll;
+			global::Plugin.SharedTransitions.Resource.Attribute.lineHeight = global::LosGatos.Droid.Resource.Attribute.lineHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.lineSpacing = global::LosGatos.Droid.Resource.Attribute.lineSpacing;
+			global::Plugin.SharedTransitions.Resource.Attribute.listChoiceBackgroundIndicator = global::LosGatos.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.SharedTransitions.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::LosGatos.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Plugin.SharedTransitions.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::LosGatos.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Plugin.SharedTransitions.Resource.Attribute.listDividerAlertDialog = global::LosGatos.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.SharedTransitions.Resource.Attribute.listItemLayout = global::LosGatos.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.listLayout = global::LosGatos.Droid.Resource.Attribute.listLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.listMenuViewStyle = global::LosGatos.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.listPopupWindowStyle = global::LosGatos.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.listPreferredItemHeight = global::LosGatos.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.listPreferredItemHeightLarge = global::LosGatos.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.SharedTransitions.Resource.Attribute.listPreferredItemHeightSmall = global::LosGatos.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.SharedTransitions.Resource.Attribute.listPreferredItemPaddingEnd = global::LosGatos.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.listPreferredItemPaddingLeft = global::LosGatos.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.SharedTransitions.Resource.Attribute.listPreferredItemPaddingRight = global::LosGatos.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.SharedTransitions.Resource.Attribute.listPreferredItemPaddingStart = global::LosGatos.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.logo = global::LosGatos.Droid.Resource.Attribute.logo;
+			global::Plugin.SharedTransitions.Resource.Attribute.logoDescription = global::LosGatos.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.SharedTransitions.Resource.Attribute.materialButtonStyle = global::LosGatos.Droid.Resource.Attribute.materialButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.materialCardViewStyle = global::LosGatos.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.maxActionInlineWidth = global::LosGatos.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.maxButtonHeight = global::LosGatos.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.maxImageSize = global::LosGatos.Droid.Resource.Attribute.maxImageSize;
+			global::Plugin.SharedTransitions.Resource.Attribute.measureWithLargestChild = global::LosGatos.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.SharedTransitions.Resource.Attribute.menu = global::LosGatos.Droid.Resource.Attribute.menu;
+			global::Plugin.SharedTransitions.Resource.Attribute.multiChoiceItemLayout = global::LosGatos.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.navigationContentDescription = global::LosGatos.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.SharedTransitions.Resource.Attribute.navigationIcon = global::LosGatos.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.navigationMode = global::LosGatos.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.navigationViewStyle = global::LosGatos.Droid.Resource.Attribute.navigationViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.numericModifiers = global::LosGatos.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.SharedTransitions.Resource.Attribute.overlapAnchor = global::LosGatos.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.SharedTransitions.Resource.Attribute.paddingBottomNoButtons = global::LosGatos.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.SharedTransitions.Resource.Attribute.paddingEnd = global::LosGatos.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.paddingStart = global::LosGatos.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.paddingTopNoTitle = global::LosGatos.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.SharedTransitions.Resource.Attribute.panelBackground = global::LosGatos.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.panelMenuListTheme = global::LosGatos.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.panelMenuListWidth = global::LosGatos.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.passwordToggleContentDescription = global::LosGatos.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.SharedTransitions.Resource.Attribute.passwordToggleDrawable = global::LosGatos.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.SharedTransitions.Resource.Attribute.passwordToggleEnabled = global::LosGatos.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.passwordToggleTint = global::LosGatos.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.passwordToggleTintMode = global::LosGatos.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.popupMenuStyle = global::LosGatos.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.popupTheme = global::LosGatos.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.SharedTransitions.Resource.Attribute.popupWindowStyle = global::LosGatos.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.preserveIconSpacing = global::LosGatos.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.SharedTransitions.Resource.Attribute.pressedTranslationZ = global::LosGatos.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.SharedTransitions.Resource.Attribute.progressBarPadding = global::LosGatos.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.progressBarStyle = global::LosGatos.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.queryBackground = global::LosGatos.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.queryHint = global::LosGatos.Droid.Resource.Attribute.queryHint;
+			global::Plugin.SharedTransitions.Resource.Attribute.radioButtonStyle = global::LosGatos.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.ratingBarStyle = global::LosGatos.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.ratingBarStyleIndicator = global::LosGatos.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.SharedTransitions.Resource.Attribute.ratingBarStyleSmall = global::LosGatos.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.SharedTransitions.Resource.Attribute.recyclerViewStyle = global::LosGatos.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.reverseLayout = global::LosGatos.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.rippleColor = global::LosGatos.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.scrimAnimationDuration = global::LosGatos.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.SharedTransitions.Resource.Attribute.scrimBackground = global::LosGatos.Droid.Resource.Attribute.scrimBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.scrimVisibleHeightTrigger = global::LosGatos.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.SharedTransitions.Resource.Attribute.searchHintIcon = global::LosGatos.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.searchIcon = global::LosGatos.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.searchViewStyle = global::LosGatos.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.seekBarStyle = global::LosGatos.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.selectableItemBackground = global::LosGatos.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.selectableItemBackgroundBorderless = global::LosGatos.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.SharedTransitions.Resource.Attribute.showAsAction = global::LosGatos.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.SharedTransitions.Resource.Attribute.showDividers = global::LosGatos.Droid.Resource.Attribute.showDividers;
+			global::Plugin.SharedTransitions.Resource.Attribute.showMotionSpec = global::LosGatos.Droid.Resource.Attribute.showMotionSpec;
+			global::Plugin.SharedTransitions.Resource.Attribute.showText = global::LosGatos.Droid.Resource.Attribute.showText;
+			global::Plugin.SharedTransitions.Resource.Attribute.showTitle = global::LosGatos.Droid.Resource.Attribute.showTitle;
+			global::Plugin.SharedTransitions.Resource.Attribute.singleChoiceItemLayout = global::LosGatos.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.singleLine = global::LosGatos.Droid.Resource.Attribute.singleLine;
+			global::Plugin.SharedTransitions.Resource.Attribute.singleSelection = global::LosGatos.Droid.Resource.Attribute.singleSelection;
+			global::Plugin.SharedTransitions.Resource.Attribute.snackbarButtonStyle = global::LosGatos.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.snackbarStyle = global::LosGatos.Droid.Resource.Attribute.snackbarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.spanCount = global::LosGatos.Droid.Resource.Attribute.spanCount;
+			global::Plugin.SharedTransitions.Resource.Attribute.spinBars = global::LosGatos.Droid.Resource.Attribute.spinBars;
+			global::Plugin.SharedTransitions.Resource.Attribute.spinnerDropDownItemStyle = global::LosGatos.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.spinnerStyle = global::LosGatos.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.splitTrack = global::LosGatos.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.SharedTransitions.Resource.Attribute.srcCompat = global::LosGatos.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.SharedTransitions.Resource.Attribute.stackFromEnd = global::LosGatos.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.state_above_anchor = global::LosGatos.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.SharedTransitions.Resource.Attribute.state_collapsed = global::LosGatos.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.SharedTransitions.Resource.Attribute.state_collapsible = global::LosGatos.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.SharedTransitions.Resource.Attribute.state_liftable = global::LosGatos.Droid.Resource.Attribute.state_liftable;
+			global::Plugin.SharedTransitions.Resource.Attribute.state_lifted = global::LosGatos.Droid.Resource.Attribute.state_lifted;
+			global::Plugin.SharedTransitions.Resource.Attribute.statusBarBackground = global::LosGatos.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.statusBarScrim = global::LosGatos.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.SharedTransitions.Resource.Attribute.strokeColor = global::LosGatos.Droid.Resource.Attribute.strokeColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.strokeWidth = global::LosGatos.Droid.Resource.Attribute.strokeWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.subMenuArrow = global::LosGatos.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.SharedTransitions.Resource.Attribute.submitBackground = global::LosGatos.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.subtitle = global::LosGatos.Droid.Resource.Attribute.subtitle;
+			global::Plugin.SharedTransitions.Resource.Attribute.subtitleTextAppearance = global::LosGatos.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.subtitleTextColor = global::LosGatos.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.subtitleTextStyle = global::LosGatos.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.suggestionRowLayout = global::LosGatos.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.SharedTransitions.Resource.Attribute.switchMinWidth = global::LosGatos.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.switchPadding = global::LosGatos.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.switchStyle = global::LosGatos.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.switchTextAppearance = global::LosGatos.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabBackground = global::LosGatos.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabContentStart = global::LosGatos.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabGravity = global::LosGatos.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabIconTint = global::LosGatos.Droid.Resource.Attribute.tabIconTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabIconTintMode = global::LosGatos.Droid.Resource.Attribute.tabIconTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabIndicator = global::LosGatos.Droid.Resource.Attribute.tabIndicator;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabIndicatorAnimationDuration = global::LosGatos.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabIndicatorColor = global::LosGatos.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabIndicatorFullWidth = global::LosGatos.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabIndicatorGravity = global::LosGatos.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabIndicatorHeight = global::LosGatos.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabInlineLabel = global::LosGatos.Droid.Resource.Attribute.tabInlineLabel;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabMaxWidth = global::LosGatos.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabMinWidth = global::LosGatos.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabMode = global::LosGatos.Droid.Resource.Attribute.tabMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabPadding = global::LosGatos.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabPaddingBottom = global::LosGatos.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabPaddingEnd = global::LosGatos.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabPaddingStart = global::LosGatos.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabPaddingTop = global::LosGatos.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabRippleColor = global::LosGatos.Droid.Resource.Attribute.tabRippleColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabSelectedTextColor = global::LosGatos.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabStyle = global::LosGatos.Droid.Resource.Attribute.tabStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabTextAppearance = global::LosGatos.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabTextColor = global::LosGatos.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.tabUnboundedRipple = global::LosGatos.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAllCaps = global::LosGatos.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceBody1 = global::LosGatos.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceBody2 = global::LosGatos.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceButton = global::LosGatos.Droid.Resource.Attribute.textAppearanceButton;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceCaption = global::LosGatos.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceHeadline1 = global::LosGatos.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceHeadline2 = global::LosGatos.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceHeadline3 = global::LosGatos.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceHeadline4 = global::LosGatos.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceHeadline5 = global::LosGatos.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceHeadline6 = global::LosGatos.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceLargePopupMenu = global::LosGatos.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceListItem = global::LosGatos.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceListItemSecondary = global::LosGatos.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceListItemSmall = global::LosGatos.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceOverline = global::LosGatos.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearancePopupMenuHeader = global::LosGatos.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LosGatos.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceSearchResultTitle = global::LosGatos.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceSmallPopupMenu = global::LosGatos.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceSubtitle1 = global::LosGatos.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Plugin.SharedTransitions.Resource.Attribute.textAppearanceSubtitle2 = global::LosGatos.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Plugin.SharedTransitions.Resource.Attribute.textColorAlertDialogListItem = global::LosGatos.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.SharedTransitions.Resource.Attribute.textColorSearchUrl = global::LosGatos.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.SharedTransitions.Resource.Attribute.textEndPadding = global::LosGatos.Droid.Resource.Attribute.textEndPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.textInputStyle = global::LosGatos.Droid.Resource.Attribute.textInputStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.textLocale = global::LosGatos.Droid.Resource.Attribute.textLocale;
+			global::Plugin.SharedTransitions.Resource.Attribute.textStartPadding = global::LosGatos.Droid.Resource.Attribute.textStartPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.theme = global::LosGatos.Droid.Resource.Attribute.theme;
+			global::Plugin.SharedTransitions.Resource.Attribute.thickness = global::LosGatos.Droid.Resource.Attribute.thickness;
+			global::Plugin.SharedTransitions.Resource.Attribute.thumbTextPadding = global::LosGatos.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.thumbTint = global::LosGatos.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.thumbTintMode = global::LosGatos.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.tickMark = global::LosGatos.Droid.Resource.Attribute.tickMark;
+			global::Plugin.SharedTransitions.Resource.Attribute.tickMarkTint = global::LosGatos.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.tickMarkTintMode = global::LosGatos.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.tint = global::LosGatos.Droid.Resource.Attribute.tint;
+			global::Plugin.SharedTransitions.Resource.Attribute.tintMode = global::LosGatos.Droid.Resource.Attribute.tintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.title = global::LosGatos.Droid.Resource.Attribute.title;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleEnabled = global::LosGatos.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleMargin = global::LosGatos.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleMarginBottom = global::LosGatos.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleMarginEnd = global::LosGatos.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleMargins = global::LosGatos.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleMarginStart = global::LosGatos.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleMarginTop = global::LosGatos.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleTextAppearance = global::LosGatos.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleTextColor = global::LosGatos.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.titleTextStyle = global::LosGatos.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.toolbarId = global::LosGatos.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.SharedTransitions.Resource.Attribute.toolbarNavigationButtonStyle = global::LosGatos.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.toolbarStyle = global::LosGatos.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.SharedTransitions.Resource.Attribute.tooltipForegroundColor = global::LosGatos.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.SharedTransitions.Resource.Attribute.tooltipFrameBackground = global::LosGatos.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.SharedTransitions.Resource.Attribute.tooltipText = global::LosGatos.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.SharedTransitions.Resource.Attribute.track = global::LosGatos.Droid.Resource.Attribute.track;
+			global::Plugin.SharedTransitions.Resource.Attribute.trackTint = global::LosGatos.Droid.Resource.Attribute.trackTint;
+			global::Plugin.SharedTransitions.Resource.Attribute.trackTintMode = global::LosGatos.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.SharedTransitions.Resource.Attribute.ttcIndex = global::LosGatos.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.SharedTransitions.Resource.Attribute.useCompatPadding = global::LosGatos.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.SharedTransitions.Resource.Attribute.viewInflaterClass = global::LosGatos.Droid.Resource.Attribute.viewInflaterClass;
+			global::Plugin.SharedTransitions.Resource.Attribute.voiceIcon = global::LosGatos.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowActionBar = global::LosGatos.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowActionBarOverlay = global::LosGatos.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowActionModeOverlay = global::LosGatos.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowFixedHeightMajor = global::LosGatos.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowFixedHeightMinor = global::LosGatos.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowFixedWidthMajor = global::LosGatos.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowFixedWidthMinor = global::LosGatos.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowMinWidthMajor = global::LosGatos.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowMinWidthMinor = global::LosGatos.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.SharedTransitions.Resource.Attribute.windowNoTitle = global::LosGatos.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.SharedTransitions.Resource.Boolean.abc_action_bar_embed_tabs = global::LosGatos.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.SharedTransitions.Resource.Boolean.abc_allow_stacked_button_bar = global::LosGatos.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Plugin.SharedTransitions.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LosGatos.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.SharedTransitions.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::LosGatos.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Plugin.SharedTransitions.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LosGatos.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.abc_background_cache_hint_selector_material_light = global::LosGatos.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.abc_btn_colored_borderless_text_material = global::LosGatos.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.SharedTransitions.Resource.Color.abc_btn_colored_text_material = global::LosGatos.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.SharedTransitions.Resource.Color.abc_color_highlight_material = global::LosGatos.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.SharedTransitions.Resource.Color.abc_hint_foreground_material_dark = global::LosGatos.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.abc_hint_foreground_material_light = global::LosGatos.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.abc_input_method_navigation_guard = global::LosGatos.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Plugin.SharedTransitions.Resource.Color.abc_primary_text_disable_only_material_dark = global::LosGatos.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.abc_primary_text_disable_only_material_light = global::LosGatos.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.abc_primary_text_material_dark = global::LosGatos.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.abc_primary_text_material_light = global::LosGatos.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.abc_search_url_text = global::LosGatos.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.SharedTransitions.Resource.Color.abc_search_url_text_normal = global::LosGatos.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.SharedTransitions.Resource.Color.abc_search_url_text_pressed = global::LosGatos.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.SharedTransitions.Resource.Color.abc_search_url_text_selected = global::LosGatos.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.SharedTransitions.Resource.Color.abc_secondary_text_material_dark = global::LosGatos.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.abc_secondary_text_material_light = global::LosGatos.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.abc_tint_btn_checkable = global::LosGatos.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.SharedTransitions.Resource.Color.abc_tint_default = global::LosGatos.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.SharedTransitions.Resource.Color.abc_tint_edittext = global::LosGatos.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.SharedTransitions.Resource.Color.abc_tint_seek_thumb = global::LosGatos.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.SharedTransitions.Resource.Color.abc_tint_spinner = global::LosGatos.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.SharedTransitions.Resource.Color.abc_tint_switch_track = global::LosGatos.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.SharedTransitions.Resource.Color.accent_material_dark = global::LosGatos.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.accent_material_light = global::LosGatos.Droid.Resource.Color.accent_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.background_floating_material_dark = global::LosGatos.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.background_floating_material_light = global::LosGatos.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.background_material_dark = global::LosGatos.Droid.Resource.Color.background_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.background_material_light = global::LosGatos.Droid.Resource.Color.background_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.bright_foreground_disabled_material_dark = global::LosGatos.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.bright_foreground_disabled_material_light = global::LosGatos.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.bright_foreground_inverse_material_dark = global::LosGatos.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.bright_foreground_inverse_material_light = global::LosGatos.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.bright_foreground_material_dark = global::LosGatos.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.bright_foreground_material_light = global::LosGatos.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.browser_actions_bg_grey = global::LosGatos.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.SharedTransitions.Resource.Color.browser_actions_divider_color = global::LosGatos.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.SharedTransitions.Resource.Color.browser_actions_text_color = global::LosGatos.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.SharedTransitions.Resource.Color.browser_actions_title_color = global::LosGatos.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.SharedTransitions.Resource.Color.button_material_dark = global::LosGatos.Droid.Resource.Color.button_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.button_material_light = global::LosGatos.Droid.Resource.Color.button_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.cardview_dark_background = global::LosGatos.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.SharedTransitions.Resource.Color.cardview_light_background = global::LosGatos.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.SharedTransitions.Resource.Color.cardview_shadow_end_color = global::LosGatos.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.SharedTransitions.Resource.Color.cardview_shadow_start_color = global::LosGatos.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_bottom_navigation_shadow_color = global::LosGatos.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_default_color_primary = global::LosGatos.Droid.Resource.Color.design_default_color_primary;
+			global::Plugin.SharedTransitions.Resource.Color.design_default_color_primary_dark = global::LosGatos.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Plugin.SharedTransitions.Resource.Color.design_error = global::LosGatos.Droid.Resource.Color.design_error;
+			global::Plugin.SharedTransitions.Resource.Color.design_fab_shadow_end_color = global::LosGatos.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_fab_shadow_mid_color = global::LosGatos.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_fab_shadow_start_color = global::LosGatos.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_fab_stroke_end_inner_color = global::LosGatos.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_fab_stroke_end_outer_color = global::LosGatos.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_fab_stroke_top_inner_color = global::LosGatos.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_fab_stroke_top_outer_color = global::LosGatos.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_snackbar_background_color = global::LosGatos.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.SharedTransitions.Resource.Color.design_tint_password_toggle = global::LosGatos.Droid.Resource.Color.design_tint_password_toggle;
+			global::Plugin.SharedTransitions.Resource.Color.dim_foreground_disabled_material_dark = global::LosGatos.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.dim_foreground_disabled_material_light = global::LosGatos.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.dim_foreground_material_dark = global::LosGatos.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.dim_foreground_material_light = global::LosGatos.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.error_color_material_dark = global::LosGatos.Droid.Resource.Color.error_color_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.error_color_material_light = global::LosGatos.Droid.Resource.Color.error_color_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.foreground_material_dark = global::LosGatos.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.foreground_material_light = global::LosGatos.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.highlighted_text_material_dark = global::LosGatos.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.highlighted_text_material_light = global::LosGatos.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.material_blue_grey_800 = global::LosGatos.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.SharedTransitions.Resource.Color.material_blue_grey_900 = global::LosGatos.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.SharedTransitions.Resource.Color.material_blue_grey_950 = global::LosGatos.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.SharedTransitions.Resource.Color.material_deep_teal_200 = global::LosGatos.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.SharedTransitions.Resource.Color.material_deep_teal_500 = global::LosGatos.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.SharedTransitions.Resource.Color.material_grey_100 = global::LosGatos.Droid.Resource.Color.material_grey_100;
+			global::Plugin.SharedTransitions.Resource.Color.material_grey_300 = global::LosGatos.Droid.Resource.Color.material_grey_300;
+			global::Plugin.SharedTransitions.Resource.Color.material_grey_50 = global::LosGatos.Droid.Resource.Color.material_grey_50;
+			global::Plugin.SharedTransitions.Resource.Color.material_grey_600 = global::LosGatos.Droid.Resource.Color.material_grey_600;
+			global::Plugin.SharedTransitions.Resource.Color.material_grey_800 = global::LosGatos.Droid.Resource.Color.material_grey_800;
+			global::Plugin.SharedTransitions.Resource.Color.material_grey_850 = global::LosGatos.Droid.Resource.Color.material_grey_850;
+			global::Plugin.SharedTransitions.Resource.Color.material_grey_900 = global::LosGatos.Droid.Resource.Color.material_grey_900;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::LosGatos.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_bottom_nav_item_tint = global::LosGatos.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_btn_bg_color_disabled = global::LosGatos.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_btn_bg_color_selector = global::LosGatos.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_btn_ripple_color = global::LosGatos.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_btn_stroke_color_selector = global::LosGatos.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_btn_text_btn_ripple_color = global::LosGatos.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_btn_text_color_disabled = global::LosGatos.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_btn_text_color_selector = global::LosGatos.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_btn_transparent_bg_color = global::LosGatos.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_chip_background_color = global::LosGatos.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_chip_close_icon_tint = global::LosGatos.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_chip_ripple_color = global::LosGatos.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_chip_text_color = global::LosGatos.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_fab_ripple_color = global::LosGatos.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_scrim_color = global::LosGatos.Droid.Resource.Color.mtrl_scrim_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_tabs_colored_ripple_color = global::LosGatos.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_tabs_icon_color_selector = global::LosGatos.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::LosGatos.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::LosGatos.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_tabs_ripple_color = global::LosGatos.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_textinput_default_box_stroke_color = global::LosGatos.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_textinput_disabled_color = global::LosGatos.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::LosGatos.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::LosGatos.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Plugin.SharedTransitions.Resource.Color.mtrl_text_btn_text_color_selector = global::LosGatos.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Plugin.SharedTransitions.Resource.Color.notification_action_color_filter = global::LosGatos.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.SharedTransitions.Resource.Color.notification_icon_bg_color = global::LosGatos.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.SharedTransitions.Resource.Color.notification_material_background_media_default_color = global::LosGatos.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.SharedTransitions.Resource.Color.primary_dark_material_dark = global::LosGatos.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.primary_dark_material_light = global::LosGatos.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.primary_material_dark = global::LosGatos.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.primary_material_light = global::LosGatos.Droid.Resource.Color.primary_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.primary_text_default_material_dark = global::LosGatos.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.primary_text_default_material_light = global::LosGatos.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.primary_text_disabled_material_dark = global::LosGatos.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.primary_text_disabled_material_light = global::LosGatos.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.ripple_material_dark = global::LosGatos.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.ripple_material_light = global::LosGatos.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.secondary_text_default_material_dark = global::LosGatos.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.secondary_text_default_material_light = global::LosGatos.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.secondary_text_disabled_material_dark = global::LosGatos.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.secondary_text_disabled_material_light = global::LosGatos.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.switch_thumb_disabled_material_dark = global::LosGatos.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.switch_thumb_disabled_material_light = global::LosGatos.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.switch_thumb_material_dark = global::LosGatos.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.switch_thumb_material_light = global::LosGatos.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.switch_thumb_normal_material_dark = global::LosGatos.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.SharedTransitions.Resource.Color.switch_thumb_normal_material_light = global::LosGatos.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.SharedTransitions.Resource.Color.tooltip_background_dark = global::LosGatos.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.SharedTransitions.Resource.Color.tooltip_background_light = global::LosGatos.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_content_inset_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_default_height_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_elevation_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_stacked_max_height = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LosGatos.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_button_min_height_material = global::LosGatos.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_button_min_width_material = global::LosGatos.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LosGatos.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LosGatos.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_alert_dialog_button_dimen = global::LosGatos.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_button_inset_horizontal_material = global::LosGatos.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_button_inset_vertical_material = global::LosGatos.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_button_padding_horizontal_material = global::LosGatos.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_button_padding_vertical_material = global::LosGatos.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::LosGatos.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_config_prefDialogWidth = global::LosGatos.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_control_corner_material = global::LosGatos.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_control_inset_material = global::LosGatos.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_control_padding_material = global::LosGatos.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_corner_radius_material = global::LosGatos.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_fixed_height_major = global::LosGatos.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_fixed_height_minor = global::LosGatos.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_fixed_width_major = global::LosGatos.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_fixed_width_minor = global::LosGatos.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::LosGatos.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::LosGatos.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_min_width_major = global::LosGatos.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_min_width_minor = global::LosGatos.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_padding_material = global::LosGatos.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_padding_top_material = global::LosGatos.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dialog_title_divider_material = global::LosGatos.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_disabled_alpha_material_dark = global::LosGatos.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_disabled_alpha_material_light = global::LosGatos.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dropdownitem_icon_width = global::LosGatos.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LosGatos.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LosGatos.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LosGatos.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LosGatos.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_edit_text_inset_top_material = global::LosGatos.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_floating_window_z = global::LosGatos.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_list_item_height_large_material = global::LosGatos.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_list_item_height_material = global::LosGatos.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_list_item_height_small_material = global::LosGatos.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LosGatos.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_panel_menu_list_width = global::LosGatos.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_progress_bar_height_material = global::LosGatos.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_search_view_preferred_height = global::LosGatos.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_search_view_preferred_width = global::LosGatos.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_seekbar_track_background_height_material = global::LosGatos.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LosGatos.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_select_dialog_padding_start_material = global::LosGatos.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_switch_padding = global::LosGatos.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_body_1_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_body_2_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_button_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_caption_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_display_1_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_display_2_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_display_3_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_display_4_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_headline_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_large_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_medium_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_menu_header_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_menu_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_small_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_subhead_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LosGatos.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_title_material = global::LosGatos.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.abc_text_size_title_material_toolbar = global::LosGatos.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.SharedTransitions.Resource.Dimension.browser_actions_context_menu_max_width = global::LosGatos.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.browser_actions_context_menu_min_padding = global::LosGatos.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.cardview_compat_inset_shadow = global::LosGatos.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.SharedTransitions.Resource.Dimension.cardview_default_elevation = global::LosGatos.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.cardview_default_radius = global::LosGatos.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.SharedTransitions.Resource.Dimension.compat_button_inset_horizontal_material = global::LosGatos.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.compat_button_inset_vertical_material = global::LosGatos.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.compat_button_padding_horizontal_material = global::LosGatos.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.compat_button_padding_vertical_material = global::LosGatos.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.compat_control_corner_material = global::LosGatos.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.SharedTransitions.Resource.Dimension.compat_notification_large_icon_max_height = global::LosGatos.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.compat_notification_large_icon_max_width = global::LosGatos.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_appbar_elevation = global::LosGatos.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_active_text_size = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_elevation = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_height = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_icon_size = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_item_max_width = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_item_min_width = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_margin = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_shadow_height = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_navigation_text_size = global::LosGatos.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_sheet_modal_elevation = global::LosGatos.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_bottom_sheet_peek_height_min = global::LosGatos.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_fab_border_width = global::LosGatos.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_fab_elevation = global::LosGatos.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_fab_image_size = global::LosGatos.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_fab_size_mini = global::LosGatos.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_fab_size_normal = global::LosGatos.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_fab_translation_z_hovered_focused = global::LosGatos.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_fab_translation_z_pressed = global::LosGatos.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_navigation_elevation = global::LosGatos.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_navigation_icon_padding = global::LosGatos.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_navigation_icon_size = global::LosGatos.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_navigation_item_horizontal_padding = global::LosGatos.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_navigation_item_icon_padding = global::LosGatos.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_navigation_max_width = global::LosGatos.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_navigation_padding_bottom = global::LosGatos.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_navigation_separator_vertical_padding = global::LosGatos.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_action_inline_max_width = global::LosGatos.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_background_corner_radius = global::LosGatos.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_elevation = global::LosGatos.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::LosGatos.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_max_width = global::LosGatos.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_min_width = global::LosGatos.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_padding_horizontal = global::LosGatos.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_padding_vertical = global::LosGatos.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::LosGatos.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_snackbar_text_size = global::LosGatos.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_tab_max_width = global::LosGatos.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_tab_scrollable_min_width = global::LosGatos.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_tab_text_size = global::LosGatos.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_tab_text_size_2line = global::LosGatos.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.SharedTransitions.Resource.Dimension.design_textinput_caption_translate_y = global::LosGatos.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Plugin.SharedTransitions.Resource.Dimension.disabled_alpha_material_dark = global::LosGatos.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.SharedTransitions.Resource.Dimension.disabled_alpha_material_light = global::LosGatos.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.SharedTransitions.Resource.Dimension.fastscroll_default_thickness = global::LosGatos.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.SharedTransitions.Resource.Dimension.fastscroll_margin = global::LosGatos.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.SharedTransitions.Resource.Dimension.fastscroll_minimum_range = global::LosGatos.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.SharedTransitions.Resource.Dimension.highlight_alpha_material_colored = global::LosGatos.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.SharedTransitions.Resource.Dimension.highlight_alpha_material_dark = global::LosGatos.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.SharedTransitions.Resource.Dimension.highlight_alpha_material_light = global::LosGatos.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.SharedTransitions.Resource.Dimension.hint_alpha_material_dark = global::LosGatos.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.SharedTransitions.Resource.Dimension.hint_alpha_material_light = global::LosGatos.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.SharedTransitions.Resource.Dimension.hint_pressed_alpha_material_dark = global::LosGatos.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.SharedTransitions.Resource.Dimension.hint_pressed_alpha_material_light = global::LosGatos.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.SharedTransitions.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LosGatos.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.SharedTransitions.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LosGatos.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.SharedTransitions.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LosGatos.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::LosGatos.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::LosGatos.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::LosGatos.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::LosGatos.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_bottomappbar_height = global::LosGatos.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_corner_radius = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_disabled_elevation = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_disabled_z = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_elevation = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_focused_z = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_hovered_z = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_icon_padding = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_inset = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_letter_spacing = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_padding_bottom = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_padding_left = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_padding_right = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_padding_top = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_pressed_z = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_stroke_size = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_text_size = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_btn_z = global::LosGatos.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_card_elevation = global::LosGatos.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_card_spacing = global::LosGatos.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_chip_pressed_translation_z = global::LosGatos.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_chip_text_size = global::LosGatos.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_fab_elevation = global::LosGatos.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::LosGatos.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_fab_translation_z_pressed = global::LosGatos.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_navigation_elevation = global::LosGatos.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::LosGatos.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_navigation_item_icon_padding = global::LosGatos.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::LosGatos.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_snackbar_margin = global::LosGatos.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::LosGatos.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::LosGatos.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::LosGatos.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::LosGatos.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_textinput_box_padding_end = global::LosGatos.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::LosGatos.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::LosGatos.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::LosGatos.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.mtrl_toolbar_default_height = global::LosGatos.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_action_icon_size = global::LosGatos.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_action_text_size = global::LosGatos.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_big_circle_margin = global::LosGatos.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_content_margin_start = global::LosGatos.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_large_icon_height = global::LosGatos.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_large_icon_width = global::LosGatos.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_main_column_padding_top = global::LosGatos.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_media_narrow_margin = global::LosGatos.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_right_icon_size = global::LosGatos.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_right_side_padding_top = global::LosGatos.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_small_icon_background_padding = global::LosGatos.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_small_icon_size_as_large = global::LosGatos.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_subtext_size = global::LosGatos.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_top_pad = global::LosGatos.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.SharedTransitions.Resource.Dimension.notification_top_pad_large_text = global::LosGatos.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.SharedTransitions.Resource.Dimension.subtitle_corner_radius = global::LosGatos.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Plugin.SharedTransitions.Resource.Dimension.subtitle_outline_width = global::LosGatos.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Plugin.SharedTransitions.Resource.Dimension.subtitle_shadow_offset = global::LosGatos.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Plugin.SharedTransitions.Resource.Dimension.subtitle_shadow_radius = global::LosGatos.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Plugin.SharedTransitions.Resource.Dimension.tooltip_corner_radius = global::LosGatos.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.SharedTransitions.Resource.Dimension.tooltip_horizontal_padding = global::LosGatos.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.tooltip_margin = global::LosGatos.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.SharedTransitions.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::LosGatos.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.SharedTransitions.Resource.Dimension.tooltip_precise_anchor_threshold = global::LosGatos.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.SharedTransitions.Resource.Dimension.tooltip_vertical_padding = global::LosGatos.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.SharedTransitions.Resource.Dimension.tooltip_y_offset_non_touch = global::LosGatos.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.SharedTransitions.Resource.Dimension.tooltip_y_offset_touch = global::LosGatos.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_action_bar_item_background_material = global::LosGatos.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_borderless_material = global::LosGatos.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_check_material = global::LosGatos.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_check_material_anim = global::LosGatos.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LosGatos.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LosGatos.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_colored_material = global::LosGatos.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_default_mtrl_shape = global::LosGatos.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_radio_material = global::LosGatos.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_radio_material_anim = global::LosGatos.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LosGatos.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LosGatos.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LosGatos.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LosGatos.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_cab_background_internal_bg = global::LosGatos.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_cab_background_top_material = global::LosGatos.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_control_background_material = global::LosGatos.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_dialog_material_background = global::LosGatos.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_edit_text_material = global::LosGatos.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_ab_back_material = global::LosGatos.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::LosGatos.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_clear_material = global::LosGatos.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_go_search_api_material = global::LosGatos.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LosGatos.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_menu_overflow_material = global::LosGatos.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LosGatos.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_search_api_material = global::LosGatos.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_star_black_16dp = global::LosGatos.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_star_black_36dp = global::LosGatos.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_star_black_48dp = global::LosGatos.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_star_half_black_16dp = global::LosGatos.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_star_half_black_36dp = global::LosGatos.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_star_half_black_48dp = global::LosGatos.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ic_voice_search_api_material = global::LosGatos.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_item_background_holo_dark = global::LosGatos.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_item_background_holo_light = global::LosGatos.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_divider_material = global::LosGatos.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_focused_holo = global::LosGatos.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_longpressed_holo = global::LosGatos.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_pressed_holo_dark = global::LosGatos.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_pressed_holo_light = global::LosGatos.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LosGatos.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LosGatos.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LosGatos.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LosGatos.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_selector_holo_dark = global::LosGatos.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_list_selector_holo_light = global::LosGatos.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LosGatos.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_popup_background_mtrl_mult = global::LosGatos.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ratingbar_indicator_material = global::LosGatos.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ratingbar_material = global::LosGatos.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_ratingbar_small_material = global::LosGatos.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LosGatos.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LosGatos.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_seekbar_thumb_material = global::LosGatos.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_seekbar_tick_mark_material = global::LosGatos.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_seekbar_track_material = global::LosGatos.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LosGatos.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_spinner_textfield_background_material = global::LosGatos.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_switch_thumb_material = global::LosGatos.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_tab_indicator_material = global::LosGatos.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LosGatos.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_textfield_search_material = global::LosGatos.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_text_cursor_material = global::LosGatos.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::LosGatos.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::LosGatos.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::LosGatos.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::LosGatos.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::LosGatos.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::LosGatos.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Plugin.SharedTransitions.Resource.Drawable.abc_vector_test = global::LosGatos.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.SharedTransitions.Resource.Drawable.avd_hide_password = global::LosGatos.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.SharedTransitions.Resource.Drawable.avd_show_password = global::LosGatos.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.SharedTransitions.Resource.Drawable.btn_checkbox_checked_mtrl = global::LosGatos.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Plugin.SharedTransitions.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::LosGatos.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Plugin.SharedTransitions.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::LosGatos.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Plugin.SharedTransitions.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::LosGatos.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Plugin.SharedTransitions.Resource.Drawable.btn_radio_off_mtrl = global::LosGatos.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Plugin.SharedTransitions.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::LosGatos.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Plugin.SharedTransitions.Resource.Drawable.btn_radio_on_mtrl = global::LosGatos.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Plugin.SharedTransitions.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::LosGatos.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Plugin.SharedTransitions.Resource.Drawable.design_bottom_navigation_item_background = global::LosGatos.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Plugin.SharedTransitions.Resource.Drawable.design_fab_background = global::LosGatos.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.SharedTransitions.Resource.Drawable.design_ic_visibility = global::LosGatos.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.SharedTransitions.Resource.Drawable.design_ic_visibility_off = global::LosGatos.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.SharedTransitions.Resource.Drawable.design_password_eye = global::LosGatos.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.SharedTransitions.Resource.Drawable.design_snackbar_background = global::LosGatos.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.SharedTransitions.Resource.Drawable.ic_mtrl_chip_checked_black = global::LosGatos.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Plugin.SharedTransitions.Resource.Drawable.ic_mtrl_chip_checked_circle = global::LosGatos.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Plugin.SharedTransitions.Resource.Drawable.ic_mtrl_chip_close_circle = global::LosGatos.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Plugin.SharedTransitions.Resource.Drawable.mtrl_snackbar_background = global::LosGatos.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Plugin.SharedTransitions.Resource.Drawable.mtrl_tabs_default_indicator = global::LosGatos.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Plugin.SharedTransitions.Resource.Drawable.navigation_empty_icon = global::LosGatos.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_action_background = global::LosGatos.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_bg = global::LosGatos.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_bg_low = global::LosGatos.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_bg_low_normal = global::LosGatos.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_bg_low_pressed = global::LosGatos.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_bg_normal = global::LosGatos.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_bg_normal_pressed = global::LosGatos.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_icon_background = global::LosGatos.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_template_icon_bg = global::LosGatos.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_template_icon_low_bg = global::LosGatos.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.SharedTransitions.Resource.Drawable.notification_tile_bg = global::LosGatos.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.SharedTransitions.Resource.Drawable.notify_panel_notification_icon_bg = global::LosGatos.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.SharedTransitions.Resource.Drawable.tooltip_frame_dark = global::LosGatos.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.SharedTransitions.Resource.Drawable.tooltip_frame_light = global::LosGatos.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_action_clickable_span = global::LosGatos.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_0 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_1 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_10 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_11 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_12 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_13 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_14 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_15 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_16 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_17 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_18 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_19 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_2 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_20 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_21 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_22 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_23 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_24 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_25 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_26 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_27 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_28 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_29 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_3 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_30 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_31 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_4 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_5 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_6 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_7 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_8 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Plugin.SharedTransitions.Resource.Id.accessibility_custom_action_9 = global::LosGatos.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Plugin.SharedTransitions.Resource.Id.action0 = global::LosGatos.Droid.Resource.Id.action0;
+			global::Plugin.SharedTransitions.Resource.Id.actions = global::LosGatos.Droid.Resource.Id.actions;
+			global::Plugin.SharedTransitions.Resource.Id.action_bar = global::LosGatos.Droid.Resource.Id.action_bar;
+			global::Plugin.SharedTransitions.Resource.Id.action_bar_activity_content = global::LosGatos.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.SharedTransitions.Resource.Id.action_bar_container = global::LosGatos.Droid.Resource.Id.action_bar_container;
+			global::Plugin.SharedTransitions.Resource.Id.action_bar_root = global::LosGatos.Droid.Resource.Id.action_bar_root;
+			global::Plugin.SharedTransitions.Resource.Id.action_bar_spinner = global::LosGatos.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.SharedTransitions.Resource.Id.action_bar_subtitle = global::LosGatos.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.SharedTransitions.Resource.Id.action_bar_title = global::LosGatos.Droid.Resource.Id.action_bar_title;
+			global::Plugin.SharedTransitions.Resource.Id.action_container = global::LosGatos.Droid.Resource.Id.action_container;
+			global::Plugin.SharedTransitions.Resource.Id.action_context_bar = global::LosGatos.Droid.Resource.Id.action_context_bar;
+			global::Plugin.SharedTransitions.Resource.Id.action_divider = global::LosGatos.Droid.Resource.Id.action_divider;
+			global::Plugin.SharedTransitions.Resource.Id.action_image = global::LosGatos.Droid.Resource.Id.action_image;
+			global::Plugin.SharedTransitions.Resource.Id.action_menu_divider = global::LosGatos.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.SharedTransitions.Resource.Id.action_menu_presenter = global::LosGatos.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.SharedTransitions.Resource.Id.action_mode_bar = global::LosGatos.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.SharedTransitions.Resource.Id.action_mode_bar_stub = global::LosGatos.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.SharedTransitions.Resource.Id.action_mode_close_button = global::LosGatos.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.SharedTransitions.Resource.Id.action_text = global::LosGatos.Droid.Resource.Id.action_text;
+			global::Plugin.SharedTransitions.Resource.Id.activity_chooser_view_content = global::LosGatos.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.SharedTransitions.Resource.Id.add = global::LosGatos.Droid.Resource.Id.add;
+			global::Plugin.SharedTransitions.Resource.Id.alertTitle = global::LosGatos.Droid.Resource.Id.alertTitle;
+			global::Plugin.SharedTransitions.Resource.Id.all = global::LosGatos.Droid.Resource.Id.all;
+			global::Plugin.SharedTransitions.Resource.Id.ALT = global::LosGatos.Droid.Resource.Id.ALT;
+			global::Plugin.SharedTransitions.Resource.Id.always = global::LosGatos.Droid.Resource.Id.always;
+			global::Plugin.SharedTransitions.Resource.Id.async = global::LosGatos.Droid.Resource.Id.async;
+			global::Plugin.SharedTransitions.Resource.Id.auto = global::LosGatos.Droid.Resource.Id.auto;
+			global::Plugin.SharedTransitions.Resource.Id.beginning = global::LosGatos.Droid.Resource.Id.beginning;
+			global::Plugin.SharedTransitions.Resource.Id.blocking = global::LosGatos.Droid.Resource.Id.blocking;
+			global::Plugin.SharedTransitions.Resource.Id.bottom = global::LosGatos.Droid.Resource.Id.bottom;
+			global::Plugin.SharedTransitions.Resource.Id.bottomtab_navarea = global::LosGatos.Droid.Resource.Id.bottomtab_navarea;
+			global::Plugin.SharedTransitions.Resource.Id.bottomtab_tabbar = global::LosGatos.Droid.Resource.Id.bottomtab_tabbar;
+			global::Plugin.SharedTransitions.Resource.Id.browser_actions_header_text = global::LosGatos.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.SharedTransitions.Resource.Id.browser_actions_menu_items = global::LosGatos.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.SharedTransitions.Resource.Id.browser_actions_menu_item_icon = global::LosGatos.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.SharedTransitions.Resource.Id.browser_actions_menu_item_text = global::LosGatos.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.SharedTransitions.Resource.Id.browser_actions_menu_view = global::LosGatos.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.SharedTransitions.Resource.Id.buttonPanel = global::LosGatos.Droid.Resource.Id.buttonPanel;
+			global::Plugin.SharedTransitions.Resource.Id.cancel_action = global::LosGatos.Droid.Resource.Id.cancel_action;
+			global::Plugin.SharedTransitions.Resource.Id.center = global::LosGatos.Droid.Resource.Id.center;
+			global::Plugin.SharedTransitions.Resource.Id.center_horizontal = global::LosGatos.Droid.Resource.Id.center_horizontal;
+			global::Plugin.SharedTransitions.Resource.Id.center_vertical = global::LosGatos.Droid.Resource.Id.center_vertical;
+			global::Plugin.SharedTransitions.Resource.Id.checkbox = global::LosGatos.Droid.Resource.Id.checkbox;
+			global::Plugin.SharedTransitions.Resource.Id.@checked = global::LosGatos.Droid.Resource.Id.@checked;
+			global::Plugin.SharedTransitions.Resource.Id.chronometer = global::LosGatos.Droid.Resource.Id.chronometer;
+			global::Plugin.SharedTransitions.Resource.Id.clip_horizontal = global::LosGatos.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.SharedTransitions.Resource.Id.clip_vertical = global::LosGatos.Droid.Resource.Id.clip_vertical;
+			global::Plugin.SharedTransitions.Resource.Id.collapseActionView = global::LosGatos.Droid.Resource.Id.collapseActionView;
+			global::Plugin.SharedTransitions.Resource.Id.container = global::LosGatos.Droid.Resource.Id.container;
+			global::Plugin.SharedTransitions.Resource.Id.content = global::LosGatos.Droid.Resource.Id.content;
+			global::Plugin.SharedTransitions.Resource.Id.contentPanel = global::LosGatos.Droid.Resource.Id.contentPanel;
+			global::Plugin.SharedTransitions.Resource.Id.coordinator = global::LosGatos.Droid.Resource.Id.coordinator;
+			global::Plugin.SharedTransitions.Resource.Id.CTRL = global::LosGatos.Droid.Resource.Id.CTRL;
+			global::Plugin.SharedTransitions.Resource.Id.custom = global::LosGatos.Droid.Resource.Id.custom;
+			global::Plugin.SharedTransitions.Resource.Id.customPanel = global::LosGatos.Droid.Resource.Id.customPanel;
+			global::Plugin.SharedTransitions.Resource.Id.decor_content_parent = global::LosGatos.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.SharedTransitions.Resource.Id.default_activity_button = global::LosGatos.Droid.Resource.Id.default_activity_button;
+			global::Plugin.SharedTransitions.Resource.Id.design_bottom_sheet = global::LosGatos.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.SharedTransitions.Resource.Id.design_menu_item_action_area = global::LosGatos.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.SharedTransitions.Resource.Id.design_menu_item_action_area_stub = global::LosGatos.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.SharedTransitions.Resource.Id.design_menu_item_text = global::LosGatos.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.SharedTransitions.Resource.Id.design_navigation_view = global::LosGatos.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.SharedTransitions.Resource.Id.dialog_button = global::LosGatos.Droid.Resource.Id.dialog_button;
+			global::Plugin.SharedTransitions.Resource.Id.disableHome = global::LosGatos.Droid.Resource.Id.disableHome;
+			global::Plugin.SharedTransitions.Resource.Id.edit_query = global::LosGatos.Droid.Resource.Id.edit_query;
+			global::Plugin.SharedTransitions.Resource.Id.end = global::LosGatos.Droid.Resource.Id.end;
+			global::Plugin.SharedTransitions.Resource.Id.end_padder = global::LosGatos.Droid.Resource.Id.end_padder;
+			global::Plugin.SharedTransitions.Resource.Id.enterAlways = global::LosGatos.Droid.Resource.Id.enterAlways;
+			global::Plugin.SharedTransitions.Resource.Id.enterAlwaysCollapsed = global::LosGatos.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.SharedTransitions.Resource.Id.exitUntilCollapsed = global::LosGatos.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.SharedTransitions.Resource.Id.expanded_menu = global::LosGatos.Droid.Resource.Id.expanded_menu;
+			global::Plugin.SharedTransitions.Resource.Id.expand_activities_button = global::LosGatos.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.SharedTransitions.Resource.Id.fill = global::LosGatos.Droid.Resource.Id.fill;
+			global::Plugin.SharedTransitions.Resource.Id.filled = global::LosGatos.Droid.Resource.Id.filled;
+			global::Plugin.SharedTransitions.Resource.Id.fill_horizontal = global::LosGatos.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.SharedTransitions.Resource.Id.fill_vertical = global::LosGatos.Droid.Resource.Id.fill_vertical;
+			global::Plugin.SharedTransitions.Resource.Id.@fixed = global::LosGatos.Droid.Resource.Id.@fixed;
+			global::Plugin.SharedTransitions.Resource.Id.flyoutcontent_appbar = global::LosGatos.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Plugin.SharedTransitions.Resource.Id.flyoutcontent_recycler = global::LosGatos.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Plugin.SharedTransitions.Resource.Id.forever = global::LosGatos.Droid.Resource.Id.forever;
+			global::Plugin.SharedTransitions.Resource.Id.fragment_container_view_tag = global::LosGatos.Droid.Resource.Id.fragment_container_view_tag;
+			global::Plugin.SharedTransitions.Resource.Id.FUNCTION = global::LosGatos.Droid.Resource.Id.FUNCTION;
+			global::Plugin.SharedTransitions.Resource.Id.ghost_view = global::LosGatos.Droid.Resource.Id.ghost_view;
+			global::Plugin.SharedTransitions.Resource.Id.ghost_view_holder = global::LosGatos.Droid.Resource.Id.ghost_view_holder;
+			global::Plugin.SharedTransitions.Resource.Id.group_divider = global::LosGatos.Droid.Resource.Id.group_divider;
+			global::Plugin.SharedTransitions.Resource.Id.home = global::LosGatos.Droid.Resource.Id.home;
+			global::Plugin.SharedTransitions.Resource.Id.homeAsUp = global::LosGatos.Droid.Resource.Id.homeAsUp;
+			global::Plugin.SharedTransitions.Resource.Id.icon = global::LosGatos.Droid.Resource.Id.icon;
+			global::Plugin.SharedTransitions.Resource.Id.icon_group = global::LosGatos.Droid.Resource.Id.icon_group;
+			global::Plugin.SharedTransitions.Resource.Id.ifRoom = global::LosGatos.Droid.Resource.Id.ifRoom;
+			global::Plugin.SharedTransitions.Resource.Id.image = global::LosGatos.Droid.Resource.Id.image;
+			global::Plugin.SharedTransitions.Resource.Id.info = global::LosGatos.Droid.Resource.Id.info;
+			global::Plugin.SharedTransitions.Resource.Id.italic = global::LosGatos.Droid.Resource.Id.italic;
+			global::Plugin.SharedTransitions.Resource.Id.item_touch_helper_previous_elevation = global::LosGatos.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.SharedTransitions.Resource.Id.labeled = global::LosGatos.Droid.Resource.Id.labeled;
+			global::Plugin.SharedTransitions.Resource.Id.largeLabel = global::LosGatos.Droid.Resource.Id.largeLabel;
+			global::Plugin.SharedTransitions.Resource.Id.left = global::LosGatos.Droid.Resource.Id.left;
+			global::Plugin.SharedTransitions.Resource.Id.line1 = global::LosGatos.Droid.Resource.Id.line1;
+			global::Plugin.SharedTransitions.Resource.Id.line3 = global::LosGatos.Droid.Resource.Id.line3;
+			global::Plugin.SharedTransitions.Resource.Id.listMode = global::LosGatos.Droid.Resource.Id.listMode;
+			global::Plugin.SharedTransitions.Resource.Id.list_item = global::LosGatos.Droid.Resource.Id.list_item;
+			global::Plugin.SharedTransitions.Resource.Id.main_appbar = global::LosGatos.Droid.Resource.Id.main_appbar;
+			global::Plugin.SharedTransitions.Resource.Id.main_tablayout = global::LosGatos.Droid.Resource.Id.main_tablayout;
+			global::Plugin.SharedTransitions.Resource.Id.main_toolbar = global::LosGatos.Droid.Resource.Id.main_toolbar;
+			global::Plugin.SharedTransitions.Resource.Id.main_viewpager = global::LosGatos.Droid.Resource.Id.main_viewpager;
+			global::Plugin.SharedTransitions.Resource.Id.masked = global::LosGatos.Droid.Resource.Id.masked;
+			global::Plugin.SharedTransitions.Resource.Id.media_actions = global::LosGatos.Droid.Resource.Id.media_actions;
+			global::Plugin.SharedTransitions.Resource.Id.message = global::LosGatos.Droid.Resource.Id.message;
+			global::Plugin.SharedTransitions.Resource.Id.META = global::LosGatos.Droid.Resource.Id.META;
+			global::Plugin.SharedTransitions.Resource.Id.middle = global::LosGatos.Droid.Resource.Id.middle;
+			global::Plugin.SharedTransitions.Resource.Id.mini = global::LosGatos.Droid.Resource.Id.mini;
+			global::Plugin.SharedTransitions.Resource.Id.mtrl_child_content_container = global::LosGatos.Droid.Resource.Id.mtrl_child_content_container;
+			global::Plugin.SharedTransitions.Resource.Id.mtrl_internal_children_alpha_tag = global::LosGatos.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Plugin.SharedTransitions.Resource.Id.multiply = global::LosGatos.Droid.Resource.Id.multiply;
+			global::Plugin.SharedTransitions.Resource.Id.navigation_header_container = global::LosGatos.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.SharedTransitions.Resource.Id.never = global::LosGatos.Droid.Resource.Id.never;
+			global::Plugin.SharedTransitions.Resource.Id.none = global::LosGatos.Droid.Resource.Id.none;
+			global::Plugin.SharedTransitions.Resource.Id.normal = global::LosGatos.Droid.Resource.Id.normal;
+			global::Plugin.SharedTransitions.Resource.Id.notification_background = global::LosGatos.Droid.Resource.Id.notification_background;
+			global::Plugin.SharedTransitions.Resource.Id.notification_main_column = global::LosGatos.Droid.Resource.Id.notification_main_column;
+			global::Plugin.SharedTransitions.Resource.Id.notification_main_column_container = global::LosGatos.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.SharedTransitions.Resource.Id.off = global::LosGatos.Droid.Resource.Id.off;
+			global::Plugin.SharedTransitions.Resource.Id.on = global::LosGatos.Droid.Resource.Id.on;
+			global::Plugin.SharedTransitions.Resource.Id.outline = global::LosGatos.Droid.Resource.Id.outline;
+			global::Plugin.SharedTransitions.Resource.Id.parallax = global::LosGatos.Droid.Resource.Id.parallax;
+			global::Plugin.SharedTransitions.Resource.Id.parentPanel = global::LosGatos.Droid.Resource.Id.parentPanel;
+			global::Plugin.SharedTransitions.Resource.Id.parent_matrix = global::LosGatos.Droid.Resource.Id.parent_matrix;
+			global::Plugin.SharedTransitions.Resource.Id.pin = global::LosGatos.Droid.Resource.Id.pin;
+			global::Plugin.SharedTransitions.Resource.Id.progress_circular = global::LosGatos.Droid.Resource.Id.progress_circular;
+			global::Plugin.SharedTransitions.Resource.Id.progress_horizontal = global::LosGatos.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.SharedTransitions.Resource.Id.radio = global::LosGatos.Droid.Resource.Id.radio;
+			global::Plugin.SharedTransitions.Resource.Id.right = global::LosGatos.Droid.Resource.Id.right;
+			global::Plugin.SharedTransitions.Resource.Id.right_icon = global::LosGatos.Droid.Resource.Id.right_icon;
+			global::Plugin.SharedTransitions.Resource.Id.right_side = global::LosGatos.Droid.Resource.Id.right_side;
+			global::Plugin.SharedTransitions.Resource.Id.save_non_transition_alpha = global::LosGatos.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.SharedTransitions.Resource.Id.save_overlay_view = global::LosGatos.Droid.Resource.Id.save_overlay_view;
+			global::Plugin.SharedTransitions.Resource.Id.screen = global::LosGatos.Droid.Resource.Id.screen;
+			global::Plugin.SharedTransitions.Resource.Id.scroll = global::LosGatos.Droid.Resource.Id.scroll;
+			global::Plugin.SharedTransitions.Resource.Id.scrollable = global::LosGatos.Droid.Resource.Id.scrollable;
+			global::Plugin.SharedTransitions.Resource.Id.scrollIndicatorDown = global::LosGatos.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.SharedTransitions.Resource.Id.scrollIndicatorUp = global::LosGatos.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.SharedTransitions.Resource.Id.scrollView = global::LosGatos.Droid.Resource.Id.scrollView;
+			global::Plugin.SharedTransitions.Resource.Id.search_badge = global::LosGatos.Droid.Resource.Id.search_badge;
+			global::Plugin.SharedTransitions.Resource.Id.search_bar = global::LosGatos.Droid.Resource.Id.search_bar;
+			global::Plugin.SharedTransitions.Resource.Id.search_button = global::LosGatos.Droid.Resource.Id.search_button;
+			global::Plugin.SharedTransitions.Resource.Id.search_close_btn = global::LosGatos.Droid.Resource.Id.search_close_btn;
+			global::Plugin.SharedTransitions.Resource.Id.search_edit_frame = global::LosGatos.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.SharedTransitions.Resource.Id.search_go_btn = global::LosGatos.Droid.Resource.Id.search_go_btn;
+			global::Plugin.SharedTransitions.Resource.Id.search_mag_icon = global::LosGatos.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.SharedTransitions.Resource.Id.search_plate = global::LosGatos.Droid.Resource.Id.search_plate;
+			global::Plugin.SharedTransitions.Resource.Id.search_src_text = global::LosGatos.Droid.Resource.Id.search_src_text;
+			global::Plugin.SharedTransitions.Resource.Id.search_voice_btn = global::LosGatos.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.SharedTransitions.Resource.Id.selected = global::LosGatos.Droid.Resource.Id.selected;
+			global::Plugin.SharedTransitions.Resource.Id.select_dialog_listview = global::LosGatos.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.SharedTransitions.Resource.Id.shellcontent_appbar = global::LosGatos.Droid.Resource.Id.shellcontent_appbar;
+			global::Plugin.SharedTransitions.Resource.Id.shellcontent_toolbar = global::LosGatos.Droid.Resource.Id.shellcontent_toolbar;
+			global::Plugin.SharedTransitions.Resource.Id.SHIFT = global::LosGatos.Droid.Resource.Id.SHIFT;
+			global::Plugin.SharedTransitions.Resource.Id.shortcut = global::LosGatos.Droid.Resource.Id.shortcut;
+			global::Plugin.SharedTransitions.Resource.Id.showCustom = global::LosGatos.Droid.Resource.Id.showCustom;
+			global::Plugin.SharedTransitions.Resource.Id.showHome = global::LosGatos.Droid.Resource.Id.showHome;
+			global::Plugin.SharedTransitions.Resource.Id.showTitle = global::LosGatos.Droid.Resource.Id.showTitle;
+			global::Plugin.SharedTransitions.Resource.Id.sliding_tabs = global::LosGatos.Droid.Resource.Id.sliding_tabs;
+			global::Plugin.SharedTransitions.Resource.Id.smallLabel = global::LosGatos.Droid.Resource.Id.smallLabel;
+			global::Plugin.SharedTransitions.Resource.Id.snackbar_action = global::LosGatos.Droid.Resource.Id.snackbar_action;
+			global::Plugin.SharedTransitions.Resource.Id.snackbar_text = global::LosGatos.Droid.Resource.Id.snackbar_text;
+			global::Plugin.SharedTransitions.Resource.Id.snap = global::LosGatos.Droid.Resource.Id.snap;
+			global::Plugin.SharedTransitions.Resource.Id.snapMargins = global::LosGatos.Droid.Resource.Id.snapMargins;
+			global::Plugin.SharedTransitions.Resource.Id.spacer = global::LosGatos.Droid.Resource.Id.spacer;
+			global::Plugin.SharedTransitions.Resource.Id.split_action_bar = global::LosGatos.Droid.Resource.Id.split_action_bar;
+			global::Plugin.SharedTransitions.Resource.Id.src_atop = global::LosGatos.Droid.Resource.Id.src_atop;
+			global::Plugin.SharedTransitions.Resource.Id.src_in = global::LosGatos.Droid.Resource.Id.src_in;
+			global::Plugin.SharedTransitions.Resource.Id.src_over = global::LosGatos.Droid.Resource.Id.src_over;
+			global::Plugin.SharedTransitions.Resource.Id.start = global::LosGatos.Droid.Resource.Id.start;
+			global::Plugin.SharedTransitions.Resource.Id.status_bar_latest_event_content = global::LosGatos.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.SharedTransitions.Resource.Id.stretch = global::LosGatos.Droid.Resource.Id.stretch;
+			global::Plugin.SharedTransitions.Resource.Id.submenuarrow = global::LosGatos.Droid.Resource.Id.submenuarrow;
+			global::Plugin.SharedTransitions.Resource.Id.submit_area = global::LosGatos.Droid.Resource.Id.submit_area;
+			global::Plugin.SharedTransitions.Resource.Id.SYM = global::LosGatos.Droid.Resource.Id.SYM;
+			global::Plugin.SharedTransitions.Resource.Id.tabMode = global::LosGatos.Droid.Resource.Id.tabMode;
+			global::Plugin.SharedTransitions.Resource.Id.tag_accessibility_actions = global::LosGatos.Droid.Resource.Id.tag_accessibility_actions;
+			global::Plugin.SharedTransitions.Resource.Id.tag_accessibility_clickable_spans = global::LosGatos.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Plugin.SharedTransitions.Resource.Id.tag_accessibility_heading = global::LosGatos.Droid.Resource.Id.tag_accessibility_heading;
+			global::Plugin.SharedTransitions.Resource.Id.tag_accessibility_pane_title = global::LosGatos.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Plugin.SharedTransitions.Resource.Id.tag_screen_reader_focusable = global::LosGatos.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Plugin.SharedTransitions.Resource.Id.tag_transition_group = global::LosGatos.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.SharedTransitions.Resource.Id.tag_unhandled_key_event_manager = global::LosGatos.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.SharedTransitions.Resource.Id.tag_unhandled_key_listeners = global::LosGatos.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.SharedTransitions.Resource.Id.text = global::LosGatos.Droid.Resource.Id.text;
+			global::Plugin.SharedTransitions.Resource.Id.text2 = global::LosGatos.Droid.Resource.Id.text2;
+			global::Plugin.SharedTransitions.Resource.Id.textinput_counter = global::LosGatos.Droid.Resource.Id.textinput_counter;
+			global::Plugin.SharedTransitions.Resource.Id.textinput_error = global::LosGatos.Droid.Resource.Id.textinput_error;
+			global::Plugin.SharedTransitions.Resource.Id.textinput_helper_text = global::LosGatos.Droid.Resource.Id.textinput_helper_text;
+			global::Plugin.SharedTransitions.Resource.Id.textSpacerNoButtons = global::LosGatos.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.SharedTransitions.Resource.Id.textSpacerNoTitle = global::LosGatos.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.SharedTransitions.Resource.Id.textStart = global::LosGatos.Droid.Resource.Id.textStart;
+			global::Plugin.SharedTransitions.Resource.Id.text_input_password_toggle = global::LosGatos.Droid.Resource.Id.text_input_password_toggle;
+			global::Plugin.SharedTransitions.Resource.Id.time = global::LosGatos.Droid.Resource.Id.time;
+			global::Plugin.SharedTransitions.Resource.Id.title = global::LosGatos.Droid.Resource.Id.title;
+			global::Plugin.SharedTransitions.Resource.Id.titleDividerNoCustom = global::LosGatos.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.SharedTransitions.Resource.Id.title_template = global::LosGatos.Droid.Resource.Id.title_template;
+			global::Plugin.SharedTransitions.Resource.Id.toolbar = global::LosGatos.Droid.Resource.Id.toolbar;
+			global::Plugin.SharedTransitions.Resource.Id.top = global::LosGatos.Droid.Resource.Id.top;
+			global::Plugin.SharedTransitions.Resource.Id.topPanel = global::LosGatos.Droid.Resource.Id.topPanel;
+			global::Plugin.SharedTransitions.Resource.Id.touch_outside = global::LosGatos.Droid.Resource.Id.touch_outside;
+			global::Plugin.SharedTransitions.Resource.Id.transition_current_scene = global::LosGatos.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.SharedTransitions.Resource.Id.transition_layout_save = global::LosGatos.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.SharedTransitions.Resource.Id.transition_position = global::LosGatos.Droid.Resource.Id.transition_position;
+			global::Plugin.SharedTransitions.Resource.Id.transition_scene_layoutid_cache = global::LosGatos.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.SharedTransitions.Resource.Id.transition_transform = global::LosGatos.Droid.Resource.Id.transition_transform;
+			global::Plugin.SharedTransitions.Resource.Id.@unchecked = global::LosGatos.Droid.Resource.Id.@unchecked;
+			global::Plugin.SharedTransitions.Resource.Id.uniform = global::LosGatos.Droid.Resource.Id.uniform;
+			global::Plugin.SharedTransitions.Resource.Id.unlabeled = global::LosGatos.Droid.Resource.Id.unlabeled;
+			global::Plugin.SharedTransitions.Resource.Id.up = global::LosGatos.Droid.Resource.Id.up;
+			global::Plugin.SharedTransitions.Resource.Id.useLogo = global::LosGatos.Droid.Resource.Id.useLogo;
+			global::Plugin.SharedTransitions.Resource.Id.view_offset_helper = global::LosGatos.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.SharedTransitions.Resource.Id.visible = global::LosGatos.Droid.Resource.Id.visible;
+			global::Plugin.SharedTransitions.Resource.Id.visible_removing_fragment_view_tag = global::LosGatos.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Plugin.SharedTransitions.Resource.Id.withText = global::LosGatos.Droid.Resource.Id.withText;
+			global::Plugin.SharedTransitions.Resource.Id.wrap_content = global::LosGatos.Droid.Resource.Id.wrap_content;
+			global::Plugin.SharedTransitions.Resource.Integer.abc_config_activityDefaultDur = global::LosGatos.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.SharedTransitions.Resource.Integer.abc_config_activityShortDur = global::LosGatos.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.SharedTransitions.Resource.Integer.app_bar_elevation_anim_duration = global::LosGatos.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.SharedTransitions.Resource.Integer.bottom_sheet_slide_duration = global::LosGatos.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.SharedTransitions.Resource.Integer.cancel_button_image_alpha = global::LosGatos.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.SharedTransitions.Resource.Integer.config_tooltipAnimTime = global::LosGatos.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.SharedTransitions.Resource.Integer.design_snackbar_text_max_lines = global::LosGatos.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.SharedTransitions.Resource.Integer.design_tab_indicator_anim_duration_ms = global::LosGatos.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Plugin.SharedTransitions.Resource.Integer.hide_password_duration = global::LosGatos.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.SharedTransitions.Resource.Integer.mtrl_btn_anim_delay_ms = global::LosGatos.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Plugin.SharedTransitions.Resource.Integer.mtrl_btn_anim_duration_ms = global::LosGatos.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Plugin.SharedTransitions.Resource.Integer.mtrl_chip_anim_duration = global::LosGatos.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Plugin.SharedTransitions.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::LosGatos.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Plugin.SharedTransitions.Resource.Integer.show_password_duration = global::LosGatos.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.SharedTransitions.Resource.Integer.status_bar_notification_info_maxnum = global::LosGatos.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.SharedTransitions.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::LosGatos.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Plugin.SharedTransitions.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::LosGatos.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Plugin.SharedTransitions.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::LosGatos.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Plugin.SharedTransitions.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::LosGatos.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Plugin.SharedTransitions.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::LosGatos.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Plugin.SharedTransitions.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::LosGatos.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Plugin.SharedTransitions.Resource.Interpolator.fast_out_slow_in = global::LosGatos.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Plugin.SharedTransitions.Resource.Interpolator.mtrl_fast_out_linear_in = global::LosGatos.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Plugin.SharedTransitions.Resource.Interpolator.mtrl_fast_out_slow_in = global::LosGatos.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Plugin.SharedTransitions.Resource.Interpolator.mtrl_linear = global::LosGatos.Droid.Resource.Interpolator.mtrl_linear;
+			global::Plugin.SharedTransitions.Resource.Interpolator.mtrl_linear_out_slow_in = global::LosGatos.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_action_bar_title_item = global::LosGatos.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_action_bar_up_container = global::LosGatos.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_action_menu_item_layout = global::LosGatos.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_action_menu_layout = global::LosGatos.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_action_mode_bar = global::LosGatos.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_action_mode_close_item_material = global::LosGatos.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_activity_chooser_view = global::LosGatos.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_activity_chooser_view_list_item = global::LosGatos.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_alert_dialog_button_bar_material = global::LosGatos.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_alert_dialog_material = global::LosGatos.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_alert_dialog_title_material = global::LosGatos.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_cascading_menu_item_layout = global::LosGatos.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_dialog_title_material = global::LosGatos.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_expanded_menu_layout = global::LosGatos.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_list_menu_item_checkbox = global::LosGatos.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_list_menu_item_icon = global::LosGatos.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_list_menu_item_layout = global::LosGatos.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_list_menu_item_radio = global::LosGatos.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_popup_menu_header_item_layout = global::LosGatos.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_popup_menu_item_layout = global::LosGatos.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_screen_content_include = global::LosGatos.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_screen_simple = global::LosGatos.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LosGatos.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_screen_toolbar = global::LosGatos.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LosGatos.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_search_view = global::LosGatos.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_select_dialog_material = global::LosGatos.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.SharedTransitions.Resource.Layout.abc_tooltip = global::LosGatos.Droid.Resource.Layout.abc_tooltip;
+			global::Plugin.SharedTransitions.Resource.Layout.BottomTabLayout = global::LosGatos.Droid.Resource.Layout.BottomTabLayout;
+			global::Plugin.SharedTransitions.Resource.Layout.browser_actions_context_menu_page = global::LosGatos.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.SharedTransitions.Resource.Layout.browser_actions_context_menu_row = global::LosGatos.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.SharedTransitions.Resource.Layout.custom_dialog = global::LosGatos.Droid.Resource.Layout.custom_dialog;
+			global::Plugin.SharedTransitions.Resource.Layout.design_bottom_navigation_item = global::LosGatos.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.SharedTransitions.Resource.Layout.design_bottom_sheet_dialog = global::LosGatos.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.SharedTransitions.Resource.Layout.design_layout_snackbar = global::LosGatos.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.SharedTransitions.Resource.Layout.design_layout_snackbar_include = global::LosGatos.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.SharedTransitions.Resource.Layout.design_layout_tab_icon = global::LosGatos.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.SharedTransitions.Resource.Layout.design_layout_tab_text = global::LosGatos.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.SharedTransitions.Resource.Layout.design_menu_item_action_area = global::LosGatos.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.SharedTransitions.Resource.Layout.design_navigation_item = global::LosGatos.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.SharedTransitions.Resource.Layout.design_navigation_item_header = global::LosGatos.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.SharedTransitions.Resource.Layout.design_navigation_item_separator = global::LosGatos.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.SharedTransitions.Resource.Layout.design_navigation_item_subheader = global::LosGatos.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.SharedTransitions.Resource.Layout.design_navigation_menu = global::LosGatos.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.SharedTransitions.Resource.Layout.design_navigation_menu_item = global::LosGatos.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.SharedTransitions.Resource.Layout.design_text_input_password_icon = global::LosGatos.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Plugin.SharedTransitions.Resource.Layout.FallbackTabbarDoNotUse = global::LosGatos.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Plugin.SharedTransitions.Resource.Layout.FallbackToolbarDoNotUse = global::LosGatos.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Plugin.SharedTransitions.Resource.Layout.FlyoutContent = global::LosGatos.Droid.Resource.Layout.FlyoutContent;
+			global::Plugin.SharedTransitions.Resource.Layout.mtrl_layout_snackbar = global::LosGatos.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Plugin.SharedTransitions.Resource.Layout.mtrl_layout_snackbar_include = global::LosGatos.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_action = global::LosGatos.Droid.Resource.Layout.notification_action;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_action_tombstone = global::LosGatos.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_media_action = global::LosGatos.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_media_cancel_action = global::LosGatos.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_big_media = global::LosGatos.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_big_media_custom = global::LosGatos.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_big_media_narrow = global::LosGatos.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_big_media_narrow_custom = global::LosGatos.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_custom_big = global::LosGatos.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_icon_group = global::LosGatos.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_lines_media = global::LosGatos.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_media = global::LosGatos.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_media_custom = global::LosGatos.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_part_chronometer = global::LosGatos.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.SharedTransitions.Resource.Layout.notification_template_part_time = global::LosGatos.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.SharedTransitions.Resource.Layout.RootLayout = global::LosGatos.Droid.Resource.Layout.RootLayout;
+			global::Plugin.SharedTransitions.Resource.Layout.select_dialog_item_material = global::LosGatos.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.SharedTransitions.Resource.Layout.select_dialog_multichoice_material = global::LosGatos.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.SharedTransitions.Resource.Layout.select_dialog_singlechoice_material = global::LosGatos.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.SharedTransitions.Resource.Layout.ShellContent = global::LosGatos.Droid.Resource.Layout.ShellContent;
+			global::Plugin.SharedTransitions.Resource.Layout.support_simple_spinner_dropdown_item = global::LosGatos.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.SharedTransitions.Resource.Layout.Tabbar = global::LosGatos.Droid.Resource.Layout.Tabbar;
+			global::Plugin.SharedTransitions.Resource.Layout.Toolbar = global::LosGatos.Droid.Resource.Layout.Toolbar;
+			global::Plugin.SharedTransitions.Resource.String.abc_action_bar_home_description = global::LosGatos.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.SharedTransitions.Resource.String.abc_action_bar_up_description = global::LosGatos.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.SharedTransitions.Resource.String.abc_action_menu_overflow_description = global::LosGatos.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.SharedTransitions.Resource.String.abc_action_mode_done = global::LosGatos.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.SharedTransitions.Resource.String.abc_activitychooserview_choose_application = global::LosGatos.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.SharedTransitions.Resource.String.abc_activity_chooser_view_see_all = global::LosGatos.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.SharedTransitions.Resource.String.abc_capital_off = global::LosGatos.Droid.Resource.String.abc_capital_off;
+			global::Plugin.SharedTransitions.Resource.String.abc_capital_on = global::LosGatos.Droid.Resource.String.abc_capital_on;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_alt_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_ctrl_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_delete_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_enter_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_function_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_meta_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_shift_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_space_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_menu_sym_shortcut_label = global::LosGatos.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_prepend_shortcut_label = global::LosGatos.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Plugin.SharedTransitions.Resource.String.abc_searchview_description_clear = global::LosGatos.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.SharedTransitions.Resource.String.abc_searchview_description_query = global::LosGatos.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.SharedTransitions.Resource.String.abc_searchview_description_search = global::LosGatos.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.SharedTransitions.Resource.String.abc_searchview_description_submit = global::LosGatos.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.SharedTransitions.Resource.String.abc_searchview_description_voice = global::LosGatos.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.SharedTransitions.Resource.String.abc_search_hint = global::LosGatos.Droid.Resource.String.abc_search_hint;
+			global::Plugin.SharedTransitions.Resource.String.abc_shareactionprovider_share_with = global::LosGatos.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.SharedTransitions.Resource.String.abc_shareactionprovider_share_with_application = global::LosGatos.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.SharedTransitions.Resource.String.abc_toolbar_collapse_description = global::LosGatos.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.SharedTransitions.Resource.String.appbar_scrolling_view_behavior = global::LosGatos.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.SharedTransitions.Resource.String.bottom_sheet_behavior = global::LosGatos.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.SharedTransitions.Resource.String.character_counter_content_description = global::LosGatos.Droid.Resource.String.character_counter_content_description;
+			global::Plugin.SharedTransitions.Resource.String.character_counter_pattern = global::LosGatos.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.SharedTransitions.Resource.String.fab_transformation_scrim_behavior = global::LosGatos.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Plugin.SharedTransitions.Resource.String.fab_transformation_sheet_behavior = global::LosGatos.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Plugin.SharedTransitions.Resource.String.hide_bottom_view_on_scroll_behavior = global::LosGatos.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Plugin.SharedTransitions.Resource.String.mtrl_chip_close_icon_content_description = global::LosGatos.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Plugin.SharedTransitions.Resource.String.password_toggle_content_description = global::LosGatos.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.SharedTransitions.Resource.String.path_password_eye = global::LosGatos.Droid.Resource.String.path_password_eye;
+			global::Plugin.SharedTransitions.Resource.String.path_password_eye_mask_strike_through = global::LosGatos.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.SharedTransitions.Resource.String.path_password_eye_mask_visible = global::LosGatos.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.SharedTransitions.Resource.String.path_password_strike_through = global::LosGatos.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.SharedTransitions.Resource.String.search_menu_title = global::LosGatos.Droid.Resource.String.search_menu_title;
+			global::Plugin.SharedTransitions.Resource.String.status_bar_notification_info_overflow = global::LosGatos.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.SharedTransitions.Resource.Style.AlertDialog_AppCompat = global::LosGatos.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.AlertDialog_AppCompat_Light = global::LosGatos.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Animation_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Animation_AppCompat_DropDownUp = global::LosGatos.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.SharedTransitions.Resource.Style.Animation_AppCompat_Tooltip = global::LosGatos.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.SharedTransitions.Resource.Style.Animation_Design_BottomSheetDialog = global::LosGatos.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_AlertDialog_AppCompat = global::LosGatos.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Animation_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LosGatos.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Animation_AppCompat_Tooltip = global::LosGatos.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.SharedTransitions.Resource.Style.Base_CardView = global::LosGatos.Droid.Resource.Style.Base_CardView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LosGatos.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LosGatos.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LosGatos.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_AppCompat = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::LosGatos.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_Theme_MaterialComponents = global::LosGatos.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::LosGatos.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::LosGatos.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::LosGatos.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::LosGatos.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::LosGatos.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::LosGatos.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V21_Theme_AppCompat = global::LosGatos.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LosGatos.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V22_Theme_AppCompat = global::LosGatos.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V23_Theme_AppCompat = global::LosGatos.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V26_Theme_AppCompat = global::LosGatos.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V26_Theme_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::LosGatos.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V28_Theme_AppCompat = global::LosGatos.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V28_Theme_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V7_Theme_AppCompat = global::LosGatos.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LosGatos.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LosGatos.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LosGatos.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.SharedTransitions.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::LosGatos.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Button = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_EditText = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ListView = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_SearchView = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Spinner = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_TextView = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LosGatos.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_Design_TabLayout = global::LosGatos.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_MaterialComponents_Chip = global::LosGatos.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::LosGatos.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Plugin.SharedTransitions.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::LosGatos.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Plugin.SharedTransitions.Resource.Style.CardView = global::LosGatos.Droid.Resource.Style.CardView;
+			global::Plugin.SharedTransitions.Resource.Style.CardView_Dark = global::LosGatos.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.SharedTransitions.Resource.Style.CardView_Light = global::LosGatos.Droid.Resource.Style.CardView_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_AppCompat = global::LosGatos.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_MaterialComponents = global::LosGatos.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_MaterialComponents_Dialog = global::LosGatos.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_MaterialComponents_Light = global::LosGatos.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::LosGatos.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LosGatos.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LosGatos.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_V21_AppCompat = global::LosGatos.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_V21_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_V25_AppCompat = global::LosGatos.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_V25_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LosGatos.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LosGatos.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.SharedTransitions.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LosGatos.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.SharedTransitions.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LosGatos.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.SharedTransitions.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LosGatos.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Body1 = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Body2 = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Button = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Caption = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Display1 = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Display2 = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Display3 = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Display4 = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Headline = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Large = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Medium = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Menu = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Small = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Subhead = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Title = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Tooltip = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LosGatos.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Info = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Media = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Time = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Title = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::LosGatos.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::LosGatos.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Design_Counter = global::LosGatos.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Design_Counter_Overflow = global::LosGatos.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Design_Error = global::LosGatos.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Design_HelperText = global::LosGatos.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Design_Hint = global::LosGatos.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Design_Snackbar_Message = global::LosGatos.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Design_Tab = global::LosGatos.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Button = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Caption = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Chip = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Overline = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_MaterialComponents_Tab = global::LosGatos.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LosGatos.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LosGatos.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.SharedTransitions.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LosGatos.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_AppCompat_Light = global::LosGatos.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.SharedTransitions.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::LosGatos.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat = global::LosGatos.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_CompactMenu = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_DayNight = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Dialog = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Light = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Light_Dialog = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_AppCompat_NoActionBar = global::LosGatos.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_Design = global::LosGatos.Droid.Resource.Style.Theme_Design;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_Design_BottomSheetDialog = global::LosGatos.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_Design_Light = global::LosGatos.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::LosGatos.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_Design_Light_NoActionBar = global::LosGatos.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_Design_NoActionBar = global::LosGatos.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Bridge = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_CompactMenu = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Dialog = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_NoActionBar = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::LosGatos.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionButton = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActionMode = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Button = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ButtonBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Button_Borderless = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Button_Colored = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Button_Small = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_EditText = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ImageButton = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_SearchView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ListMenuView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ListView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ListView_Menu = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_PopupMenu = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_PopupWindow = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ProgressBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_RatingBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_SearchView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_SeekBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Spinner = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_TextView = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Toolbar = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LosGatos.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Compat_NotificationActionContainer = global::LosGatos.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Compat_NotificationActionText = global::LosGatos.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_AppBarLayout = global::LosGatos.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_BottomNavigationView = global::LosGatos.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_BottomSheet_Modal = global::LosGatos.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_CollapsingToolbar = global::LosGatos.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_FloatingActionButton = global::LosGatos.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_NavigationView = global::LosGatos.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::LosGatos.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_Snackbar = global::LosGatos.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_TabLayout = global::LosGatos.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Design_TextInputLayout = global::LosGatos.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_Icon = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_CardView = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_ChipGroup = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Chip_Action = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_NavigationView = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Snackbar = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TabLayout = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_MaterialComponents_Toolbar = global::LosGatos.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Plugin.SharedTransitions.Resource.Style.Widget_Support_CoordinatorLayout = global::LosGatos.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar = global::LosGatos.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBarLayout = global::LosGatos.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LosGatos.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_background = global::LosGatos.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_backgroundSplit = global::LosGatos.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_backgroundStacked = global::LosGatos.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_contentInsetEnd = global::LosGatos.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::LosGatos.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_contentInsetLeft = global::LosGatos.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_contentInsetRight = global::LosGatos.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_contentInsetStart = global::LosGatos.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::LosGatos.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_customNavigationLayout = global::LosGatos.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_displayOptions = global::LosGatos.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_divider = global::LosGatos.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_elevation = global::LosGatos.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_height = global::LosGatos.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_hideOnContentScroll = global::LosGatos.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LosGatos.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_homeLayout = global::LosGatos.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_icon = global::LosGatos.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LosGatos.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_itemPadding = global::LosGatos.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_logo = global::LosGatos.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_navigationMode = global::LosGatos.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_popupTheme = global::LosGatos.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_progressBarPadding = global::LosGatos.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_progressBarStyle = global::LosGatos.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_subtitle = global::LosGatos.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_subtitleTextStyle = global::LosGatos.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_title = global::LosGatos.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionBar_titleTextStyle = global::LosGatos.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMenuItemView = global::LosGatos.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LosGatos.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMenuView = global::LosGatos.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMode = global::LosGatos.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMode_background = global::LosGatos.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMode_backgroundSplit = global::LosGatos.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMode_closeItemLayout = global::LosGatos.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMode_height = global::LosGatos.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMode_subtitleTextStyle = global::LosGatos.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActionMode_titleTextStyle = global::LosGatos.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActivityChooserView = global::LosGatos.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LosGatos.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LosGatos.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog = global::LosGatos.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog_android_layout = global::LosGatos.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog_buttonIconDimen = global::LosGatos.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LosGatos.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog_listItemLayout = global::LosGatos.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog_listLayout = global::LosGatos.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LosGatos.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog_showTitle = global::LosGatos.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LosGatos.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableCompat = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableItem = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableTransition = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Plugin.SharedTransitions.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::LosGatos.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout = global::LosGatos.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayoutStates = global::LosGatos.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::LosGatos.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::LosGatos.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayoutStates_state_liftable = global::LosGatos.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayoutStates_state_lifted = global::LosGatos.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_android_background = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_elevation = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_expanded = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_Layout = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppBarLayout_liftOnScroll = global::LosGatos.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatImageView = global::LosGatos.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatImageView_android_src = global::LosGatos.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatImageView_srcCompat = global::LosGatos.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatImageView_tint = global::LosGatos.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatImageView_tintMode = global::LosGatos.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatSeekBar = global::LosGatos.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatSeekBar_android_thumb = global::LosGatos.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatSeekBar_tickMark = global::LosGatos.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::LosGatos.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::LosGatos.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextHelper = global::LosGatos.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::LosGatos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::LosGatos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::LosGatos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::LosGatos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::LosGatos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::LosGatos.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::LosGatos.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_drawableTint = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_drawableTintMode = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_fontFamily = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_lineHeight = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_textAllCaps = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTextView_textLocale = global::LosGatos.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarSize = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_buttonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorAccent = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorError = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorPrimary = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_controlBackground = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_dialogTheme = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_dividerVertical = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_editTextBackground = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_editTextColor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_editTextStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_panelBackground = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_switchStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowActionBar = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.SharedTransitions.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LosGatos.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomAppBar = global::LosGatos.Droid.Resource.Styleable.BottomAppBar;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomAppBar_backgroundTint = global::LosGatos.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::LosGatos.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomAppBar_fabCradleMargin = global::LosGatos.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::LosGatos.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::LosGatos.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomAppBar_hideOnScroll = global::LosGatos.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_elevation = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_itemBackground = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_itemIconSize = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_itemIconTint = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_itemTextColor = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomNavigationView_menu = global::LosGatos.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomSheetBehavior_Layout = global::LosGatos.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::LosGatos.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::LosGatos.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::LosGatos.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::LosGatos.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.SharedTransitions.Resource.Styleable.ButtonBarLayout = global::LosGatos.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ButtonBarLayout_allowStacking = global::LosGatos.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView = global::LosGatos.Droid.Resource.Styleable.CardView;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_android_minHeight = global::LosGatos.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_android_minWidth = global::LosGatos.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_cardBackgroundColor = global::LosGatos.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_cardCornerRadius = global::LosGatos.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_cardElevation = global::LosGatos.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_cardMaxElevation = global::LosGatos.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_cardPreventCornerOverlap = global::LosGatos.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_cardUseCompatPadding = global::LosGatos.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_contentPadding = global::LosGatos.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_contentPaddingBottom = global::LosGatos.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_contentPaddingLeft = global::LosGatos.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_contentPaddingRight = global::LosGatos.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.SharedTransitions.Resource.Styleable.CardView_contentPaddingTop = global::LosGatos.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip = global::LosGatos.Droid.Resource.Styleable.Chip;
+			global::Plugin.SharedTransitions.Resource.Styleable.ChipGroup = global::LosGatos.Droid.Resource.Styleable.ChipGroup;
+			global::Plugin.SharedTransitions.Resource.Styleable.ChipGroup_checkedChip = global::LosGatos.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Plugin.SharedTransitions.Resource.Styleable.ChipGroup_chipSpacing = global::LosGatos.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Plugin.SharedTransitions.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::LosGatos.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Plugin.SharedTransitions.Resource.Styleable.ChipGroup_chipSpacingVertical = global::LosGatos.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Plugin.SharedTransitions.Resource.Styleable.ChipGroup_singleLine = global::LosGatos.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Plugin.SharedTransitions.Resource.Styleable.ChipGroup_singleSelection = global::LosGatos.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_android_checkable = global::LosGatos.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_android_ellipsize = global::LosGatos.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_android_maxWidth = global::LosGatos.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_android_text = global::LosGatos.Droid.Resource.Styleable.Chip_android_text;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_android_textAppearance = global::LosGatos.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_checkedIcon = global::LosGatos.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_checkedIconEnabled = global::LosGatos.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_checkedIconVisible = global::LosGatos.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipBackgroundColor = global::LosGatos.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipCornerRadius = global::LosGatos.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipEndPadding = global::LosGatos.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipIcon = global::LosGatos.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipIconEnabled = global::LosGatos.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipIconSize = global::LosGatos.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipIconTint = global::LosGatos.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipIconVisible = global::LosGatos.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipMinHeight = global::LosGatos.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipStartPadding = global::LosGatos.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipStrokeColor = global::LosGatos.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_chipStrokeWidth = global::LosGatos.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_closeIcon = global::LosGatos.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_closeIconEnabled = global::LosGatos.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_closeIconEndPadding = global::LosGatos.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_closeIconSize = global::LosGatos.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_closeIconStartPadding = global::LosGatos.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_closeIconTint = global::LosGatos.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_closeIconVisible = global::LosGatos.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_hideMotionSpec = global::LosGatos.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_iconEndPadding = global::LosGatos.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_iconStartPadding = global::LosGatos.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_rippleColor = global::LosGatos.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_showMotionSpec = global::LosGatos.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_textEndPadding = global::LosGatos.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.Chip_textStartPadding = global::LosGatos.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_Layout = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_title = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::LosGatos.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.SharedTransitions.Resource.Styleable.ColorStateListItem = global::LosGatos.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.SharedTransitions.Resource.Styleable.ColorStateListItem_alpha = global::LosGatos.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.SharedTransitions.Resource.Styleable.ColorStateListItem_android_alpha = global::LosGatos.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.SharedTransitions.Resource.Styleable.ColorStateListItem_android_color = global::LosGatos.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.SharedTransitions.Resource.Styleable.CompoundButton = global::LosGatos.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.SharedTransitions.Resource.Styleable.CompoundButton_android_button = global::LosGatos.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.SharedTransitions.Resource.Styleable.CompoundButton_buttonCompat = global::LosGatos.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.CompoundButton_buttonTint = global::LosGatos.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.CompoundButton_buttonTintMode = global::LosGatos.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_keylines = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_Layout = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.SharedTransitions.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::LosGatos.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.DesignTheme = global::LosGatos.Droid.Resource.Styleable.DesignTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::LosGatos.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.DesignTheme_bottomSheetStyle = global::LosGatos.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle_barLength = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle_color = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle_spinBars = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.SharedTransitions.Resource.Styleable.DrawerArrowToggle_thickness = global::LosGatos.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_backgroundTint = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_borderWidth = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_elevation = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_fabCustomSize = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_fabSize = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_maxImageSize = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_rippleColor = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_showMotionSpec = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Plugin.SharedTransitions.Resource.Styleable.FloatingActionButton_useCompatPadding = global::LosGatos.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.FlowLayout = global::LosGatos.Droid.Resource.Styleable.FlowLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.FlowLayout_itemSpacing = global::LosGatos.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Plugin.SharedTransitions.Resource.Styleable.FlowLayout_lineSpacing = global::LosGatos.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamily = global::LosGatos.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_android_font = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_android_fontStyle = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_android_fontWeight = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_font = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_fontStyle = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_fontWeight = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamilyFont_ttcIndex = global::LosGatos.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamily_fontProviderAuthority = global::LosGatos.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamily_fontProviderCerts = global::LosGatos.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::LosGatos.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::LosGatos.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamily_fontProviderPackage = global::LosGatos.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.SharedTransitions.Resource.Styleable.FontFamily_fontProviderQuery = global::LosGatos.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.SharedTransitions.Resource.Styleable.ForegroundLinearLayout = global::LosGatos.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::LosGatos.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.SharedTransitions.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::LosGatos.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::LosGatos.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.Fragment = global::LosGatos.Droid.Resource.Styleable.Fragment;
+			global::Plugin.SharedTransitions.Resource.Styleable.FragmentContainerView = global::LosGatos.Droid.Resource.Styleable.FragmentContainerView;
+			global::Plugin.SharedTransitions.Resource.Styleable.FragmentContainerView_android_name = global::LosGatos.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Plugin.SharedTransitions.Resource.Styleable.FragmentContainerView_android_tag = global::LosGatos.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Plugin.SharedTransitions.Resource.Styleable.Fragment_android_id = global::LosGatos.Droid.Resource.Styleable.Fragment_android_id;
+			global::Plugin.SharedTransitions.Resource.Styleable.Fragment_android_name = global::LosGatos.Droid.Resource.Styleable.Fragment_android_name;
+			global::Plugin.SharedTransitions.Resource.Styleable.Fragment_android_tag = global::LosGatos.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor = global::LosGatos.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColorItem = global::LosGatos.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColorItem_android_color = global::LosGatos.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColorItem_android_offset = global::LosGatos.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_centerColor = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_centerX = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_centerY = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_endColor = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_endX = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_endY = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_gradientRadius = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_startColor = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_startX = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_startY = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_tileMode = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.GradientColor_android_type = global::LosGatos.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_divider = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_Layout = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.SharedTransitions.Resource.Styleable.LinearLayoutCompat_showDividers = global::LosGatos.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.SharedTransitions.Resource.Styleable.ListPopupWindow = global::LosGatos.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.SharedTransitions.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LosGatos.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.SharedTransitions.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LosGatos.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton = global::LosGatos.Droid.Resource.Styleable.MaterialButton;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_android_insetBottom = global::LosGatos.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_android_insetLeft = global::LosGatos.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_android_insetRight = global::LosGatos.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_android_insetTop = global::LosGatos.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_backgroundTint = global::LosGatos.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_backgroundTintMode = global::LosGatos.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_cornerRadius = global::LosGatos.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_icon = global::LosGatos.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_iconGravity = global::LosGatos.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_iconPadding = global::LosGatos.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_iconSize = global::LosGatos.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_iconTint = global::LosGatos.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_iconTintMode = global::LosGatos.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_rippleColor = global::LosGatos.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_strokeColor = global::LosGatos.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialButton_strokeWidth = global::LosGatos.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialCardView = global::LosGatos.Droid.Resource.Styleable.MaterialCardView;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialCardView_strokeColor = global::LosGatos.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialCardView_strokeWidth = global::LosGatos.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Plugin.SharedTransitions.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::LosGatos.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuGroup = global::LosGatos.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LosGatos.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuGroup_android_enabled = global::LosGatos.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuGroup_android_id = global::LosGatos.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuGroup_android_menuCategory = global::LosGatos.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuGroup_android_orderInCategory = global::LosGatos.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuGroup_android_visible = global::LosGatos.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem = global::LosGatos.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_actionLayout = global::LosGatos.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_actionProviderClass = global::LosGatos.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_actionViewClass = global::LosGatos.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_alphabeticModifiers = global::LosGatos.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_checkable = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_checked = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_enabled = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_icon = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_id = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_menuCategory = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_numericShortcut = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_onClick = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_orderInCategory = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_title = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_titleCondensed = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_android_visible = global::LosGatos.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_contentDescription = global::LosGatos.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_iconTint = global::LosGatos.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_iconTintMode = global::LosGatos.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_numericModifiers = global::LosGatos.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_showAsAction = global::LosGatos.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuItem_tooltipText = global::LosGatos.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView = global::LosGatos.Droid.Resource.Styleable.MenuView;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_android_headerBackground = global::LosGatos.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_android_horizontalDivider = global::LosGatos.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_android_itemBackground = global::LosGatos.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LosGatos.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_android_itemTextAppearance = global::LosGatos.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_android_verticalDivider = global::LosGatos.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LosGatos.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_preserveIconSpacing = global::LosGatos.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.SharedTransitions.Resource.Styleable.MenuView_subMenuArrow = global::LosGatos.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView = global::LosGatos.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_android_background = global::LosGatos.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::LosGatos.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_android_maxWidth = global::LosGatos.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_elevation = global::LosGatos.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_headerLayout = global::LosGatos.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_itemBackground = global::LosGatos.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_itemHorizontalPadding = global::LosGatos.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_itemIconPadding = global::LosGatos.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_itemIconTint = global::LosGatos.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_itemTextAppearance = global::LosGatos.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_itemTextColor = global::LosGatos.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.NavigationView_menu = global::LosGatos.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.SharedTransitions.Resource.Styleable.PopupWindow = global::LosGatos.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.SharedTransitions.Resource.Styleable.PopupWindowBackgroundState = global::LosGatos.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.SharedTransitions.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LosGatos.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.SharedTransitions.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::LosGatos.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.PopupWindow_android_popupBackground = global::LosGatos.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.PopupWindow_overlapAnchor = global::LosGatos.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecycleListView = global::LosGatos.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::LosGatos.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::LosGatos.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView = global::LosGatos.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_android_clipToPadding = global::LosGatos.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_android_descendantFocusability = global::LosGatos.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_android_orientation = global::LosGatos.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_fastScrollEnabled = global::LosGatos.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::LosGatos.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::LosGatos.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::LosGatos.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::LosGatos.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_layoutManager = global::LosGatos.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_reverseLayout = global::LosGatos.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_spanCount = global::LosGatos.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.SharedTransitions.Resource.Styleable.RecyclerView_stackFromEnd = global::LosGatos.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.ScrimInsetsFrameLayout = global::LosGatos.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::LosGatos.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.SharedTransitions.Resource.Styleable.ScrollingViewBehavior_Layout = global::LosGatos.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::LosGatos.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView = global::LosGatos.Droid.Resource.Styleable.SearchView;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_android_focusable = global::LosGatos.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_android_imeOptions = global::LosGatos.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_android_inputType = global::LosGatos.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_android_maxWidth = global::LosGatos.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_closeIcon = global::LosGatos.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_commitIcon = global::LosGatos.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_defaultQueryHint = global::LosGatos.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_goIcon = global::LosGatos.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_iconifiedByDefault = global::LosGatos.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_layout = global::LosGatos.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_queryBackground = global::LosGatos.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_queryHint = global::LosGatos.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_searchHintIcon = global::LosGatos.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_searchIcon = global::LosGatos.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_submitBackground = global::LosGatos.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_suggestionRowLayout = global::LosGatos.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.SearchView_voiceIcon = global::LosGatos.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.Snackbar = global::LosGatos.Droid.Resource.Styleable.Snackbar;
+			global::Plugin.SharedTransitions.Resource.Styleable.SnackbarLayout = global::LosGatos.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.SnackbarLayout_android_maxWidth = global::LosGatos.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.SnackbarLayout_elevation = global::LosGatos.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.SharedTransitions.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::LosGatos.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.Snackbar_snackbarButtonStyle = global::LosGatos.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.Snackbar_snackbarStyle = global::LosGatos.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.Spinner = global::LosGatos.Droid.Resource.Styleable.Spinner;
+			global::Plugin.SharedTransitions.Resource.Styleable.Spinner_android_dropDownWidth = global::LosGatos.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.Spinner_android_entries = global::LosGatos.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.SharedTransitions.Resource.Styleable.Spinner_android_popupBackground = global::LosGatos.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.Spinner_android_prompt = global::LosGatos.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.SharedTransitions.Resource.Styleable.Spinner_popupTheme = global::LosGatos.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawable = global::LosGatos.Droid.Resource.Styleable.StateListDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawableItem = global::LosGatos.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawableItem_android_drawable = global::LosGatos.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawable_android_constantSize = global::LosGatos.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawable_android_dither = global::LosGatos.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::LosGatos.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::LosGatos.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawable_android_variablePadding = global::LosGatos.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.StateListDrawable_android_visible = global::LosGatos.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat = global::LosGatos.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_android_textOff = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_android_textOn = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_android_thumb = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_showText = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_splitTrack = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_switchMinWidth = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_switchPadding = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_thumbTint = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_thumbTintMode = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_track = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_trackTint = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.SwitchCompat_trackTintMode = global::LosGatos.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabItem = global::LosGatos.Droid.Resource.Styleable.TabItem;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabItem_android_icon = global::LosGatos.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabItem_android_layout = global::LosGatos.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabItem_android_text = global::LosGatos.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout = global::LosGatos.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabBackground = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabContentStart = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabGravity = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabIconTint = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabIconTintMode = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabIndicator = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabIndicatorColor = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabIndicatorGravity = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabIndicatorHeight = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabInlineLabel = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabMaxWidth = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabMinWidth = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabMode = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabPadding = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabPaddingBottom = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabPaddingEnd = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabPaddingStart = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabPaddingTop = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabRippleColor = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabSelectedTextColor = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabTextAppearance = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabTextColor = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.TabLayout_tabUnboundedRipple = global::LosGatos.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance = global::LosGatos.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_fontFamily = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_shadowColor = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_shadowDx = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_shadowDy = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_shadowRadius = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_textColor = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_textColorHint = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_textColorLink = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_textFontWeight = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_textSize = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_textStyle = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_android_typeface = global::LosGatos.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_fontFamily = global::LosGatos.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_fontVariationSettings = global::LosGatos.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_textAllCaps = global::LosGatos.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextAppearance_textLocale = global::LosGatos.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout = global::LosGatos.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_android_hint = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_android_textColorHint = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxStrokeColor = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_counterEnabled = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_counterMaxLength = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_counterTextAppearance = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_errorEnabled = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_errorTextAppearance = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_helperText = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_helperTextEnabled = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_hintEnabled = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_hintTextAppearance = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_passwordToggleTint = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::LosGatos.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.ThemeEnforcement = global::LosGatos.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Plugin.SharedTransitions.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::LosGatos.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::LosGatos.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::LosGatos.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar = global::LosGatos.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_android_gravity = global::LosGatos.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_android_minHeight = global::LosGatos.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_buttonGravity = global::LosGatos.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_collapseContentDescription = global::LosGatos.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_collapseIcon = global::LosGatos.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_contentInsetEnd = global::LosGatos.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::LosGatos.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_contentInsetLeft = global::LosGatos.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_contentInsetRight = global::LosGatos.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_contentInsetStart = global::LosGatos.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::LosGatos.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_logo = global::LosGatos.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_logoDescription = global::LosGatos.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_maxButtonHeight = global::LosGatos.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_menu = global::LosGatos.Droid.Resource.Styleable.Toolbar_menu;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_navigationContentDescription = global::LosGatos.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_navigationIcon = global::LosGatos.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_popupTheme = global::LosGatos.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_subtitle = global::LosGatos.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LosGatos.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_subtitleTextColor = global::LosGatos.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_title = global::LosGatos.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_titleMargin = global::LosGatos.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_titleMarginBottom = global::LosGatos.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_titleMarginEnd = global::LosGatos.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_titleMargins = global::LosGatos.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_titleMarginStart = global::LosGatos.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_titleMarginTop = global::LosGatos.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_titleTextAppearance = global::LosGatos.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.SharedTransitions.Resource.Styleable.Toolbar_titleTextColor = global::LosGatos.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.SharedTransitions.Resource.Styleable.View = global::LosGatos.Droid.Resource.Styleable.View;
+			global::Plugin.SharedTransitions.Resource.Styleable.ViewBackgroundHelper = global::LosGatos.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.SharedTransitions.Resource.Styleable.ViewBackgroundHelper_android_background = global::LosGatos.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.SharedTransitions.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LosGatos.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.SharedTransitions.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LosGatos.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.SharedTransitions.Resource.Styleable.ViewStubCompat = global::LosGatos.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.SharedTransitions.Resource.Styleable.ViewStubCompat_android_id = global::LosGatos.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.SharedTransitions.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LosGatos.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.SharedTransitions.Resource.Styleable.ViewStubCompat_android_layout = global::LosGatos.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.SharedTransitions.Resource.Styleable.View_android_focusable = global::LosGatos.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.SharedTransitions.Resource.Styleable.View_android_theme = global::LosGatos.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.SharedTransitions.Resource.Styleable.View_paddingEnd = global::LosGatos.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.SharedTransitions.Resource.Styleable.View_paddingStart = global::LosGatos.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.SharedTransitions.Resource.Styleable.View_theme = global::LosGatos.Droid.Resource.Styleable.View_theme;
+			global::Plugin.SharedTransitions.Resource.Transition.navigation_transition = global::LosGatos.Droid.Resource.Transition.navigation_transition;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_in = global::LosGatos.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_out = global::LosGatos.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_grow_fade_in_from_bottom = global::LosGatos.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -8394,17 +11106,74 @@ namespace LosGatos.Droid
 			// aapt resource value: 0x7F01001B
 			public const int design_snackbar_out = 2130771995;
 			
+			// aapt resource value: 0x7F010020
+			public const int EnterFromLeft = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int EnterFromRight = 2130772001;
+			
 			// aapt resource value: 0x7F01001C
-			public const int EnterFromLeft = 2130771996;
+			public const int enter_bottom = 2130771996;
 			
 			// aapt resource value: 0x7F01001D
-			public const int EnterFromRight = 2130771997;
+			public const int enter_left = 2130771997;
 			
 			// aapt resource value: 0x7F01001E
-			public const int ExitToLeft = 2130771998;
+			public const int enter_right = 2130771998;
 			
 			// aapt resource value: 0x7F01001F
-			public const int ExitToRight = 2130771999;
+			public const int enter_top = 2130771999;
+			
+			// aapt resource value: 0x7F010026
+			public const int ExitToLeft = 2130772006;
+			
+			// aapt resource value: 0x7F010027
+			public const int ExitToRight = 2130772007;
+			
+			// aapt resource value: 0x7F010022
+			public const int exit_bottom = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public const int exit_left = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public const int exit_right = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public const int exit_top = 2130772005;
+			
+			// aapt resource value: 0x7F010028
+			public const int fade_in = 2130772008;
+			
+			// aapt resource value: 0x7F010029
+			public const int fade_out = 2130772009;
+			
+			// aapt resource value: 0x7F01002A
+			public const int flip_in = 2130772010;
+			
+			// aapt resource value: 0x7F01002B
+			public const int flip_out = 2130772011;
+			
+			// aapt resource value: 0x7F01002C
+			public const int fragment_close_enter = 2130772012;
+			
+			// aapt resource value: 0x7F01002D
+			public const int fragment_close_exit = 2130772013;
+			
+			// aapt resource value: 0x7F01002E
+			public const int fragment_fade_enter = 2130772014;
+			
+			// aapt resource value: 0x7F01002F
+			public const int fragment_fade_exit = 2130772015;
+			
+			// aapt resource value: 0x7F010030
+			public const int fragment_fast_out_extra_slow_in = 2130772016;
+			
+			// aapt resource value: 0x7F010031
+			public const int fragment_open_enter = 2130772017;
+			
+			// aapt resource value: 0x7F010032
+			public const int fragment_open_exit = 2130772018;
 			
 			static Animation()
 			{
@@ -11830,416 +14599,422 @@ namespace LosGatos.Droid
 			// aapt resource value: 0x7F080075
 			public const int forever = 2131230837;
 			
+			// aapt resource value: 0x7F080076
+			public const int fragment_container_view_tag = 2131230838;
+			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080076
-			public const int ghost_view = 2131230838;
-			
 			// aapt resource value: 0x7F080077
-			public const int ghost_view_holder = 2131230839;
+			public const int ghost_view = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int group_divider = 2131230840;
+			public const int ghost_view_holder = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int home = 2131230841;
+			public const int group_divider = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int homeAsUp = 2131230842;
+			public const int home = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int icon = 2131230843;
+			public const int homeAsUp = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int icon_group = 2131230844;
+			public const int icon = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int ifRoom = 2131230845;
+			public const int icon_group = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int image = 2131230846;
+			public const int ifRoom = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int info = 2131230847;
+			public const int image = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int italic = 2131230848;
+			public const int info = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int item_touch_helper_previous_elevation = 2131230849;
+			public const int italic = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int labeled = 2131230850;
+			public const int item_touch_helper_previous_elevation = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int largeLabel = 2131230851;
+			public const int labeled = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int left = 2131230852;
+			public const int largeLabel = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int line1 = 2131230853;
+			public const int left = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int line3 = 2131230854;
+			public const int line1 = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int listMode = 2131230855;
+			public const int line3 = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int list_item = 2131230856;
+			public const int listMode = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int main_appbar = 2131230857;
+			public const int list_item = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int main_tablayout = 2131230858;
+			public const int main_appbar = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int main_toolbar = 2131230859;
+			public const int main_tablayout = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int main_viewpager = 2131230860;
+			public const int main_toolbar = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int masked = 2131230861;
+			public const int main_viewpager = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int media_actions = 2131230862;
+			public const int masked = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int message = 2131230863;
+			public const int media_actions = 2131230863;
+			
+			// aapt resource value: 0x7F080090
+			public const int message = 2131230864;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F080090
-			public const int middle = 2131230864;
-			
 			// aapt resource value: 0x7F080091
-			public const int mini = 2131230865;
+			public const int middle = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int mtrl_child_content_container = 2131230866;
+			public const int mini = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int mtrl_internal_children_alpha_tag = 2131230867;
+			public const int mtrl_child_content_container = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int multiply = 2131230868;
+			public const int mtrl_internal_children_alpha_tag = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int navigation_header_container = 2131230869;
+			public const int multiply = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int never = 2131230870;
+			public const int navigation_header_container = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int none = 2131230871;
+			public const int never = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int normal = 2131230872;
+			public const int none = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int notification_background = 2131230873;
+			public const int normal = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int notification_main_column = 2131230874;
+			public const int notification_background = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int notification_main_column_container = 2131230875;
+			public const int notification_main_column = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int off = 2131230876;
+			public const int notification_main_column_container = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int on = 2131230877;
+			public const int off = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int outline = 2131230878;
+			public const int on = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int parallax = 2131230879;
+			public const int outline = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int parentPanel = 2131230880;
+			public const int parallax = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int parent_matrix = 2131230881;
+			public const int parentPanel = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int pin = 2131230882;
+			public const int parent_matrix = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int progress_circular = 2131230883;
+			public const int pin = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int progress_horizontal = 2131230884;
+			public const int progress_circular = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int radio = 2131230885;
+			public const int progress_horizontal = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int right = 2131230886;
+			public const int radio = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int right_icon = 2131230887;
+			public const int right = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int right_side = 2131230888;
+			public const int right_icon = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int save_non_transition_alpha = 2131230889;
+			public const int right_side = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int save_overlay_view = 2131230890;
+			public const int save_non_transition_alpha = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int screen = 2131230891;
+			public const int save_overlay_view = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int scroll = 2131230892;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int scrollable = 2131230896;
+			public const int screen = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int scrollIndicatorDown = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int scrollIndicatorUp = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int scrollView = 2131230895;
+			public const int scroll = 2131230893;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int search_badge = 2131230897;
+			public const int scrollable = 2131230897;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int scrollIndicatorDown = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int scrollIndicatorUp = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int scrollView = 2131230896;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int search_bar = 2131230898;
+			public const int search_badge = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int search_button = 2131230899;
+			public const int search_bar = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int search_close_btn = 2131230900;
+			public const int search_button = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int search_edit_frame = 2131230901;
+			public const int search_close_btn = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int search_go_btn = 2131230902;
+			public const int search_edit_frame = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int search_mag_icon = 2131230903;
+			public const int search_go_btn = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int search_plate = 2131230904;
+			public const int search_mag_icon = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int search_src_text = 2131230905;
+			public const int search_plate = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int search_voice_btn = 2131230906;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int selected = 2131230908;
+			public const int search_src_text = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int select_dialog_listview = 2131230907;
+			public const int search_voice_btn = 2131230907;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int shellcontent_appbar = 2131230909;
+			public const int selected = 2131230909;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int select_dialog_listview = 2131230908;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int shellcontent_toolbar = 2131230910;
+			public const int shellcontent_appbar = 2131230910;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int shellcontent_toolbar = 2131230911;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800BF
-			public const int shortcut = 2131230911;
-			
 			// aapt resource value: 0x7F0800C0
-			public const int showCustom = 2131230912;
+			public const int shortcut = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int showHome = 2131230913;
+			public const int showCustom = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int showTitle = 2131230914;
+			public const int showHome = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int sliding_tabs = 2131230915;
+			public const int showTitle = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int smallLabel = 2131230916;
+			public const int sliding_tabs = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int snackbar_action = 2131230917;
+			public const int smallLabel = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int snackbar_text = 2131230918;
+			public const int snackbar_action = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int snap = 2131230919;
+			public const int snackbar_text = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int snapMargins = 2131230920;
+			public const int snap = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int spacer = 2131230921;
+			public const int snapMargins = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int split_action_bar = 2131230922;
+			public const int spacer = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int src_atop = 2131230923;
+			public const int split_action_bar = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int src_in = 2131230924;
+			public const int src_atop = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int src_over = 2131230925;
+			public const int src_in = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int start = 2131230926;
+			public const int src_over = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int status_bar_latest_event_content = 2131230927;
+			public const int start = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int stretch = 2131230928;
+			public const int status_bar_latest_event_content = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int submenuarrow = 2131230929;
+			public const int stretch = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int submit_area = 2131230930;
+			public const int submenuarrow = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int submit_area = 2131230931;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800D3
-			public const int tabMode = 2131230931;
-			
 			// aapt resource value: 0x7F0800D4
-			public const int tag_accessibility_actions = 2131230932;
+			public const int tabMode = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int tag_accessibility_clickable_spans = 2131230933;
+			public const int tag_accessibility_actions = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int tag_accessibility_heading = 2131230934;
+			public const int tag_accessibility_clickable_spans = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int tag_accessibility_pane_title = 2131230935;
+			public const int tag_accessibility_heading = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int tag_screen_reader_focusable = 2131230936;
+			public const int tag_accessibility_pane_title = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int tag_transition_group = 2131230937;
+			public const int tag_screen_reader_focusable = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int tag_unhandled_key_event_manager = 2131230938;
+			public const int tag_transition_group = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int tag_unhandled_key_listeners = 2131230939;
+			public const int tag_unhandled_key_event_manager = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int text = 2131230940;
+			public const int tag_unhandled_key_listeners = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int text2 = 2131230941;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int textinput_counter = 2131230946;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int textinput_error = 2131230947;
-			
-			// aapt resource value: 0x7F0800E4
-			public const int textinput_helper_text = 2131230948;
+			public const int text = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int textSpacerNoButtons = 2131230942;
+			public const int text2 = 2131230942;
 			
-			// aapt resource value: 0x7F0800DF
-			public const int textSpacerNoTitle = 2131230943;
+			// aapt resource value: 0x7F0800E3
+			public const int textinput_counter = 2131230947;
 			
-			// aapt resource value: 0x7F0800E0
-			public const int textStart = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int text_input_password_toggle = 2131230945;
+			// aapt resource value: 0x7F0800E4
+			public const int textinput_error = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int time = 2131230949;
+			public const int textinput_helper_text = 2131230949;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int textSpacerNoButtons = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int textSpacerNoTitle = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int textStart = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int text_input_password_toggle = 2131230946;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int title = 2131230950;
+			public const int time = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int titleDividerNoCustom = 2131230951;
+			public const int title = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int title_template = 2131230952;
+			public const int titleDividerNoCustom = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int toolbar = 2131230953;
+			public const int title_template = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int top = 2131230954;
+			public const int toolbar = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int topPanel = 2131230955;
+			public const int top = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int touch_outside = 2131230956;
+			public const int topPanel = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int transition_current_scene = 2131230957;
+			public const int touch_outside = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int transition_layout_save = 2131230958;
+			public const int transition_current_scene = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int transition_position = 2131230959;
+			public const int transition_layout_save = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int transition_scene_layoutid_cache = 2131230960;
+			public const int transition_position = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int transition_transform = 2131230961;
+			public const int transition_scene_layoutid_cache = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int @unchecked = 2131230962;
+			public const int transition_transform = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int uniform = 2131230963;
+			public const int @unchecked = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int unlabeled = 2131230964;
+			public const int uniform = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int up = 2131230965;
+			public const int unlabeled = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int useLogo = 2131230966;
+			public const int up = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int view_offset_helper = 2131230967;
+			public const int useLogo = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int visible = 2131230968;
+			public const int view_offset_helper = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int withText = 2131230969;
+			public const int visible = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int wrap_content = 2131230970;
+			public const int visible_removing_fragment_view_tag = 2131230970;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int withText = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int wrap_content = 2131230972;
 			
 			static Id()
 			{
@@ -15961,6 +18736,32 @@ namespace LosGatos.Droid
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
+			// aapt resource value: { 0x1010003,0x10100D0,0x10100D1 }
+			public static int[] Fragment = new int[] {
+					16842755,
+					16842960,
+					16842961};
+			
+			// aapt resource value: { 0x1010003,0x10100D1 }
+			public static int[] FragmentContainerView = new int[] {
+					16842755,
+					16842961};
+			
+			// aapt resource value: 0
+			public const int FragmentContainerView_android_name = 0;
+			
+			// aapt resource value: 1
+			public const int FragmentContainerView_android_tag = 1;
+			
+			// aapt resource value: 1
+			public const int Fragment_android_id = 1;
+			
+			// aapt resource value: 0
+			public const int Fragment_android_name = 0;
+			
+			// aapt resource value: 2
+			public const int Fragment_android_tag = 2;
+			
 			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
 			public static int[] GradientColor = new int[] {
 					16843165,
@@ -17339,11 +20140,27 @@ namespace LosGatos.Droid
 			}
 		}
 		
-		public partial class Xml
+		public partial class Transition
 		{
 			
 			// aapt resource value: 0x7F100000
-			public const int xamarin_essentials_fileprovider_file_paths = 2131755008;
+			public const int navigation_transition = 2131755008;
+			
+			static Transition()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Transition()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7F110000
+			public const int xamarin_essentials_fileprovider_file_paths = 2131820544;
 			
 			static Xml()
 			{

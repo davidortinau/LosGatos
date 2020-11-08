@@ -1,9 +1,12 @@
 ﻿using LosGatos.Pages;
+using Plugin.SharedTransitions;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace LosGatos
 {
-    public partial class App : Application
+    public partial class App : Xamarin.Forms.Application
     {
         public App()
         {
@@ -11,9 +14,14 @@ namespace LosGatos
 
             InitializeComponent();
 
-            MainPage = new NavigationPage( new MainPage() ){
+            var navigationPage = new SharedTransitionNavigationPage(new MainPage())
+            {
                 BarBackgroundColor = Color.Transparent
             };
+
+            navigationPage.On<iOS>().SetHideNavigationBarSeparator(true);
+
+            MainPage = navigationPage;
         }
 
         protected override void OnStart()
