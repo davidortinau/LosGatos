@@ -3,6 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:theme="clr-namespace:LosGatos.Styles" 
+    xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows" 
     x:Class="LosGatos.Pages.HomePage">
     <ContentView.Resources>
         <!-- Gradients -->
@@ -22,7 +23,7 @@
     </ContentView.Resources>
     
     <ContentView.Content>
-        <Grid Margin="15" RowDefinitions="184,380,44,140,*,*">
+        <Grid Margin="15" RowDefinitions="184,380,44,140,*,*" IsClippedToBounds="False">
 
             <!-- Category Cards -->
 
@@ -31,16 +32,24 @@
                     VerticalScrollBarVisibility="Never"
                     Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal" IsClippedToBounds="False"
+                             Margin="0,0"
                              Spacing="20">
 
-                    <Grid RowDefinitions="30,100,20"
+                    
+                        <Grid RowDefinitions="30,100,20"
                         ColumnDefinitions="133"
                       IsClippedToBounds="False"
                         >
-                        <BoxView 
+                        <sh:Shadows Grid.Row="1" CornerRadius="24" 
+                                    Shades="{sh:SingleShade Offset='0, 0',
+                                                BlurRadius=60,
+                                                Opacity=0.2,
+                                                Color={StaticResource DarkBlue}}">
+                            <BoxView 
                             CornerRadius="24"
-                            Grid.Row="1"
+                            
                             Background="{StaticResource BlueGradient}"/>
+                        </sh:Shadows>
                         <Label Text="Business"
                         Grid.Row="1"
                         TextColor="#006081"
@@ -50,7 +59,14 @@
                         FontSize="18"
                         />
 
-                        <Image Source="shutterstock_183490616.png"
+                        <sh:Shadows WidthRequest="75"
+                                    Grid.Row="0"
+                                    Grid.RowSpan="2"
+                                    Shades="{sh:SingleShade Offset='0, 0',
+                                                BlurRadius=60,
+                                                Opacity=0.6,
+                                                Color={StaticResource DarkBlue}}">
+                            <Image Source="shutterstock_183490616.png"
                             VerticalOptions="Start"
                             HorizontalOptions="Center"
                             WidthRequest="75"
@@ -58,15 +74,22 @@
                             Grid.Row="0"
                             Grid.RowSpan="2"
                             />
+                        </sh:Shadows>
                     </Grid>
 
-                    <Grid RowDefinitions="30,100"
+                        <Grid RowDefinitions="30,100"
                         ColumnDefinitions="133"
                         >
-                        <BoxView 
+                        <sh:Shadows Grid.Row="1" 
+                                    Shades="{sh:SingleShade Offset='0, 0',
+                                                BlurRadius=60,
+                                                Opacity=0.2,
+                                                Color={StaticResource DarkGreen}}">
+                            <BoxView 
                         CornerRadius="24"
                         Grid.Row="1"
                         Background="{StaticResource GreenGradient}"/>
+                        </sh:Shadows>
 
                         <Label Text="Business"
                         Grid.Row="1"
@@ -101,12 +124,19 @@
                           RowSpacing="0"
                           VerticalOptions="Start"
                         >
-                        <BoxView 
+                        <sh:Shadows Grid.Row="1"
+                            Grid.RowSpan="2"
+                                    CornerRadius="24"
+                                    Margin="0,20,0,0" Shades="{sh:SingleShade Offset='0, 30',
+                                    BlurRadius=60,
+                                    Opacity=0.20,
+                                    Color='#8A959E'}">
+                            <BoxView 
                             CornerRadius="24"
                             Grid.Row="1"
                             Grid.RowSpan="2"
                             BackgroundColor="White"/>
-
+                        </sh:Shadows>
                         <Grid
                             Grid.Row="2"
                             VerticalOptions="Start"
