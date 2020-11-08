@@ -3,8 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pages="clr-namespace:LosGatos.Pages"
              xmlns:theme="clr-namespace:LosGatos.Styles" 
-             xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit" 
-             x:Class="LosGatos.Pages.MainPage">
+             xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:NavigationPage.HideNavigationBarSeparator="True"
+              x:Class="LosGatos.Pages.MainPage">
     <ContentPage.Resources>
         <Color x:Key="TabIconColor">#979797</Color>
             <Color x:Key="TabSelectedIconColor">#2E2545</Color>
@@ -85,7 +87,7 @@
     <NavigationPage.TitleView>
         <Grid ColumnDefinitions="44,*,44,44">
             <ImageButton
-                HorizontalOptions="Start"
+                HorizontalOptions="Center"
                 BackgroundColor="Transparent"
                 Source="{FontImage FontFamily=FontAwesome, 
                             Glyph={x:Static theme:IconFont.Bars},
@@ -115,10 +117,11 @@
         </Grid>
     </NavigationPage.TitleView>
 
-    <Grid>
+    <Grid IsClippedToBounds="False">
 
         <!-- Tabs -->
         <toolkit:TabView
+          IsClippedToBounds="False"
                 Style="{StaticResource CustomTabStyle}">
                 <!-- HOME TAB -->
                 <toolkit:TabViewItem

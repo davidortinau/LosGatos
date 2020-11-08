@@ -1,241 +1,507 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:theme="clr-namespace:LosGatos.Styles" 
-    xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows" 
-    x:Class="LosGatos.Pages.HomePage">
-    <ContentView.Resources>
-        <!-- Gradients -->
-        <Color x:Key="DarkBlue">#FDEE3D</Color>
-        <Color x:Key="LightBlue">#FFFFFF</Color>
-        <Color x:Key="DarkGreen">#76B3AF</Color>
-        <Color x:Key="LightGreen">#FFFFFF</Color>
-        <LinearGradientBrush x:Key="BlueGradient" StartPoint="0,1" EndPoint="1,0">
-            
-            <GradientStop Color="{StaticResource LightBlue}" Offset="1.0" />
-            <GradientStop Color="{StaticResource DarkBlue}" Offset="0.1" />
-        </LinearGradientBrush>
-        <LinearGradientBrush x:Key="GreenGradient" StartPoint="0,1" EndPoint="1,0">
-            <GradientStop Color="{StaticResource LightGreen}" Offset="1.0" />
-            <GradientStop Color="{StaticResource DarkGreen}" Offset="0.1" />
-        </LinearGradientBrush>
-    </ContentView.Resources>
-    
-    <ContentView.Content>
-        <Grid Margin="15" RowDefinitions="184,380,44,140,*,*" IsClippedToBounds="False">
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:theme="clr-namespace:LosGatos.Styles"
+  xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+  IsClippedToBounds="False"
+  x:Class="LosGatos.Pages.HomePage">
+  <ContentView.Resources>
+    <!-- Gradients -->
+    <Color
+      x:Key="DarkBlue">#FDEE3D</Color>
+    <Color
+      x:Key="LightBlue">#FFFFFF</Color>
+    <Color
+      x:Key="DarkGreen">#76B3AF</Color>
+    <Color
+      x:Key="LightGreen">#FFFFFF</Color>
+    <LinearGradientBrush
+      x:Key="BlueGradient"
+      StartPoint="0,1"
+      EndPoint="1,0">
 
-            <!-- Category Cards -->
+      <GradientStop
+        Color="{StaticResource LightBlue}"
+        Offset="1.0" />
+      <GradientStop
+        Color="{StaticResource DarkBlue}"
+        Offset="0.1" />
+    </LinearGradientBrush>
+    <LinearGradientBrush
+      x:Key="GreenGradient"
+      StartPoint="0,1"
+      EndPoint="1,0">
+      <GradientStop
+        Color="{StaticResource LightGreen}"
+        Offset="1.0" />
+      <GradientStop
+        Color="{StaticResource DarkGreen}"
+        Offset="0.1" />
+    </LinearGradientBrush>
+  </ContentView.Resources>
 
-            <ScrollView Grid.Row="0" IsClippedToBounds="False" 
-                    HorizontalScrollBarVisibility="Never" 
-                    VerticalScrollBarVisibility="Never"
-                    Orientation="Horizontal">
-                <StackLayout Orientation="Horizontal" IsClippedToBounds="False"
-                             Margin="0,0"
-                             Spacing="20">
+  <ContentView.Content>
+    <ScrollView>
+      <Grid
+        Margin="15"
+        RowDefinitions="184,380,44,140,*,*"
+        IsClippedToBounds="False">
 
-                    
-                        <Grid RowDefinitions="30,100,20"
-                        ColumnDefinitions="133"
-                      IsClippedToBounds="False"
-                        >
-                        <sh:Shadows Grid.Row="1" CornerRadius="24" 
-                                    Shades="{sh:SingleShade Offset='0, 0',
+        <!-- Category Cards -->
+
+        <ScrollView
+          Grid.Row="0"
+          IsClippedToBounds="False"
+          HorizontalScrollBarVisibility="Never"
+          VerticalScrollBarVisibility="Never"
+          Orientation="Horizontal">
+          <StackLayout
+            Orientation="Horizontal"
+            IsClippedToBounds="False"
+            Margin="0,0"
+            Spacing="20">
+
+
+            <Grid
+              RowDefinitions="30,100,20"
+              ColumnDefinitions="133"
+              IsClippedToBounds="False">
+              <sh:Shadows
+                Grid.Row="1"
+                CornerRadius="24"
+                Shades="{sh:SingleShade Offset='0, 0',
                                                 BlurRadius=60,
                                                 Opacity=0.2,
                                                 Color={StaticResource DarkBlue}}">
-                            <BoxView 
-                            CornerRadius="24"
-                            
-                            Background="{StaticResource BlueGradient}"/>
-                        </sh:Shadows>
-                        <Label Text="Business"
-                        Grid.Row="1"
-                        TextColor="#006081"
-                        HorizontalOptions="Center"
-                        VerticalOptions="End"
-                        Margin="0,0,0,10"
-                        FontSize="18"
-                        />
+                <BoxView
+                  CornerRadius="24"
+                  Background="{StaticResource BlueGradient}" />
+              </sh:Shadows>
+              <Label
+                Text="Business"
+                Grid.Row="1"
+                TextColor="#006081"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="0,0,0,10"
+                FontSize="18" />
 
-                        <sh:Shadows WidthRequest="75"
-                                    Grid.Row="0"
-                                    Grid.RowSpan="2"
-                                    Shades="{sh:SingleShade Offset='0, 0',
+              <sh:Shadows
+                WidthRequest="75"
+                Grid.Row="0"
+                Grid.RowSpan="2"
+                Shades="{sh:SingleShade Offset='0, 0',
                                                 BlurRadius=60,
                                                 Opacity=0.6,
                                                 Color={StaticResource DarkBlue}}">
-                            <Image Source="shutterstock_183490616.png"
-                            VerticalOptions="Start"
-                            HorizontalOptions="Center"
-                            WidthRequest="75"
-                            Aspect="AspectFit"
-                            Grid.Row="0"
-                            Grid.RowSpan="2"
-                            />
-                        </sh:Shadows>
-                    </Grid>
+                <Image
+                  Source="shutterstock_183490616.png"
+                  VerticalOptions="Start"
+                  HorizontalOptions="Center"
+                  WidthRequest="75"
+                  Aspect="AspectFit"
+                  Grid.Row="0"
+                  Grid.RowSpan="2" />
+              </sh:Shadows>
+            </Grid>
 
-                        <Grid RowDefinitions="30,100"
-                        ColumnDefinitions="133"
-                        >
-                        <sh:Shadows Grid.Row="1" 
-                                    Shades="{sh:SingleShade Offset='0, 0',
+            <Grid
+              RowDefinitions="30,100"
+              ColumnDefinitions="133">
+              <sh:Shadows
+                Grid.Row="1"
+                Shades="{sh:SingleShade Offset='0, 0',
                                                 BlurRadius=60,
                                                 Opacity=0.2,
                                                 Color={StaticResource DarkGreen}}">
-                            <BoxView 
-                        CornerRadius="24"
-                        Grid.Row="1"
-                        Background="{StaticResource GreenGradient}"/>
-                        </sh:Shadows>
+                <BoxView
+                  CornerRadius="24"
+                  Grid.Row="1"
+                  Background="{StaticResource GreenGradient}" />
+              </sh:Shadows>
 
-                        <Label Text="Business"
-                        Grid.Row="1"
-                        TextColor="#006081"
-                        HorizontalOptions="Center"
-                        VerticalOptions="End"
-                        Margin="0,0,0,10"
-                        FontSize="18"
-                        />
+              <Label
+                Text="Business"
+                Grid.Row="1"
+                TextColor="#006081"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="0,0,0,10"
+                FontSize="18" />
 
-                        <Image Source="shutterstock_183490631.png"
-                            VerticalOptions="Start"
-                            HorizontalOptions="Center"
-                            WidthRequest="75"
-                            Aspect="AspectFit"
-                            Grid.Row="0"
-                            Grid.RowSpan="2"
-                        />
-                    </Grid>
+              <Image
+                Source="shutterstock_183490631.png"
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                WidthRequest="75"
+                Aspect="AspectFit"
+                Grid.Row="0"
+                Grid.RowSpan="2" />
+            </Grid>
 
-                </StackLayout>
-            </ScrollView>
+          </StackLayout>
+        </ScrollView>
 
-            <!-- Product Cards -->
+        <!-- Product Cards -->
 
-            <ScrollView Orientation="Horizontal"
-                    Grid.Row="1">
-                <StackLayout Orientation="Horizontal">
+        <ScrollView
+          Orientation="Horizontal"
+          IsClippedToBounds="False"
+          Margin="-15,0,-15,0"
+          HorizontalScrollBarVisibility="Never"
+          Grid.Row="1">
+          <StackLayout
+            Orientation="Horizontal"
+            Padding="15,0,0,0"
+            Spacing="20"
+            IsClippedToBounds="False">
 
-                    <Grid RowDefinitions="50,80,142"
-                        ColumnDefinitions="284"
-                          RowSpacing="0"
-                          VerticalOptions="Start"
-                        >
-                        <sh:Shadows Grid.Row="1"
-                            Grid.RowSpan="2"
-                                    CornerRadius="24"
-                                    Margin="0,20,0,0" Shades="{sh:SingleShade Offset='0, 30',
+            <Grid
+              RowDefinitions="50,80,142"
+              ColumnDefinitions="284"
+              RowSpacing="0"
+              VerticalOptions="Start"
+              IsClippedToBounds="False">
+              <sh:Shadows
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                IsClippedToBounds="False"
+                CornerRadius="24"
+                Margin="0,20,0,0"
+                Shades="{sh:SingleShade Offset='0, 30',
                                     BlurRadius=60,
                                     Opacity=0.20,
                                     Color='#8A959E'}">
-                            <BoxView 
-                            CornerRadius="24"
-                            Grid.Row="1"
-                            Grid.RowSpan="2"
-                            BackgroundColor="White"/>
-                        </sh:Shadows>
-                        <Grid
-                            Grid.Row="2"
-                            VerticalOptions="Start"
-                            Margin="24,0"
-                            RowDefinitions="24,24,*"
-                            ColumnDefinitions="*,*,*">
-                            <Label
-                                Grid.ColumnSpan="3"
-                                Text="Lausanne chair"
-                                FontFamily="Product"
-                                FontAttributes="Bold"
-                                FontSize="20"/>
-                            <Label
-                                Grid.ColumnSpan="2"
-                                Grid.Row="1"
-                                Text="BoConcept"
-                                TextColor="{StaticResource TextSecondaryColor_Light}"
-                                FontFamily="Product"
-                                FontSize="18"/>
-                            <Label Grid.Column="2"
-                               Grid.ColumnSpan="2"
-                                   FontFamily="Product"
-                                   FontSize="18"
-                               HorizontalOptions="End">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span FontFamily="FontAwesome"
-                                          Text="{x:Static theme:IconFont.Star}"
-                                          TextColor="{StaticResource ThemeTertiary}"/>
-                                        <Span Text="(3.5)" TextColor="{StaticResource NeutralLight}"/>
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
+                <BoxView
+                  CornerRadius="24"
+                  Grid.Row="1"
+                  Grid.RowSpan="2"
+                  BackgroundColor="White" />
+              </sh:Shadows>
+              <Grid
+                Grid.Row="2"
+                VerticalOptions="Start"
+                Margin="24,0"
+                RowDefinitions="24,24,*"
+                ColumnDefinitions="*,*,*">
+                <Label
+                  Grid.ColumnSpan="3"
+                  Text="Lausanne chair"
+                  FontFamily="Product"
+                  FontAttributes="Bold"
+                  FontSize="20" />
+                <Label
+                  Grid.ColumnSpan="2"
+                  Grid.Row="1"
+                  Text="BoConcept"
+                  TextColor="{StaticResource TextSecondaryColor_Light}"
+                  FontFamily="Product"
+                  FontSize="18" />
+                <Label
+                  Grid.Column="2"
+                  Grid.ColumnSpan="2"
+                  FontFamily="Product"
+                  FontSize="18"
+                  HorizontalOptions="End">
+                  <Label.FormattedText>
+                    <FormattedString>
+                      <Span
+                        FontFamily="FontAwesome"
+                        Text="{x:Static theme:IconFont.Star}"
+                        TextColor="{StaticResource ThemeTertiary}" />
+                      <Span
+                        Text="(3.5)"
+                        TextColor="{StaticResource NeutralLight}" />
+                    </FormattedString>
+                  </Label.FormattedText>
+                </Label>
 
-                            <Label
-                            Grid.ColumnSpan="2"
-                            Grid.Row="2"
-                            VerticalOptions="Center"
-                            Text="$200"
-                                FontFamily="Product"
-                            FontSize="20"/>
+                <Label
+                  Grid.ColumnSpan="2"
+                  Grid.Row="2"
+                  VerticalOptions="Center"
+                  Text="$200"
+                  FontFamily="Product"
+                  FontSize="20" />
 
-                            <StackLayout Orientation="Horizontal"
-                                     Grid.Row="2"
-                            Grid.Column="2"
-                                     Grid.ColumnSpan="2">
-                                <Button                             
-                                CornerRadius="25"
-                                BorderWidth="0"
-                                Padding="0"
-                                VerticalOptions="Center"
-                                WidthRequest="50"
-                                HeightRequest="50"
-                                HorizontalOptions="End"
-                                BackgroundColor="{StaticResource ThemePrimary}"
-                                FontFamily="FontAwesome"
-                                Text="{x:Static theme:IconFont.Heart}"
-                                TextColor="White"
-                                FontSize="16"/>
-                                <Button                             
-                                CornerRadius="25"
-                                Padding="0"
-                                BorderWidth="0"
-                                VerticalOptions="Center"
-                                WidthRequest="50"
-                                HeightRequest="50"
-                                HorizontalOptions="End"
-                                BackgroundColor="{StaticResource ThemeSecondary}"
-                                FontFamily="FontAwesome"
-                                Text="{x:Static theme:IconFont.Plus}"
-                                TextColor="White"
-                                FontSize="16"/>
-                            </StackLayout>
-                        </Grid>
-                        <Image Source="shutterstock_553119223.png"
-                            VerticalOptions="Start"
-                            HorizontalOptions="Center"
-                               WidthRequest="300"
-                            Aspect="AspectFit"
-                            Grid.Row="0"
-                            Grid.RowSpan="3"
-                        >
-                            <Image.Clip>
-                                <RectangleGeometry Rect="0,0,300,120"/>
-                            </Image.Clip>
-                        </Image>
+                <StackLayout
+                  Orientation="Horizontal"
+                  Grid.Row="2"
+                  Grid.Column="2"
+                  Grid.ColumnSpan="2">
+                  <sh:Shadows
+                    CornerRadius="25"
+                    Shades="{sh:SingleShade Offset='0, 5',
+                                    BlurRadius=20,
+                                    Opacity=0.40,
+                                    Color={StaticResource ThemePrimary}}">
+                    <Button
+                      CornerRadius="25"
+                      BorderWidth="0"
+                      Padding="0"
+                      VerticalOptions="Center"
+                      WidthRequest="50"
+                      HeightRequest="50"
+                      HorizontalOptions="End"
+                      BackgroundColor="{StaticResource ThemePrimary}"
+                      FontFamily="FontAwesome"
+                      Text="{x:Static theme:IconFont.Heart}"
+                      TextColor="White"
+                      FontSize="16" />
+                  </sh:Shadows>
+                  <sh:Shadows
+                    CornerRadius="25"
+                    Shades="{sh:SingleShade Offset='0, 5',
+                                    BlurRadius=20,
+                                    Opacity=0.40,
+                                    Color={StaticResource ThemeSecondary}}">
+                    <Button
+                      CornerRadius="25"
+                      Padding="0"
+                      BorderWidth="0"
+                      VerticalOptions="Center"
+                      WidthRequest="50"
+                      HeightRequest="50"
+                      HorizontalOptions="End"
+                      BackgroundColor="{StaticResource ThemeSecondary}"
+                      FontFamily="FontAwesome"
+                      Text="{x:Static theme:IconFont.Plus}"
+                      TextColor="White"
+                      FontSize="16" />
+                  </sh:Shadows>
+                </StackLayout>
+              </Grid>
+              <Image
+                Source="shutterstock_553119223.png"
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                Aspect="AspectFit"
+                Grid.Row="0"
+                Grid.RowSpan="3">
+                <Image.Clip>
+                  <RectangleGeometry
+                    Rect="0,0,300,120" />
+                </Image.Clip>
+              </Image>
 
-                    </Grid>
+            </Grid>
+
+            <Grid
+              RowDefinitions="50,80,142"
+              ColumnDefinitions="284"
+              RowSpacing="0"
+              VerticalOptions="Start"
+              IsClippedToBounds="False">
+              <sh:Shadows
+                Grid.Row="1"
+                Grid.RowSpan="2"
+                IsClippedToBounds="False"
+                CornerRadius="24"
+                Margin="0,20,0,0"
+                Shades="{sh:SingleShade Offset='0, 30',
+                                    BlurRadius=60,
+                                    Opacity=0.20,
+                                    Color='#8A959E'}">
+                <BoxView
+                  CornerRadius="24"
+                  Grid.Row="1"
+                  Grid.RowSpan="2"
+                  BackgroundColor="White" />
+              </sh:Shadows>
+              <Grid
+                Grid.Row="2"
+                VerticalOptions="Start"
+                Margin="24,0"
+                RowDefinitions="24,24,*"
+                ColumnDefinitions="*,*,*">
+                <Label
+                  Grid.ColumnSpan="3"
+                  Text="Lausanne chair"
+                  FontFamily="Product"
+                  FontAttributes="Bold"
+                  FontSize="20" />
+                <Label
+                  Grid.ColumnSpan="2"
+                  Grid.Row="1"
+                  Text="BoConcept"
+                  TextColor="{StaticResource TextSecondaryColor_Light}"
+                  FontFamily="Product"
+                  FontSize="18" />
+                <Label
+                  Grid.Column="2"
+                  Grid.ColumnSpan="2"
+                  FontFamily="Product"
+                  FontSize="18"
+                  HorizontalOptions="End">
+                  <Label.FormattedText>
+                    <FormattedString>
+                      <Span
+                        FontFamily="FontAwesome"
+                        Text="{x:Static theme:IconFont.Star}"
+                        TextColor="{StaticResource ThemeTertiary}" />
+                      <Span
+                        Text="(3.5)"
+                        TextColor="{StaticResource NeutralLight}" />
+                    </FormattedString>
+                  </Label.FormattedText>
+                </Label>
+
+                <Label
+                  Grid.ColumnSpan="2"
+                  Grid.Row="2"
+                  VerticalOptions="Center"
+                  Text="$200"
+                  FontFamily="Product"
+                  FontSize="20" />
+
+                <StackLayout
+                  Orientation="Horizontal"
+                  Grid.Row="2"
+                  Grid.Column="2"
+                  Grid.ColumnSpan="2">
+                  <sh:Shadows
+                    CornerRadius="25"
+                    Shades="{sh:SingleShade Offset='0, 5',
+                                    BlurRadius=20,
+                                    Opacity=0.40,
+                                    Color={StaticResource ThemePrimary}}">
+                    <Button
+                      CornerRadius="25"
+                      BorderWidth="0"
+                      Padding="0"
+                      VerticalOptions="Center"
+                      WidthRequest="50"
+                      HeightRequest="50"
+                      HorizontalOptions="End"
+                      BackgroundColor="{StaticResource ThemePrimary}"
+                      FontFamily="FontAwesome"
+                      Text="{x:Static theme:IconFont.Heart}"
+                      TextColor="White"
+                      FontSize="16" />
+                  </sh:Shadows>
+                  <sh:Shadows
+                    CornerRadius="25"
+                    Shades="{sh:SingleShade Offset='0, 5',
+                                    BlurRadius=20,
+                                    Opacity=0.40,
+                                    Color={StaticResource ThemeSecondary}}">
+                    <Button
+                      CornerRadius="25"
+                      Padding="0"
+                      BorderWidth="0"
+                      VerticalOptions="Center"
+                      WidthRequest="50"
+                      HeightRequest="50"
+                      HorizontalOptions="End"
+                      BackgroundColor="{StaticResource ThemeSecondary}"
+                      FontFamily="FontAwesome"
+                      Text="{x:Static theme:IconFont.Plus}"
+                      TextColor="White"
+                      FontSize="16" />
+                  </sh:Shadows>
+                </StackLayout>
+              </Grid>
+              <Image
+                Source="shutterstock_208551202.png"
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                Aspect="AspectFit"
+                Grid.Row="0"
+                Grid.RowSpan="3">
+                <Image.Clip>
+                  <RectangleGeometry
+                    Rect="0,0,300,120" />
+                </Image.Clip>
+              </Image>
+
+            </Grid>
 
 
+          </StackLayout>
+
+
+        </ScrollView>
+
+
+
+        <!-- Popular Cards -->
+        <Label
+          Text="POPULAR"
+          FontFamily="Product"
+          FontAttributes="Bold"
+          FontSize="20"
+          Grid.Row="2" />
+
+        <ScrollView
+          Orientation="Horizontal"
+          IsClippedToBounds="False"
+          Margin="-15,0,-15,0"
+          HorizontalScrollBarVisibility="Never"
+          Grid.Row="3">
+
+          <StackLayout
+            Orientation="Horizontal"
+            Padding="15,0,0,0"
+            Spacing="20"
+            IsClippedToBounds="False">
+
+
+            <sh:Shadows
+              Grid.Row="1"
+              Grid.RowSpan="2"
+              IsClippedToBounds="False"
+              CornerRadius="24"
+              Margin="0,20,0,0"
+              Shades="{sh:SingleShade Offset='0, 30',
+                                    BlurRadius=60,
+                                    Opacity=0.20,
+                                    Color='#8A959E'}">
+              <Grid
+                RowDefinitions="140"
+                ColumnDefinitions="110,180">
+                <BoxView
+                  Grid.ColumnSpan="2"
+                  CornerRadius="24"
+                  BackgroundColor="White" />
+
+                <StackLayout
+                  Orientation="Vertical"
+                  VerticalOptions="Center"
+                  Grid.Column="1">
+                  <Label
+                    Text="Lausanne chair"
+                    FontFamily="Product"
+                    FontAttributes="Bold"
+                    FontSize="20" />
+                  <Label
+                    Text="BoConcept"
+                    TextColor="{StaticResource TextSecondaryColor_Light}"
+                    FontFamily="Product"
+                    FontSize="18" />
+                  <Label
+                    VerticalOptions="Center"
+                    Text="$200"
+                    FontFamily="Product"
+                    FontSize="20" />
 
                 </StackLayout>
+                <Image
+                  Source="shutterstock_553119223.png"
+                  VerticalOptions="Center"
+                  HorizontalOptions="Center"
+                  Margin="15"
+                  Aspect="AspectFit"
+                  Grid.Column="0"
+                  Grid.RowSpan="3" />
 
-
-            </ScrollView>
-
-
-
-            <!-- Popular Cards -->
-        </Grid>
-    </ContentView.Content>
+              </Grid>
+            </sh:Shadows>
+          </StackLayout>
+        </ScrollView>
+      </Grid>
+    </ScrollView>
+  </ContentView.Content>
 </ContentView>
