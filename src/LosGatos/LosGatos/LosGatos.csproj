@@ -35,7 +35,7 @@
   <ItemGroup>
     <PackageReference Include="Resizetizer.NT" Version="0.2.0" />
     <PackageReference Include="Sharpnado.Shadows" Version="1.2.0" />
-    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0-preview1092" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.0.0-preview1093" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.1558-pre3" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre3" />
     <PackageReference Include="Xamarin.Plugin.SharedTransitions" Version="2.4.0" />
