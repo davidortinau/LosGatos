@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+  xmlns ="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:viewModels="clr-namespace:LosGatos.ViewModels;assembly=LosGatos"
+  xmlns:theme="clr-namespace:LosGatos.Styles;assembly=LosGatos"
+  Title="Shopping Cart"
+  x:Class="LosGatos.Pages.ShoppingCartPage">
+  
+  <ContentPage.BindingContext>
+    <viewModels:ShoppingCartViewModel/>
+  </ContentPage.BindingContext>
+  
+  <ContentPage.Content>
+    
+    <CollectionView ItemsSource="{Binding Cart}">
+      <CollectionView.EmptyViewTemplate>
+        <DataTemplate>
+          <StackLayout BackgroundColor="Blue">
+            <Label Text="You Empty"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   FontSize="44"/>
+          </StackLayout>
+        </DataTemplate>
+      </CollectionView.EmptyViewTemplate>
+      <CollectionView.ItemTemplate>
+        <DataTemplate>
+          <SwipeView>
+            <SwipeView.LeftItems>
+              <SwipeItem Text="Save" 
+                         x:Name="SaveBtn"
+                         Clicked="SaveBtn_OnClicked"
+                         BackgroundColor="{StaticResource ThemeTertiary}"/>
+            </SwipeView.LeftItems>
+            <SwipeView.RightItems>
+              <SwipeItem Text="Remove"
+                         x:Name="RemoveBtn"
+                         Clicked="RemoveBtn_OnClicked"
+                         BackgroundColor="{StaticResource ThemeSecondary}"/>
+            </SwipeView.RightItems>
+            
+            <Grid
+              Margin="35,8"
+              RowDefinitions="140"
+              ColumnDefinitions="110,*,200">
+              <BoxView
+                Grid.ColumnSpan="3"
+                CornerRadius="24"
+                BackgroundColor="White" />
+              <StackLayout
+                Orientation="Vertical"
+                VerticalOptions="Center"
+                Grid.Column="2">
+                <Label
+                  Text="Lausanne chair"
+                  FontAttributes="Bold"
+                  FontSize="20" />
+                <StackLayout Orientation="Horizontal" Spacing="0">
+                  <Button
+                    FontFamily="FontAwesome"
+                    Text="{x:Static theme:IconFont.Minus}"
+                    FontSize="14"
+                    VerticalOptions="Center"
+                    BorderWidth="0"
+                    />
+                  <Entry Text="1"
+                         FontSize="14"
+                         HorizontalTextAlignment="Center"
+                         VerticalOptions="Center"/>
+                  <Button
+                    FontFamily="FontAwesome"
+                    Text="{x:Static theme:IconFont.Plus}"
+                    FontSize="14"
+                    BorderWidth="0"
+                    VerticalOptions="Center"
+                  />
+                  <Label Text="$29.95"
+                         FontSize="18"
+                         HorizontalOptions="End"
+                         VerticalOptions="Center"/>
+                </StackLayout>
+              </StackLayout>
+              <Image
+                Source="shutterstock_186919337.png"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Margin="15"
+                Aspect="AspectFit"
+                Grid.Column="0" />
+            </Grid>
+            
+          </SwipeView>
+        </DataTemplate>
+      </CollectionView.ItemTemplate>
+      <CollectionView.FooterTemplate>
+        <DataTemplate>
+          <Grid Padding="35">
+            
+            <Button Text="Checkout" VerticalOptions="Center" HorizontalOptions="Center"/>
+            
+          </Grid>
+        </DataTemplate>
+      </CollectionView.FooterTemplate>
+    </CollectionView>
+  </ContentPage.Content>
+</ContentPage>

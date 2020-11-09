@@ -17,7 +17,8 @@
               RowSpacing="0"
               VerticalOptions="Start"
               IsClippedToBounds="False">
-              <sh:Shadows
+        
+        <sh:Shadows
                 Grid.Row="1"
                 Grid.RowSpan="2"
                 IsClippedToBounds="False"
@@ -105,6 +106,7 @@
                                         Opacity=0.40,
                                         Color={StaticResource ThemeSecondary}}">
                     <Button
+                      x:Name="AddToCardBtn"
                       CornerRadius="25"
                       Padding="0"
                       BorderWidth="0"
@@ -116,7 +118,9 @@
                       FontFamily="FontAwesome"
                       Text="{x:Static theme:IconFont.Plus}"
                       TextColor="White"
-                      FontSize="16" />
+                      FontSize="16" 
+                      Clicked="AddToCardBtn_Clicked"
+                      />
                   </sh:Shadows>
                 </StackLayout>
               </Grid>
@@ -124,7 +128,8 @@
                 Source="{Binding ProductImage}"
                 VerticalOptions="Start"
                 HorizontalOptions="Center"
-                WidthRequest="300"
+                WidthRequest="300" 
+                InputTransparent="True"
                 Aspect="AspectFit"
                 Grid.Row="0"
                 Grid.RowSpan="3">
@@ -143,6 +148,7 @@
         Margin="15"
         RowDefinitions="184,340,44,240"
         IsClippedToBounds="False">
+
         <!-- CATEGORY CARDS -->
         <ScrollView
           Grid.Row="0"

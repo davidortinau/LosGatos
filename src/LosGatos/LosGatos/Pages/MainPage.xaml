@@ -120,7 +120,7 @@
         HorizontalOptions="Center"
         BackgroundColor="Transparent"
         Source="{FontImage FontFamily=FontAwesome, 
-                Glyph={x:Static theme:IconFont.Bars},
+                Glyph={x:Static theme:IconFont.Cat},
                 Color=Black,Size=18}" />
       <Label
         Text="Los Gatos"
@@ -135,8 +135,10 @@
         HorizontalOptions="Center"
         BackgroundColor="Transparent"
         Source="{FontImage FontFamily=FontAwesome, 
-                Glyph={x:Static theme:IconFont.ShoppingBag},
-                Color=Black,Size=18}" />
+                Glyph={x:Static theme:IconFont.Lightbulb},
+                Color=Black,Size=18}"
+        Clicked="ImageButton_Clicked"
+        />
       <ImageButton
         Grid.Column="2"
         VerticalOptions="Center"
@@ -191,6 +193,7 @@
       </toolkit:TabViewItem>
       <!-- BASKET TAB -->
       <toolkit:TabViewItem
+        TabTapped="TabViewItem_OnTabTapped"
         ControlTemplate="{StaticResource BasketTabItemTemplate}"
         Style="{StaticResource TabItemStyle}">
         <toolkit:TabViewItem.Icon>

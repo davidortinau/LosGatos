@@ -7,6 +7,18 @@ namespace LosGatos.Pages
     public partial class MainPage : ContentPage
     {
         public MainPage() => InitializeComponent();
+
+        void ImageButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            App.Current.UserAppTheme = (App.Current.UserAppTheme == OSAppTheme.Dark)
+                ? OSAppTheme.Light
+                : OSAppTheme.Dark;
+        }
+
+        private async void TabViewItem_OnTabTapped(object sender, TabTappedEventArgs e)
+        {
+            await Navigation.PushAsync(new ShoppingCartPage(), true);
+        }
     }
 
     public class TabViewItemAnimation : ITabViewItemAnimation

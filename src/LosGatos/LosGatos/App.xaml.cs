@@ -10,6 +10,8 @@ namespace LosGatos
 {
     public partial class App : Xamarin.Forms.Application
     {
+        public static AppModel Model { get; set; } = new AppModel();
+
         public App()
         {
             //Device.SetFlags(new string[] { "Brush_Experimental", "Shapes_Experimental" });
