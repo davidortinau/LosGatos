@@ -42,20 +42,17 @@
                 <Label
                   Grid.ColumnSpan="3"
                   Text="{Binding Name}"
-                  FontFamily="Product"
-                  FontAttributes="Bold"
+                  FontFamily="DMSansBold"
                   FontSize="20" />
                 <Label
                   Grid.ColumnSpan="2"
                   Grid.Row="1"
                   Text="{Binding Description}"
                   TextColor="{StaticResource TextSecondaryColor_Light}"
-                  FontFamily="Product"
                   FontSize="18" />
                 <Label
                   Grid.Column="2"
                   Grid.ColumnSpan="2"
-                  FontFamily="Product"
                   FontSize="18"
                   HorizontalOptions="End">
                   <Label.FormattedText>
@@ -65,8 +62,8 @@
                         Text="{x:Static theme:IconFont.Star}"
                         TextColor="{StaticResource ThemeTertiary}" />
                       <Span
-                        Text="{Binding Stars}"
-                        TextColor="{StaticResource NeutralLight}" />
+                        Text="{Binding Stars, StringFormat=' ({0:F2})'}"
+                        TextColor="{StaticResource NeutralSecondary}" />
                     </FormattedString>
                   </Label.FormattedText>
                 </Label>
@@ -75,7 +72,6 @@
                   Grid.Row="2"
                   VerticalOptions="Center"
                   Text="{Binding Price}"
-                  FontFamily="Product"
                   FontSize="20" />
                 <StackLayout
                   Orientation="Horizontal"
@@ -204,7 +200,6 @@
         <Label
           Margin="0,-20,0,0"
           Text="POPULAR"
-          FontFamily="Product"
           FontAttributes="Bold"
           FontSize="20"
           Grid.Row="2" />
@@ -242,18 +237,15 @@
                   Grid.Column="1">
                   <Label
                     Text="Lausanne chair"
-                    FontFamily="Product"
                     FontAttributes="Bold"
                     FontSize="20" />
                   <Label
-                    Text="BoConcept"
+                    Text="Illustration"
                     TextColor="{StaticResource TextSecondaryColor_Light}"
-                    FontFamily="Product"
                     FontSize="18" />
                   <Label
                     VerticalOptions="Center"
                     Text="$200"
-                    FontFamily="Product"
                     FontSize="20" />
                 </StackLayout>
                 <Image
@@ -289,18 +281,15 @@
                   Grid.Column="1">
                   <Label
                     Text="Lausanne chair"
-                    FontFamily="Product"
                     FontAttributes="Bold"
                     FontSize="20" />
                   <Label
-                    Text="BoConcept"
+                    Text="Illustration"
                     TextColor="{StaticResource TextSecondaryColor_Light}"
-                    FontFamily="Product"
                     FontSize="18" />
                   <Label
                     VerticalOptions="Center"
                     Text="$200"
-                    FontFamily="Product"
                     FontSize="20" />
                 </StackLayout>
                 <Image
@@ -336,18 +325,15 @@
                   Grid.Column="1">
                   <Label
                     Text="Lausanne chair"
-                    FontFamily="Product"
                     FontAttributes="Bold"
                     FontSize="20" />
                   <Label
-                    Text="BoConcept"
+                    Text="Illustration"
                     TextColor="{StaticResource TextSecondaryColor_Light}"
-                    FontFamily="Product"
                     FontSize="18" />
                   <Label
                     VerticalOptions="Center"
                     Text="$200"
-                    FontFamily="Product"
                     FontSize="20" />
                 </StackLayout>
                 <Image

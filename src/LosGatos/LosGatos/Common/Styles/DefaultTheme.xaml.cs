@@ -1,9 +1,8 @@
 ﻿using Xamarin.Forms;
 
 [assembly: ExportFont("fa-solid-900.ttf", Alias = "FontAwesome")]
-[assembly: ExportFont("ProductSans-Regular.ttf", Alias = "Product")]
-[assembly: ExportFont("RobotoMono-Regular.ttf", Alias = "Roboto")]
-[assembly: ExportFont("norwester.otf", Alias = "Norwester")]
+[assembly: ExportFont("DMSans-Bold.ttf", Alias = "DMSansBold")]
+[assembly: ExportFont("DMSans-Regular.ttf", Alias = "DMSans")]
 namespace Common.Styles
 {
     public partial class DefaultTheme : ResourceDictionary

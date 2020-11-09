@@ -20,6 +20,7 @@
   </sh:Shadows>
   <Label
     Text="{Binding Title}"
+    TextTransform="Uppercase"
     Grid.Row="1"
     TextColor="#006081"
     HorizontalOptions="Center"

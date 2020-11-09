@@ -137,7 +137,7 @@
             Value="{AppThemeBinding Dark={StaticResource TextPrimaryColor_Dark}, Light={StaticResource TextPrimaryColor_Light}}" />
         <Setter
             Property="FontFamily"
-            Value="Roboto"/>
+            Value="DSans"/>
         <Setter
             Property="HeightRequest"
             Value="44" />
@@ -191,7 +191,7 @@
     <Style TargetType="Label">
         <Setter Property="TextColor" Value="{AppThemeBinding Dark={StaticResource TextPrimaryColor_Dark}, Light={StaticResource TextPrimaryColor_Light}}"/>
         <Setter Property="FontSize" Value="{StaticResource TextSizeBody}" />
-        <Setter Property="FontFamily" Value="Product"/>
+        <Setter Property="FontFamily" Value="DMSans"/>
     </Style>
 
     <Style x:Key="BaseLabel" TargetType="Label">
@@ -200,7 +200,7 @@
 
     <Style x:Key="TextHeadline" TargetType="Label" BasedOn="{StaticResource BaseLabel}">
         <Setter Property="FontSize" Value="{StaticResource TextSizeHeadline}" />
-        <Setter Property="FontFamily" Value="Roboto"/>
+        <Setter Property="FontFamily" Value="DMSans"/>
     </Style>
 
     <Style x:Key="TextTitle" TargetType="Label" BasedOn="{StaticResource BaseLabel}">

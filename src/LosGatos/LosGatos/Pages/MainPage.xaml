@@ -117,6 +117,7 @@
                 Text="Los Gatos"
                 TextTransform="Uppercase"
                 HorizontalOptions="Center"
+                FontFamily="DMSansBold"
                 Grid.ColumnSpan="4"
                 VerticalOptions="Center"/>
             <ImageButton
