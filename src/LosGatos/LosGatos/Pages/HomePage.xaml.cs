@@ -14,6 +14,10 @@ namespace LosGatos.Pages
             InitializeComponent();
         }
 
+        public async void TapGestureRecognizer_Tapped(object s, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ProductDetailPage(), false);
+        }
 
 
         public List<Gatos> Gatos { get; set; } = new List<Gatos>()

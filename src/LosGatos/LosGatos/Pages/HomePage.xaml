@@ -141,7 +141,7 @@
     <ScrollView>
       <Grid
         Margin="15"
-        RowDefinitions="184,340,44,140,*,*"
+        RowDefinitions="184,340,44,240"
         IsClippedToBounds="False">
         <!-- CATEGORY CARDS -->
         <ScrollView
@@ -214,6 +214,54 @@
             Padding="15,0,0,0"
             Spacing="20"
             IsClippedToBounds="False">
+
+            <sh:Shadows
+              Grid.Row="1"
+              Grid.RowSpan="2"
+              IsClippedToBounds="False"
+              CornerRadius="24"
+              Margin="0,20,0,0"
+              Shades="{sh:SingleShade Offset='0, 30',
+                            BlurRadius=60,
+                            Opacity=0.20,
+                            Color='#8A959E'}">
+              <Grid
+                RowDefinitions="140"
+                ColumnDefinitions="110,180">
+                <Grid.GestureRecognizers>
+                  <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Grid.GestureRecognizers>
+                <BoxView
+                  Grid.ColumnSpan="2"
+                  CornerRadius="24"
+                  BackgroundColor="White" />
+                <StackLayout
+                  Orientation="Vertical"
+                  VerticalOptions="Center"
+                  Grid.Column="1">
+                  <Label
+                    Text="Lausanne chair"
+                    FontAttributes="Bold"
+                    FontSize="20" />
+                  <Label
+                    Text="Illustration"
+                    TextColor="{StaticResource TextSecondaryColor_Light}"
+                    FontSize="18" />
+                  <Label
+                    VerticalOptions="Center"
+                    Text="$200"
+                    FontSize="20" />
+                </StackLayout>
+                <Image
+                  Source="shutterstock_183490631.png"
+                  VerticalOptions="Center"
+                  HorizontalOptions="Center"
+                  Margin="15"
+                  Aspect="AspectFit"
+                  Grid.Column="0" />
+              </Grid>
+            </sh:Shadows>
+
             <sh:Shadows
               Grid.Row="1"
               Grid.RowSpan="2"
@@ -302,49 +350,7 @@
               </Grid>
             </sh:Shadows>
 
-            <sh:Shadows
-              Grid.Row="1"
-              Grid.RowSpan="2"
-              IsClippedToBounds="False"
-              CornerRadius="24"
-              Margin="0,20,0,0"
-              Shades="{sh:SingleShade Offset='0, 30',
-                            BlurRadius=60,
-                            Opacity=0.20,
-                            Color='#8A959E'}">
-              <Grid
-                RowDefinitions="140"
-                ColumnDefinitions="110,180">
-                <BoxView
-                  Grid.ColumnSpan="2"
-                  CornerRadius="24"
-                  BackgroundColor="White" />
-                <StackLayout
-                  Orientation="Vertical"
-                  VerticalOptions="Center"
-                  Grid.Column="1">
-                  <Label
-                    Text="Lausanne chair"
-                    FontAttributes="Bold"
-                    FontSize="20" />
-                  <Label
-                    Text="Illustration"
-                    TextColor="{StaticResource TextSecondaryColor_Light}"
-                    FontSize="18" />
-                  <Label
-                    VerticalOptions="Center"
-                    Text="$200"
-                    FontSize="20" />
-                </StackLayout>
-                <Image
-                  Source="shutterstock_183490631.png"
-                  VerticalOptions="Center"
-                  HorizontalOptions="Center"
-                  Margin="15"
-                  Aspect="AspectFit"
-                  Grid.Column="0" />
-              </Grid>
-            </sh:Shadows>
+            
           </StackLayout>
         </ScrollView>
       </Grid>

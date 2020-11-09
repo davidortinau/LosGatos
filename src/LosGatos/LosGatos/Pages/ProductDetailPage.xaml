@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:theme="clr-namespace:LosGatos.Styles"
+  BackgroundColor="{StaticResource BackgroundColorLight}"
+  x:Class="LosGatos.Pages.ProductDetailPage">
+
+
+  <ContentPage.Content>
+
+    <Grid
+      Margin="0,44,0,0"
+      ColumnDefinitions="*,*"
+      RowDefinitions="*,*">
+
+      <BoxView
+        BackgroundColor="White"
+        Grid.Row="1"
+        Grid.Column="0"
+        Grid.ColumnSpan="2" />
+
+      <Image
+        Source="shutterstock_183490631.png"
+        VerticalOptions="Start"
+        HorizontalOptions="End"
+        WidthRequest="220"
+        Margin="15"
+        Aspect="AspectFit"
+        Grid.Column="0"
+        Grid.ColumnSpan="2"
+        Grid.Row="0"
+        Grid.RowSpan="2" />
+
+      <FlexLayout
+        Grid.Column="0"
+        Grid.Row="0"
+        Direction="Row"
+        Wrap="Wrap"
+        AlignItems="Start"
+        AlignContent="Start"
+        Margin="35,64,0,0">
+        <Label
+          Text="Los Gatos"
+          TextTransform="Uppercase"
+          FlexLayout.Basis="100%"
+          FontSize="12" />
+        <Label
+          Text="Yellow Tabby"
+          FlexLayout.Basis="100%"
+          FontFamily="DMSansBold"
+          FontSize="24" />
+        <Label
+          Text="From"
+          Margin="0,24,0,0"
+          FlexLayout.Basis="100%"
+          FontSize="12" />
+        <Label
+          Text="$29.95"
+          FlexLayout.Basis="100%"
+          FontFamily="DMSansBold"
+          FontSize="24" />
+        <Label
+          Text="Available Colors"
+          Margin="0,24,0,12"
+          FlexLayout.Basis="100%"
+          FontSize="12" />
+        <BoxView
+          BackgroundColor="{StaticResource ThemePrimary}"
+          WidthRequest="24"
+          HeightRequest="24"
+          Margin="0,0,8,0"
+          CornerRadius="6" />
+        <BoxView
+          BackgroundColor="{StaticResource ThemeTertiary}"
+          WidthRequest="24"
+          HeightRequest="24"
+          Margin="0,0,8,0"
+          CornerRadius="6" />
+        <BoxView
+          BackgroundColor="{StaticResource ThemeSecondary}"
+          WidthRequest="24"
+          HeightRequest="24"
+          Margin="0,0,8,0"
+          CornerRadius="6" />
+
+
+
+      </FlexLayout>
+
+      <StackLayout
+        Grid.Row="1"
+        Grid.ColumnSpan="2"
+        Margin="35,0"
+        VerticalOptions="Center">
+        <Label
+          Text="Hakuna Matata"
+          FontFamily="DMSansBold"
+          FontSize="18" />
+        <Label
+          Text="This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."
+          FontSize="14" />
+      </StackLayout>
+
+      <Button
+        Grid.ColumnSpan="2"
+        Grid.Row="1"
+        VerticalOptions="End"
+        Margin="35"
+        Text="Add to Cart" />
+
+      <ImageButton
+        Grid.Row="0"
+        Grid.Column="0"
+        Margin="35,0,0,0"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+        BackgroundColor="Transparent"
+        Source="{FontImage FontFamily=FontAwesome, 
+                Glyph={x:Static theme:IconFont.ArrowLeft},
+                Color=Black,Size=18}"
+        Clicked="ImageButton_Clicked"
+        />
+
+    </Grid>
+
+
+
+  </ContentPage.Content>
+</ContentPage>

@@ -12,7 +12,7 @@ namespace LosGatos
     {
         public App()
         {
-            Device.SetFlags(new string[] { "Brush_Experimental", "Shapes_Experimental" });
+            //Device.SetFlags(new string[] { "Brush_Experimental", "Shapes_Experimental" });
 
             InitializeComponent();
 
@@ -24,6 +24,7 @@ namespace LosGatos
             navigationPage.On<iOS>().SetHideNavigationBarSeparator(true);
 
             MainPage = navigationPage;
+            //MainPage = new ProductDetailPage();
         }
 
         protected override void OnStart()
