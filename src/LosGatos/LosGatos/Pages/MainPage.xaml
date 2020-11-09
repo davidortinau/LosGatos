@@ -101,7 +101,7 @@
         Value="False" />
       <Setter
         Property="TabStripBackgroundColor"
-        Value="#E6F9F9F9" />
+        Value="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light=#E6F9F9F9}" />
       <Setter
         Property="TabStripHeight"
         Value="74" />
@@ -120,9 +120,16 @@
       <ImageButton
         HorizontalOptions="Center"
         BackgroundColor="Transparent"
-        Source="{FontImage FontFamily=FontAwesome, 
-                Glyph={x:Static theme:IconFont.Cat},
-                Color=Black,Size=18}" />
+        Source="{AppThemeBinding
+                  Light={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.Cat},
+                    Color=Black,
+                    Size=18},
+                  Dark={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.Cat},
+                    Color=White,
+                    Size=18}
+                }" />
       <Label
         Text="Los Gatos"
         TextTransform="Uppercase"
@@ -135,19 +142,32 @@
         VerticalOptions="Center"
         HorizontalOptions="Center"
         BackgroundColor="Transparent"
-        Source="{FontImage FontFamily=FontAwesome, 
-                Glyph={x:Static theme:IconFont.Lightbulb},
-                Color=Black,Size=18}"
-        Clicked="ImageButton_Clicked"
-        />
-      <ImageButton
+        Source="{AppThemeBinding
+                  Light={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.Lightbulb},
+                    Color=Black,
+                    Size=18},
+                  Dark={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.Lightbulb},
+                    Color=White,
+                    Size=18}
+                }"
+        Clicked="ImageButton_Clicked" />
+      <!--<ImageButton
         Grid.Column="2"
         VerticalOptions="Center"
         HorizontalOptions="Center"
         BackgroundColor="Transparent"
-        Source="{FontImage FontFamily=FontAwesome, 
-                Glyph={x:Static theme:IconFont.Search},
-                Color=Black,Size=18}" />
+        Source="{AppThemeBinding
+                  Light={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.Search},
+                    Color=Black,
+                    Size=18},
+                  Dark={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.Search},
+                    Color=White,
+                    Size=18}
+                }" />-->
     </Grid>
   </NavigationPage.TitleView>
   <Grid
@@ -164,13 +184,13 @@
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.Home}"
-            Color="{StaticResource TabIconColor}" />
+            Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
         </toolkit:TabViewItem.Icon>
         <toolkit:TabViewItem.IconSelected>
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.Home}"
-            Color="{StaticResource TabSelectedIconColor}" />
+            Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
         </toolkit:TabViewItem.IconSelected>
         <pages:HomePage />
       </toolkit:TabViewItem>
@@ -182,13 +202,13 @@
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.Heart}"
-            Color="{StaticResource TabIconColor}" />
+            Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
         </toolkit:TabViewItem.Icon>
         <toolkit:TabViewItem.IconSelected>
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.Heart}"
-            Color="{StaticResource TabSelectedIconColor}" />
+            Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
         </toolkit:TabViewItem.IconSelected>
         <pages:FavouritePage />
       </toolkit:TabViewItem>
@@ -201,9 +221,9 @@
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.ShoppingBag}"
-            Color="#FFFFFF" />
+            Color="{AppThemeBinding Dark={StaticResource NeutralLighter}, Light={StaticResource White}}" />
         </toolkit:TabViewItem.Icon>
-        
+
       </toolkit:TabViewItem>
       <!-- SETTINGS TAB -->
       <toolkit:TabViewItem
@@ -213,13 +233,13 @@
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.Cog}"
-            Color="{StaticResource TabIconColor}" />
+            Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
         </toolkit:TabViewItem.Icon>
         <toolkit:TabViewItem.IconSelected>
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.Cog}"
-            Color="{StaticResource TabSelectedIconColor}" />
+            Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
         </toolkit:TabViewItem.IconSelected>
         <pages:SettingsPage />
       </toolkit:TabViewItem>
@@ -231,18 +251,18 @@
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.User}"
-            Color="{StaticResource TabIconColor}" />
+            Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
         </toolkit:TabViewItem.Icon>
         <toolkit:TabViewItem.IconSelected>
           <FontImageSource
             FontFamily="FontAwesome"
             Glyph="{x:Static theme:IconFont.User}"
-            Color="{StaticResource TabSelectedIconColor}" />
+            Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
         </toolkit:TabViewItem.IconSelected>
         <pages:ProfilePage />
       </toolkit:TabViewItem>
     </toolkit:TabView>
-    
+
     <Grid
       x:Name="DropTarget"
       VerticalOptions="End"
@@ -250,17 +270,17 @@
       HeightRequest="120"
       IsVisible="True"
       BackgroundColor="#2E2545"
-      TranslationY="180"
-    >
+      TranslationY="180">
       <Grid.GestureRecognizers>
-        <DropGestureRecognizer AllowDrop="True"
-                               DragOver="DropGestureRecognizer_DragOver"
-                               DragLeave="DropGestureRecognizer_DragLeave"
-                               Drop="DropGestureRecognizer_Drop"/>
+        <DropGestureRecognizer
+          AllowDrop="True"
+          DragOver="DropGestureRecognizer_DragOver"
+          DragLeave="DropGestureRecognizer_DragLeave"
+          Drop="DropGestureRecognizer_Drop" />
       </Grid.GestureRecognizers>
-      
-      
-    
+
+
+
       <Image
         VerticalOptions="Center"
         HorizontalOptions="Center">
@@ -272,8 +292,8 @@
         </Image.Source>
       </Image>
     </Grid>
-    
-    
+
+
   </Grid>
 
 </ContentPage>

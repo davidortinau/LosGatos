@@ -3,7 +3,7 @@
   xmlns="http://xamarin.com/schemas/2014/forms"
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:theme="clr-namespace:LosGatos.Styles"
-  BackgroundColor="{StaticResource BackgroundColorLight}"
+  BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
   x:Class="LosGatos.Pages.ProductDetailPage">
 
 
@@ -15,7 +15,7 @@
       RowDefinitions="*,*">
 
       <BoxView
-        BackgroundColor="White"
+        BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}"
         Grid.Row="1"
         Grid.Column="0"
         Grid.ColumnSpan="2" />
@@ -107,6 +107,8 @@
         Grid.Row="1"
         VerticalOptions="End"
         Margin="35"
+        BackgroundColor="{StaticResource ThemePrimary}"
+        BorderWidth="0"
         Text="Add to Cart" />
 
       <ImageButton
@@ -116,9 +118,16 @@
         HorizontalOptions="Start"
         VerticalOptions="Start"
         BackgroundColor="Transparent"
-        Source="{FontImage FontFamily=FontAwesome, 
-                Glyph={x:Static theme:IconFont.ArrowLeft},
-                Color=Black,Size=18}"
+        Source="{AppThemeBinding
+                  Light={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.ArrowLeft},
+                    Color=Black,
+                    Size=18},
+                  Dark={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.ArrowLeft},
+                    Color=White,
+                    Size=18}
+                }"
         Clicked="ImageButton_Clicked"
         />
 

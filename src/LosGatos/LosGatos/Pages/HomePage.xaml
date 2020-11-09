@@ -8,6 +8,7 @@
   xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
   xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
   IsClippedToBounds="False"
+  BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
   x:Class="LosGatos.Pages.HomePage">
   <ContentView.Resources>
     <DataTemplate x:Key="FeaturedProduct" x:DataType="models:Gatos">
@@ -32,7 +33,7 @@
                   CornerRadius="24"
                   Grid.Row="1"
                   Grid.RowSpan="2"
-                  BackgroundColor="White" />
+                  BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
               </sh:Shadows>
               <Grid
                 Grid.Row="2"
@@ -244,7 +245,7 @@
                 <BoxView
                   Grid.ColumnSpan="2"
                   CornerRadius="24"
-                  BackgroundColor="White" />
+                  BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
                 <StackLayout
                   Orientation="Vertical"
                   VerticalOptions="Center"
@@ -286,7 +287,7 @@
                 <BoxView
                   Grid.ColumnSpan="2"
                   CornerRadius="24"
-                  BackgroundColor="White" />
+                  BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
                 <StackLayout
                   Orientation="Vertical"
                   VerticalOptions="Center"
@@ -328,7 +329,7 @@
                 <BoxView
                   Grid.ColumnSpan="2"
                   CornerRadius="24"
-                  BackgroundColor="White" />
+                  BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
                 <StackLayout
                   Orientation="Vertical"
                   VerticalOptions="Center"

@@ -184,7 +184,8 @@
 
     <!-- ContentPage -->
     <Style TargetType="Page" ApplyToDerivedTypes="True">
-        <Setter Property="BackgroundColor" Value="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"/>
+        <Setter Property="BackgroundColor"
+                Value="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"/>
     </Style>
 
     <!-- Text / Label -->

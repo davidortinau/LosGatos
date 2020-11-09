@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using LosGatos.Common;
 using LosGatos.Models;
 using LosGatos.ViewModels.Messages;
 using Sharpnado.Shades;

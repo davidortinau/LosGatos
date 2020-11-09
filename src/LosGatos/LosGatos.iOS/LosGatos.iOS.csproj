@@ -74,45 +74,15 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
-      <Visible>false</Visible>
-    </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
-      <Visible>false</Visible>
-    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_40pt-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_20pt%403x-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_29pt%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_29pt%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_40pt%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_60pt%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_60pt%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icon_60pt%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -144,5 +114,10 @@
       <Project>{91F56D2B-9335-4C0E-B45C-24DAADF6C1C8}</Project>
       <Name>LosGatos</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\splash.png" />
+    <BundleResource Include="Resources\splash@2x.png" />
+    <BundleResource Include="Resources\splash@3x.png" />
   </ItemGroup>
 </Project>
