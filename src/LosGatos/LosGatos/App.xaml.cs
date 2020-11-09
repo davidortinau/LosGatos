@@ -1,4 +1,6 @@
-﻿using LosGatos.Pages;
+﻿using System.Collections.Generic;
+using LosGatos.Models;
+using LosGatos.Pages;
 using Plugin.SharedTransitions;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
@@ -35,5 +37,7 @@ namespace LosGatos
         protected override void OnResume()
         {
         }
+
+        
     }
 }

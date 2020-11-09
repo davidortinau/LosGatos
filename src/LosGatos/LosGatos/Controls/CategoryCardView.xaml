@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Grid
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  x:Class="LosGatos.Controls.CategoryCardView"
+  xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+  RowDefinitions="30,100,20"
+  ColumnDefinitions="133"
+  IsClippedToBounds="False">
+  <sh:Shadows
+    Grid.Row="1"
+    CornerRadius="24"
+    Shades="{sh:SingleShade Offset='0, 0',
+                                    BlurRadius=60,
+                                    Opacity=0.2,
+                                    Color=#8A959E}">
+    <BoxView
+      CornerRadius="24"
+      Background="{Binding BackgroundGradient}" />
+  </sh:Shadows>
+  <Label
+    Text="{Binding Title}"
+    Grid.Row="1"
+    TextColor="#006081"
+    HorizontalOptions="Center"
+    VerticalOptions="End"
+    Margin="0,0,0,10"
+    FontSize="18" />
+  
+    <Image
+      Source="{Binding ProductImage}"
+      VerticalOptions="Start"
+      HorizontalOptions="Center"
+      WidthRequest="75"
+      Aspect="AspectFit"
+      Grid.Row="0"
+      Grid.RowSpan="2" />
+</Grid>

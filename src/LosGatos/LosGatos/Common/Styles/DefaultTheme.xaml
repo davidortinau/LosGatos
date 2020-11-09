@@ -46,7 +46,43 @@
     <Color x:Key="NavBarTitleColor">#FFFFFF</Color>
 
     <Color x:Key="TitleColor">#FFFFFF</Color>
-    
+
+  <!-- BRUSHES -->
+  <Color
+      x:Key="DarkBlue">#FDEE3D</Color>
+
+    <Color
+      x:Key="LightBlue">#FFFFFF</Color>
+
+    <Color
+      x:Key="DarkGreen">#76B3AF</Color>
+
+    <Color
+      x:Key="LightGreen">#FFFFFF</Color>
+
+    <LinearGradientBrush
+      x:Key="BlueGradient"
+      StartPoint="0,1"
+      EndPoint="1,0">
+      <GradientStop
+        Color="{StaticResource LightBlue}"
+        Offset="1.0" />
+      <GradientStop
+        Color="{StaticResource DarkBlue}"
+        Offset="0.1" />
+    </LinearGradientBrush>
+
+    <LinearGradientBrush
+      x:Key="GreenGradient"
+      StartPoint="0,1"
+      EndPoint="1,0">
+      <GradientStop
+        Color="{StaticResource LightGreen}"
+        Offset="1.0" />
+      <GradientStop
+        Color="{StaticResource DarkGreen}"
+        Offset="0.1" />
+    </LinearGradientBrush>
     
 
     <!-- Sizes -->
