@@ -1,4 +1,10 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using LosGatos.Common;
+using LosGatos.Models;
+using LosGatos.ViewModels.Messages;
+using Sharpnado.Shades;
+using TinyMessenger;
 using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Forms;
 
@@ -6,7 +12,25 @@ namespace LosGatos.Pages
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage() => InitializeComponent();
+        public MainPage()
+        {
+            InitializeComponent();
+            
+            DependencyService.Get<TinyMessengerHub>().Subscribe<DragStartedMessage>(OnDragStarted);
+            DependencyService.Get<TinyMessengerHub>().Subscribe<DragEndedMessage>(OnDragEnded);
+        }
+
+        private void OnDragEnded(DragEndedMessage obj)
+        {
+            // hide the drop target, show the button
+            DropTarget.TranslateTo(0, 180);
+        }
+
+        private void OnDragStarted(DragStartedMessage obj)
+        { 
+            // hide the button, show the drop target
+            DropTarget.TranslateTo(0, 30);
+        }
 
         void ImageButton_Clicked(System.Object sender, System.EventArgs e)
         {
@@ -18,6 +42,32 @@ namespace LosGatos.Pages
         private async void TabViewItem_OnTabTapped(object sender, TabTappedEventArgs e)
         {
             await Navigation.PushAsync(new ShoppingCartPage(), true);
+        }
+        
+        void DropGestureRecognizer_DragOver(System.Object sender, Xamarin.Forms.DragEventArgs e)
+        {
+            // Grid sl = ((Grid)(sender as DropGestureRecognizer).Parent);
+        }
+
+        void DropGestureRecognizer_DragLeave(System.Object sender, Xamarin.Forms.DragEventArgs e)
+        {
+            // Grid sl = ((Grid)(sender as DropGestureRecognizer).Parent);
+        }
+
+        void DropGestureRecognizer_Drop(System.Object sender, Xamarin.Forms.DropEventArgs e)
+        {
+            // add to cart
+            App.Model.AddToCartByName((string)e.Data.Properties["Cat"]);
+
+            // StackLayout sl = ((StackLayout)(sender as DropGestureRecognizer).Parent);
+            // sl.BackgroundColor = Color.LightGray;
+            //
+            // // add new box to the stack
+            // var btn = new Button();
+            // btn.BackgroundColor = (Color)e.Data.Properties["Color"];
+            // sl.Children.Add(btn);
+            //
+            // btn.Clicked += ButtonRemove_Clicked;
         }
     }
 

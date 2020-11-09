@@ -129,7 +129,7 @@
                 VerticalOptions="Start"
                 HorizontalOptions="Center"
                 WidthRequest="300" 
-                InputTransparent="True"
+                InputTransparent="False"
                 Aspect="AspectFit"
                 Grid.Row="0"
                 Grid.RowSpan="3">
@@ -138,6 +138,12 @@
                     Rect="0,0,300,120" />
                 </Image.Clip>
               </Image>
+            <Grid.GestureRecognizers>
+              <DragGestureRecognizer 
+                DragStarting="DragGestureRecognizer_OnDragStarting"
+                DropCompleted="DragGestureRecognizer_OnDropCompleted"
+                CanDrag="True"/>
+            </Grid.GestureRecognizers>
             </Grid>
     </DataTemplate>
   </ContentView.Resources>
@@ -222,8 +228,6 @@
             IsClippedToBounds="False">
 
             <sh:Shadows
-              Grid.Row="1"
-              Grid.RowSpan="2"
               IsClippedToBounds="False"
               CornerRadius="24"
               Margin="0,20,0,0"
@@ -269,8 +273,6 @@
             </sh:Shadows>
 
             <sh:Shadows
-              Grid.Row="1"
-              Grid.RowSpan="2"
               IsClippedToBounds="False"
               CornerRadius="24"
               Margin="0,20,0,0"
@@ -313,8 +315,6 @@
             </sh:Shadows>
 
             <sh:Shadows
-              Grid.Row="1"
-              Grid.RowSpan="2"
               IsClippedToBounds="False"
               CornerRadius="24"
               Margin="0,20,0,0"

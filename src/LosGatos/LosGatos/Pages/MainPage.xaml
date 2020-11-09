@@ -44,6 +44,7 @@
             Padding="18"
             HorizontalOptions="Center"
             VerticalOptions="Start"
+            x:Name="BagBtn"
             BackgroundColor="#2E2545"
             HeightRequest="72"
             WidthRequest="72">
@@ -202,6 +203,7 @@
             Glyph="{x:Static theme:IconFont.ShoppingBag}"
             Color="#FFFFFF" />
         </toolkit:TabViewItem.Icon>
+        
       </toolkit:TabViewItem>
       <!-- SETTINGS TAB -->
       <toolkit:TabViewItem
@@ -240,6 +242,38 @@
         <pages:ProfilePage />
       </toolkit:TabViewItem>
     </toolkit:TabView>
+    
+    <Grid
+      x:Name="DropTarget"
+      VerticalOptions="End"
+      Margin="0,0,0,30"
+      HeightRequest="120"
+      IsVisible="True"
+      BackgroundColor="#2E2545"
+      TranslationY="180"
+    >
+      <Grid.GestureRecognizers>
+        <DropGestureRecognizer AllowDrop="True"
+                               DragOver="DropGestureRecognizer_DragOver"
+                               DragLeave="DropGestureRecognizer_DragLeave"
+                               Drop="DropGestureRecognizer_Drop"/>
+      </Grid.GestureRecognizers>
+      
+      
+    
+      <Image
+        VerticalOptions="Center"
+        HorizontalOptions="Center">
+        <Image.Source>
+          <FontImageSource
+            FontFamily="FontAwesome"
+            Glyph="{x:Static theme:IconFont.ShoppingBag}"
+            Color="#ffffff" />
+        </Image.Source>
+      </Image>
+    </Grid>
+    
+    
   </Grid>
 
 </ContentPage>

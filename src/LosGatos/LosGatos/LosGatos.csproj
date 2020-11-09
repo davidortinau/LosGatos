@@ -40,6 +40,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre3" />
     <PackageReference Include="Xamarin.Plugin.SharedTransitions" Version="2.4.0" />
     <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
+    <PackageReference Include="TinyMessengerStandard" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +55,9 @@
   <ItemGroup>
     <Folder Include="Controls\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Common\VisualTreeHelper.cs" />
   </ItemGroup>
   
 </Project>

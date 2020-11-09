@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using LosGatos.Models;
+using LosGatos.ViewModels.Messages;
+using TinyMessenger;
 using Xamarin.Forms;
 
 namespace LosGatos.Pages
@@ -26,5 +29,17 @@ namespace LosGatos.Pages
 
 
         public List<Gatos> Gatos { get; set; } = App.Model.Gatos;
+
+        private void DragGestureRecognizer_OnDragStarting(object sender, DragStartingEventArgs e)
+        {
+            e.Data.Properties.Add("Cat","Second");
+            
+            DependencyService.Get<TinyMessengerHub>().Publish(new DragStartedMessage());
+        }
+
+        private void DragGestureRecognizer_OnDropCompleted(object sender, DropCompletedEventArgs e)
+        {
+            DependencyService.Get<TinyMessengerHub>().Publish(new DragEndedMessage());
+        }
     }
 }

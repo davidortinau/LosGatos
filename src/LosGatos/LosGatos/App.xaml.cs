@@ -2,6 +2,7 @@
 using LosGatos.Models;
 using LosGatos.Pages;
 using Plugin.SharedTransitions;
+using TinyMessenger;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
@@ -17,6 +18,8 @@ namespace LosGatos
             //Device.SetFlags(new string[] { "Brush_Experimental", "Shapes_Experimental" });
 
             InitializeComponent();
+            
+            DependencyService.Register<TinyMessengerHub>();
 
             var navigationPage = new SharedTransitionNavigationPage(new MainPage())
             {

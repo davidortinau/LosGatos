@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using MvvmHelpers;
 
 namespace LosGatos.Models
@@ -52,5 +53,12 @@ namespace LosGatos.Models
         public ObservableCollection<Gatos> Favorites { get; set; } = new ObservableCollection<Gatos>();
 
         public ObservableCollection<Gatos> SaveForLater { get; set; } = new ObservableCollection<Gatos>();
+
+        public void AddToCartByName(string catName)
+        {
+            Cart.Add(
+            Gatos.FirstOrDefault(x => x.Name == catName)
+                );
+        }
     }
 }
