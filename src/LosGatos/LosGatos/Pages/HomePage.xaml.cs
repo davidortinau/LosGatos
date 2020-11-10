@@ -38,7 +38,7 @@ namespace LosGatos.Pages
             {
                 var rand = new Random();
                 var randomList = App.Model.Gatos.OrderBy(x => rand.Next()).ToList();
-                return randomList.Take(3).ToList();
+                return randomList.Take(5).ToList();
             }
         }    
 

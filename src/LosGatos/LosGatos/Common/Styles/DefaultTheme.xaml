@@ -50,16 +50,11 @@
 
     <!-- BRUSHES -->
     <Color
-        x:Key="DarkBlue">#FDEE3D</Color>
+        x:Key="Yellow">#FDEE3D</Color>
+
 
     <Color
-        x:Key="LightBlue">#FFFFFF</Color>
-
-    <Color
-        x:Key="DarkGreen">#76B3AF</Color>
-
-    <Color
-        x:Key="LightGreen">#FFFFFF</Color>
+        x:Key="Teal">#76B3AF</Color>
 
     <SolidColorBrush x:Key="DarkBrush" Color="#605E5D" />
     <SolidColorBrush x:Key="LightBrush" Color="White" />
@@ -68,26 +63,38 @@
     <SolidColorBrush x:Key="ThemeSecondaryBrush" Color="{StaticResource ThemeSecondary}" />
 
     <LinearGradientBrush
-      x:Key="BlueGradient"
+      x:Key="YellowGradient"
       StartPoint="0,1"
       EndPoint="1,0">
         <GradientStop
-        Color="{StaticResource LightBlue}"
+        Color="{StaticResource White}"
         Offset="1.0" />
         <GradientStop
-        Color="{StaticResource DarkBlue}"
+        Color="{StaticResource Yellow}"
         Offset="0.1" />
     </LinearGradientBrush>
 
     <LinearGradientBrush
-      x:Key="GreenGradient"
+      x:Key="BlueGradient"
       StartPoint="0,1"
       EndPoint="1,0">
         <GradientStop
-        Color="{StaticResource LightGreen}"
+        Color="{StaticResource White}"
         Offset="1.0" />
         <GradientStop
-        Color="{StaticResource DarkGreen}"
+        Color="{StaticResource Teal}"
+        Offset="0.1" />
+    </LinearGradientBrush>
+
+  <LinearGradientBrush
+      x:Key="PurpleGradient"
+      StartPoint="0,1"
+      EndPoint="1,0">
+        <GradientStop
+        Color="{StaticResource White}"
+        Offset="1.0" />
+        <GradientStop
+        Color="{StaticResource ThemeSecondary}"
         Offset="0.1" />
     </LinearGradientBrush>
 

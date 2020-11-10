@@ -7,32 +7,34 @@
   RowDefinitions="30,100,20"
   ColumnDefinitions="133"
   IsClippedToBounds="False">
-    <sh:Shadows
-        Grid.Row="1"
-        CornerRadius="24"
-        Shades="{sh:SingleShade Offset='0, 0',
+  <sh:Shadows
+    Grid.Row="1"
+    CornerRadius="24"
+    Shades="{sh:SingleShade Offset='0, 0',
         BlurRadius=60,
         Opacity=0.2,
         Color=#8A959E}">
-        <BoxView
-            CornerRadius="24"
-            Background="{Binding BackgroundGradient}" />
-    </sh:Shadows>
-    <Label
-        Text="{Binding Title}"
-        TextTransform="Uppercase"
-        Grid.Row="1"
-        TextColor="#006081"
-        HorizontalOptions="Center"
-        VerticalOptions="End"
-        Margin="0,0,0,10"
-        FontSize="18" />
-    <Image
-      Source="{Binding ProductImage}"
-      VerticalOptions="Start"
-      HorizontalOptions="Center"
-      WidthRequest="75"
-      Aspect="AspectFit"
-      Grid.Row="0"
-      Grid.RowSpan="2" />
+    <BoxView
+      CornerRadius="24"
+      Background="{Binding BackgroundGradient}" />
+  </sh:Shadows>
+  <Image
+    Source="{Binding ProductImage}"
+    VerticalOptions="Start"
+    HorizontalOptions="Center"
+    WidthRequest="75"
+    Aspect="AspectFit"
+    Grid.Row="0"
+    Grid.RowSpan="2"/>
+
+  <Label
+    Text="{Binding Title}"
+    TextTransform="Uppercase"
+    Grid.Row="1"
+    TextColor="{StaticResource TextPrimaryColor_Light}"
+    HorizontalOptions="Center"
+    VerticalOptions="End"
+    Margin="0,0,0,10"
+    FontSize="16" />
+
 </Grid>

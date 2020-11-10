@@ -225,17 +225,21 @@
                         Padding="15,0"
                         Spacing="20">
                         <controls:CategoryCardView
-                            Title="Business"
+                            Scale="1.2"
+                            TranslationX="10"
+                            TranslationY="20"
+                          Margin="0,0,20,0"
+                            Title="New Arrivals"
                             ProductImage="shutterstock_183490616.png"
+                            BackgroundGradient="{StaticResource YellowGradient}" />
+                        <controls:CategoryCardView
+                            Title="Wild &amp; Hairy"
+                            ProductImage="shutterstock_183490631.png"
                             BackgroundGradient="{StaticResource BlueGradient}" />
                         <controls:CategoryCardView
-                            Title="Casual"
-                            ProductImage="shutterstock_183490631.png"
-                            BackgroundGradient="{StaticResource GreenGradient}" />
-                        <controls:CategoryCardView
-                            Title="Party"
+                            Title="Chillaxed"
                             ProductImage="shutterstock_186919337.png"
-                            BackgroundGradient="{StaticResource GreenGradient}" />
+                            BackgroundGradient="{StaticResource PurpleGradient}" />
                     </StackLayout>
                 </ScrollView>
                 <!-- PRODUCT CARDS -->
