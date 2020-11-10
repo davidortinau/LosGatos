@@ -1,194 +1,200 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
-    xmlns ="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-    xmlns:models="clr-namespace:LosGatos.Models"
-    xmlns:theme="clr-namespace:LosGatos.Styles;assembly=LosGatos"
-    xmlns:viewModels="clr-namespace:LosGatos.ViewModels;assembly=LosGatos"
-    x:Class="LosGatos.Pages.ShoppingCartPage"
-    NavigationPage.HasNavigationBar="False"
-    iOS:Page.UseSafeArea="true">
-    <ContentPage.BindingContext>
-        <viewModels:ShoppingCartViewModel/>
-    </ContentPage.BindingContext>
-    <ContentPage.Content>
-        <Grid>
-            <Grid
-                Margin="12, 48, 12, 0">
-                <CollectionView
-                ItemsSource="{Binding Cart}">
-                <!-- EMPTY SHOPPING CART -->
-                <CollectionView.EmptyView>
-                    <Grid>
-                        <Label
-                            Text="{x:Static theme:IconFont.SadTear}"
-                            FontFamily="FontAwesome"
-                            TextColor="{StaticResource ThemeSecondary}"
-                            VerticalOptions="Center"
-                            HorizontalOptions="Center"
-                            FontSize="84"/>
-                    </Grid>
-                </CollectionView.EmptyView>
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <SwipeView
-                            Threshold="80">
-                            <SwipeView.LeftItems>
-                                <!-- FAVOURITE -->
-                                <SwipeItemView
-                                    x:Name="SaveBtn"
-                                    BackgroundColor="Transparent">
-                                    <Grid
-                                        RowDefinitions="Auto, *"
-                                        WidthRequest="100">
-                                        <Grid.GestureRecognizers>
-                                            <TapGestureRecognizer
-                                                Tapped="OnSaveButtonClicked"/>
-                                        </Grid.GestureRecognizers>
-                                        <BoxView
-                                            CornerRadius="24, 0, 24, 0"
-                                            Color="{StaticResource ThemeTertiary}"
-                                            Grid.RowSpan="2"/>
-                                        <Image
-                                            VerticalOptions="Center"
-                                            HorizontalOptions="Center"
-                                            Margin="0, 36, 0, 0">
-                                            <Image.Source>
-                                                <FontImageSource
-                                                    FontFamily="FontAwesome"
-                                                    Glyph="{x:Static theme:IconFont.Save}"
-                                                    Color="#ffffff" />
-                                            </Image.Source>
-                                        </Image>
-                                        <Label 
-                                            Grid.Row="1"
-                                            Text="Save"
-                                            TextColor="White"
-                                            FontSize="Medium"
-                                            HorizontalOptions="Center"
-                                            VerticalOptions="Center"
-                                            Margin="0, 0, 0, 36"/>
-                                    </Grid>
-                                </SwipeItemView>
-                            </SwipeView.LeftItems>
-                            <SwipeView.RightItems>
-                                <!-- DELETE -->
-                                <SwipeItemView
-                                    x:Name="RemoveBtn"
-                                    BackgroundColor="Transparent">
-                                    <Grid
-                                        RowDefinitions="Auto, *"
-                                        WidthRequest="100">
-                                        <Grid.GestureRecognizers>
-                                            <TapGestureRecognizer
-                                                Tapped="OnRemoveButtonClicked"/>
-                                        </Grid.GestureRecognizers>
-                                        <BoxView
-                                            CornerRadius="0, 24, 0, 24"
-                                            Color="{StaticResource ThemeSecondary}"
-                                            Grid.RowSpan="2"/>
-                                        <Image
-                                            VerticalOptions="Center"
-                                            HorizontalOptions="Center"
-                                            Margin="0, 36, 0, 0">
-                                            <Image.Source>
-                                                <FontImageSource
-                                                    FontFamily="FontAwesome"
-                                                    Glyph="{x:Static theme:IconFont.Edit}"
-                                                    Color="#ffffff" />
-                                            </Image.Source>
-                                        </Image>
-                                        <Label
-                                            Grid.Row="1"
-                                            Text="Delete"
-                                            TextColor="White"
-                                            FontSize="Medium"
-                                            HorizontalOptions="Center"
-                                            VerticalOptions="Center"
-                                            Margin="0, 0, 0, 36"/>
-                                    </Grid>
-                                </SwipeItemView>
-                            </SwipeView.RightItems>
-                            <Grid
-                                x:DataType="models:Gatos"
-                                RowDefinitions="140"
-                                ColumnDefinitions="110,*,200"
-                                Margin="0, 6">
-                                <BoxView
-                                    Grid.ColumnSpan="3"
-                                    CornerRadius="24"
-                                    Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
-                                <StackLayout
-                                    Orientation="Vertical"
-                                    VerticalOptions="Center"
-                                    Grid.Column="2">
-                                    <Label
-                                        Text="{Binding Name}"
-                                        FontAttributes="Bold"
-                                        FontSize="20" />
-                                    <StackLayout
-                                        Orientation="Horizontal"
-                                        Spacing="0">
-                                        <Button
-                                            FontFamily="FontAwesome"
-                                            Text="{x:Static theme:IconFont.Minus}"
-                                            FontSize="14"
-                                            VerticalOptions="Center"
-                                            BackgroundColor="Transparent"
-                                            BorderWidth="0" />
-                                        <Entry
-                                            Text="1"
-                                            FontSize="14"
-                                            HorizontalTextAlignment="Center"
-                                            VerticalOptions="Center"/>
-                                        <Button
-                                            FontFamily="FontAwesome"
-                                            Text="{x:Static theme:IconFont.Plus}"
-                                            FontSize="14"
-                                            BackgroundColor="Transparent"
-                                            BorderWidth="0"
-                                            VerticalOptions="Center" />
-                                        <Label
-                                            Text="{Binding Price}"
-                                            FontSize="18"
-                                            HorizontalOptions="End"
-                                            VerticalOptions="Center"/>
-                                    </StackLayout>
-                                </StackLayout>
-                                <Image
-                                    Source="{Binding ProductImage}"
-                                    VerticalOptions="Center"
-                                    HorizontalOptions="Center"
-                                    Margin="15"
-                                    Aspect="AspectFit"
-                                    Grid.Column="0" />
-                            </Grid>
-                        </SwipeView>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+  xmlns:models="clr-namespace:LosGatos.Models"
+  xmlns:theme="clr-namespace:LosGatos.Styles;assembly=LosGatos"
+  xmlns:viewModels="clr-namespace:LosGatos.ViewModels;assembly=LosGatos"
+  x:Class="LosGatos.Pages.ShoppingCartPage"
+  NavigationPage.HasNavigationBar="False"
+  iOS:Page.UseSafeArea="true">
+  <ContentPage.BindingContext>
+    <viewModels:ShoppingCartViewModel />
+  </ContentPage.BindingContext>
+  <ContentPage.Content>
+    <Grid>
+      <Grid
+        Margin="{OnPlatform Android='12,68,12,0', Default='12,48,12,0'}">
+        <CollectionView
+          ItemsSource="{Binding Cart}">
+          <!-- EMPTY SHOPPING CART -->
+          <CollectionView.EmptyView>
+            <Grid>
+              <Label
+                Text="{x:Static theme:IconFont.SadTear}"
+                FontFamily="FontAwesome"
+                TextColor="{StaticResource ThemeSecondary}"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                FontSize="84" />
             </Grid>
-            <Grid
-                BackgroundColor="{AppThemeBinding
+          </CollectionView.EmptyView>
+          <CollectionView.ItemTemplate>
+            <DataTemplate>
+              <SwipeView
+                HeightRequest="140"
+                Threshold="80">
+                <SwipeView.LeftItems>
+                  <!-- FAVOURITE -->
+                  <SwipeItemView
+                    x:Name="SaveBtn"
+                    BackgroundColor="Transparent">
+                    <Grid
+                      RowDefinitions="Auto, *"
+                      WidthRequest="100">
+                      <Grid.GestureRecognizers>
+                        <TapGestureRecognizer
+                          Tapped="OnSaveButtonClicked" />
+                      </Grid.GestureRecognizers>
+                      <BoxView
+                        CornerRadius="24, 0, 24, 0"
+                        Color="{StaticResource ThemeTertiary}"
+                        Grid.RowSpan="2" />
+                      <Image
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Margin="0, 36, 0, 0">
+                        <Image.Source>
+                          <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.Save}"
+                            Color="#ffffff" />
+                        </Image.Source>
+                      </Image>
+                      <Label
+                        Grid.Row="1"
+                        Text="Save"
+                        TextColor="White"
+                        FontSize="Medium"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Margin="0, 0, 0, 36" />
+                    </Grid>
+                  </SwipeItemView>
+                </SwipeView.LeftItems>
+                <SwipeView.RightItems>
+                  <!-- DELETE -->
+                  <SwipeItemView
+                    x:Name="RemoveBtn"
+                    BackgroundColor="Transparent">
+                    <Grid
+                      RowDefinitions="Auto, *"
+                      WidthRequest="100">
+                      <Grid.GestureRecognizers>
+                        <TapGestureRecognizer
+                          Tapped="OnRemoveButtonClicked" />
+                      </Grid.GestureRecognizers>
+                      <BoxView
+                        CornerRadius="0, 24, 0, 24"
+                        Color="{StaticResource ThemeSecondary}"
+                        Grid.RowSpan="2" />
+                      <Image
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Margin="0, 36, 0, 0">
+                        <Image.Source>
+                          <FontImageSource
+                            FontFamily="FontAwesome"
+                            Glyph="{x:Static theme:IconFont.Trash}"
+                            Color="#ffffff" />
+                        </Image.Source>
+                      </Image>
+                      <Label
+                        Grid.Row="1"
+                        Text="Delete"
+                        TextColor="White"
+                        FontSize="Medium"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Margin="0, 0, 0, 36" />
+                    </Grid>
+                  </SwipeItemView>
+                </SwipeView.RightItems>
+                <Grid
+                  x:DataType="models:Gatos"
+                  RowDefinitions="140"
+                  ColumnDefinitions="110,*,200"
+                  Margin="0, 6">
+                  <BoxView
+                    Grid.ColumnSpan="3"
+                    CornerRadius="24"
+                    Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
+                  <StackLayout
+                    Orientation="Vertical"
+                    VerticalOptions="Center"
+                    Margin="0,0,15,0"
+                    Grid.Column="2">
+                    <Label
+                      Text="{Binding Name}"
+                      FontAttributes="Bold"
+                      FontSize="20" />
+                    <StackLayout
+                      Orientation="Horizontal"
+                      HorizontalOptions="Start"
+                      Spacing="0">
+                      <Button
+                        FontFamily="FontAwesome"
+                        Text="{x:Static theme:IconFont.Minus}"
+                        FontSize="14"
+                        VerticalOptions="Center"
+                        BackgroundColor="Transparent"
+                        WidthRequest="36"
+                        BorderWidth="0" />
+                      <Entry
+                        Text="1"
+                        FontSize="14" 
+                        WidthRequest="40"
+                        HorizontalTextAlignment="Center"
+                        VerticalOptions="Center" />
+                      <Button
+                        FontFamily="FontAwesome"
+                        Text="{x:Static theme:IconFont.Plus}"
+                        FontSize="14"
+                        WidthRequest="36"
+                        BackgroundColor="Transparent"
+                        BorderWidth="0"
+                        VerticalOptions="Center" />
+                      <Label
+                        Text="{Binding Price}"
+                        FontSize="18"
+                        HorizontalOptions="End"
+                        VerticalOptions="Center" />
+                    </StackLayout>
+                  </StackLayout>
+                  <Image
+                    Source="{Binding ProductImage}"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="15"
+                    Aspect="AspectFit"
+                    Grid.Column="0" />
+                </Grid>
+              </SwipeView>
+            </DataTemplate>
+          </CollectionView.ItemTemplate>
+        </CollectionView>
+      </Grid>
+      <Grid
+        BackgroundColor="{AppThemeBinding
                 Dark={StaticResource BackgroundColorDark},
                 Light={StaticResource BackgroundColorLight}}"
-                VerticalOptions="End">
-                <!-- CHECKOUT -->
-                <Button
-                    Margin="35"
-                    VerticalOptions="Center"
-                    BackgroundColor="{StaticResource ThemePrimary}"
-                    BorderWidth="0"
-                    Text="Checkout" />
-            </Grid>
-            <!-- BACK -->
-            <ImageButton
-                Margin="35,0,0,0"
-                HorizontalOptions="Start"
-                VerticalOptions="Start"
-                BackgroundColor="Transparent"
-                Source="{AppThemeBinding
+        VerticalOptions="End">
+        <!-- CHECKOUT -->
+        <Button
+          Margin="35"
+          VerticalOptions="Center"
+          BackgroundColor="{StaticResource ThemePrimary}"
+          BorderWidth="0"
+          Text="Checkout" />
+      </Grid>
+      <!-- BACK -->
+      <ImageButton
+        Margin="{OnPlatform Android='35,25,0,0', Default='35,0,0,0'}"
+        HorizontalOptions="Start"
+        VerticalOptions="Start"
+        BackgroundColor="Transparent"
+        Source="{AppThemeBinding
                   Light={FontImage FontFamily=FontAwesome, 
                     Glyph={x:Static theme:IconFont.ArrowLeft},
                     Color=Black,
@@ -198,7 +204,7 @@
                     Color=White,
                     Size=18}
                 }"
-                Clicked="OnBackButtonClicked"/>
-        </Grid>
-    </ContentPage.Content>
+        Clicked="OnBackButtonClicked" />
+    </Grid>
+  </ContentPage.Content>
 </ContentPage>
