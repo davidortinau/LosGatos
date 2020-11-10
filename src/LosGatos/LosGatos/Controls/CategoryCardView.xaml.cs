@@ -1,11 +1,16 @@
-using System;
 using Xamarin.Forms;
-
 
 namespace LosGatos.Controls
 {
     public partial class CategoryCardView : Grid
     {
+        public CategoryCardView()
+        {
+            BindingContext = this;
+
+            InitializeComponent();
+        }
+
         public static readonly BindableProperty BackgroundGradientProperty = BindableProperty.Create(nameof(BackgroundGradient), typeof(LinearGradientBrush), typeof(CategoryCardView), default(LinearGradientBrush));
         public LinearGradientBrush BackgroundGradient
         {
@@ -25,14 +30,6 @@ namespace LosGatos.Controls
         {
             get => (string)GetValue(TitleProperty);
             set => SetValue(TitleProperty, value);
-        }
-
-        
-        public CategoryCardView()
-        {
-            BindingContext = this;
-
-            InitializeComponent();
         }
     }
 }

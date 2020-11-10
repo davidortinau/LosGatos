@@ -1,8 +1,6 @@
-﻿using System;
-using LosGatos.Models;
+﻿using LosGatos.Models;
 using MvvmHelpers;
 using Xamarin.Essentials;
-using Xamarin.Forms;
 using Xamarin.Forms.Shapes;
 
 namespace LosGatos.ViewModels

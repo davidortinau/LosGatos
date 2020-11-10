@@ -147,7 +147,6 @@
         TargetType="Layout"
         ApplyToDerivedTypes="True"
         Class="FlyoutItemGridStyle">
-
         <Setter
             Property="HeightRequest"
             Value="44" />

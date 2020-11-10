@@ -1,145 +1,128 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
-  xmlns="http://xamarin.com/schemas/2014/forms"
-  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-  xmlns:theme="clr-namespace:LosGatos.Styles"
-  xmlns:vm="clr-namespace:LosGatos.ViewModels"
-  xmlns:models="clr-namespace:LosGatos.Models"
-  xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
-  BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
-  NavigationPage.HasBackButton="False"
-  x:DataType="vm:ProductDetailViewModel"
-  x:Class="LosGatos.Pages.ProductDetailPage">
-
-  <ContentPage.BindingContext>
-    <vm:ProductDetailViewModel/>
-  </ContentPage.BindingContext>
-
-  <ContentPage.Content>
-
-    <Grid
-      Margin="0,-20,0,0"
-      ColumnDefinitions="*,*"
-      RowDefinitions="*,*">
-
-      <BoxView
-        BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}"
-        Grid.Row="1"
-        Grid.Column="0"
-        Grid.ColumnSpan="2" />
-
-
-      <Polygon
-        TranslationY="-60"
-        Points="{Binding HorizonPoints}"
-        Fill="White"
-        StrokeThickness="0"
-        VerticalOptions="Start"
-        Grid.Row="1"
-        Grid.Column="0"
-        Grid.ColumnSpan="2" 
-       />
-
-      <Image
-        sharedTransitions:Transition.Name="CatTransition"
-        Source="{Binding Gatos.ProductImage}"
-        VerticalOptions="Start"
-        HorizontalOptions="End"
-        WidthRequest="220"
-        Margin="15"
-        Aspect="AspectFit"
-        Grid.Column="0"
-        Grid.ColumnSpan="2"
-        Grid.Row="0"
-        Grid.RowSpan="2" />
-
-      <FlexLayout
-        Grid.Column="0"
-        Grid.Row="0"
-        Direction="Row"
-        Wrap="Wrap"
-        AlignItems="Start"
-        AlignContent="Start"
-        Margin="35,64,0,0">
-        <Label
-          Text="Los Gatos"
-          TextTransform="Uppercase"
-          FlexLayout.Basis="100%"
-          FontSize="12" />
-        <Label
-          Text="{Binding Gatos.Name}"
-          FlexLayout.Basis="100%"
-          FontFamily="DMSansBold"
-          FontSize="24" />
-        <Label
-          Text="From"
-          Margin="0,24,0,0"
-          FlexLayout.Basis="100%"
-          FontSize="12" />
-        <Label
-          Text="{Binding Gatos.Price}"
-          FlexLayout.Basis="100%"
-          FontFamily="DMSansBold"
-          FontSize="24" />
-        <Label
-          Text="Available Colors"
-          Margin="0,24,0,12"
-          FlexLayout.Basis="100%"
-          FontSize="12" />
-        <BoxView
-          BackgroundColor="{StaticResource ThemePrimary}"
-          WidthRequest="24"
-          HeightRequest="24"
-          Margin="0,0,8,0"
-          CornerRadius="6" />
-        <BoxView
-          BackgroundColor="{StaticResource ThemeTertiary}"
-          WidthRequest="24"
-          HeightRequest="24"
-          Margin="0,0,8,0"
-          CornerRadius="6" />
-        <BoxView
-          BackgroundColor="{StaticResource ThemeSecondary}"
-          WidthRequest="24"
-          HeightRequest="24"
-          Margin="0,0,8,0"
-          CornerRadius="6" />
-
-
-
-      </FlexLayout>
-
-      <StackLayout
-        Grid.Row="1"
-        Grid.ColumnSpan="2"
-        Margin="35,0"
-        VerticalOptions="Center">
-        <Label
-          Text="{Binding Gatos.Tag}"
-          FontFamily="DMSansBold"
-          FontSize="18" />
-        <Label
-          Text="{Binding Gatos.Description}"
-          FontSize="14" />
-      </StackLayout>
-
-      <Button
-        Grid.ColumnSpan="2"
-        Grid.Row="1"
-        VerticalOptions="End"
-        Margin="35"
-        BackgroundColor="{StaticResource ThemePrimary}"
-        BorderWidth="0"
-        Text="Add to Cart" />
-
-      <ImageButton
-        Grid.Row="0"
-        Grid.Column="0"
-        Margin="35,0,0,0"
-        HorizontalOptions="Start"
-        VerticalOptions="Start"
-        BackgroundColor="Transparent"
-        Source="{AppThemeBinding
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:theme="clr-namespace:LosGatos.Styles"
+    xmlns:vm="clr-namespace:LosGatos.ViewModels"  
+    xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
+    BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
+    x:DataType="vm:ProductDetailViewModel"
+    x:Class="LosGatos.Pages.ProductDetailPage">
+    <ContentPage.BindingContext>
+        <vm:ProductDetailViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid
+            Margin="0,-20,0,0"
+            ColumnDefinitions="*,*"
+            RowDefinitions="*,*">
+            <BoxView
+                BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2" />
+            <Polygon
+                TranslationY="-60"
+                Points="{Binding HorizonPoints}"
+                Fill="White"
+                StrokeThickness="0"
+                VerticalOptions="Start"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"  />
+            <Image
+                sharedTransitions:Transition.Name="CatTransition"
+                Source="{Binding Gatos.ProductImage}"
+                VerticalOptions="Start"
+                HorizontalOptions="End"
+                WidthRequest="220"
+                Margin="15"
+                Aspect="AspectFit"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Grid.Row="0"
+                Grid.RowSpan="2" />
+            <FlexLayout
+                Grid.Column="0"
+                Grid.Row="0"
+                Direction="Row"
+                Wrap="Wrap"
+                AlignItems="Start"
+                AlignContent="Start"
+                Margin="35,64,0,0">
+                <Label
+                    Text="Los Gatos"
+                    TextTransform="Uppercase"
+                    FlexLayout.Basis="100%"
+                    FontSize="12" />
+                <Label
+                    Text="{Binding Gatos.Name}"
+                    FlexLayout.Basis="100%"
+                    FontFamily="DMSansBold"
+                    FontSize="24" />
+                <Label
+                    Text="From"
+                    Margin="0,24,0,0"
+                    FlexLayout.Basis="100%"
+                    FontSize="12" />
+                <Label
+                    Text="{Binding Gatos.Price}"
+                    FlexLayout.Basis="100%"
+                    FontFamily="DMSansBold"
+                    FontSize="24" />
+                <Label
+                    Text="Available Colors"
+                    Margin="0,24,0,12"
+                    FlexLayout.Basis="100%"
+                    FontSize="12" />
+                <BoxView
+                    BackgroundColor="{StaticResource ThemePrimary}"
+                    WidthRequest="24"
+                    HeightRequest="24"
+                    Margin="0,0,8,0"
+                    CornerRadius="6" />
+                <BoxView
+                    BackgroundColor="{StaticResource ThemeTertiary}"
+                    WidthRequest="24"
+                    HeightRequest="24"
+                    Margin="0,0,8,0"
+                    CornerRadius="6" />
+                <BoxView
+                    BackgroundColor="{StaticResource ThemeSecondary}"
+                    WidthRequest="24"
+                    HeightRequest="24"
+                    Margin="0,0,8,0"
+                    CornerRadius="6" />
+            </FlexLayout>
+            <StackLayout
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                Margin="35,0"
+                VerticalOptions="Center">
+                <Label
+                    Text="{Binding Gatos.Tag}"
+                    FontFamily="DMSansBold"
+                    FontSize="18" />
+                <Label
+                    Text="{Binding Gatos.Description}"
+                    FontSize="14" />
+            </StackLayout>
+            <Button
+                Grid.ColumnSpan="2"
+                Grid.Row="1"
+                VerticalOptions="End"
+                Margin="35"
+                BackgroundColor="{StaticResource ThemePrimary}"
+                BorderWidth="0"
+                Text="Add to Cart" />
+            <ImageButton
+                Grid.Row="0"
+                Grid.Column="0"
+                Margin="35,0,0,0"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                BackgroundColor="Transparent"
+                Source="{AppThemeBinding
                   Light={FontImage FontFamily=FontAwesome, 
                     Glyph={x:Static theme:IconFont.ArrowLeft},
                     Color=Black,
@@ -149,12 +132,7 @@
                     Color=White,
                     Size=18}
                 }"
-        Clicked="ImageButton_Clicked"
-        />
-
-    </Grid>
-
-
-
-  </ContentPage.Content>
+                Clicked="OnBackButtonClicked"/>
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>
