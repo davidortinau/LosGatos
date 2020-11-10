@@ -11,141 +11,195 @@
   BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
   x:Class="LosGatos.Pages.HomePage">
   <ContentView.Resources>
-    <DataTemplate x:Key="FeaturedProduct" x:DataType="models:Gatos">
+    <DataTemplate
+      x:Key="FeaturedProduct"
+      x:DataType="models:Gatos">
       <Grid
-              RowDefinitions="50,80,142"
-              ColumnDefinitions="284"
-              RowSpacing="0"
-              VerticalOptions="Start"
-              IsClippedToBounds="False">
-        
+        RowDefinitions="50,80,142"
+        ColumnDefinitions="284"
+        RowSpacing="0"
+        VerticalOptions="Start"
+        IsClippedToBounds="False">
+
         <sh:Shadows
-                Grid.Row="1"
-                Grid.RowSpan="2"
-                IsClippedToBounds="False"
-                CornerRadius="24"
-                Margin="0,20,0,0"
-                Shades="{sh:SingleShade Offset='0, 30',
+          Grid.Row="1"
+          Grid.RowSpan="2"
+          IsClippedToBounds="False"
+          CornerRadius="24"
+          Margin="0,20,0,0"
+          Shades="{sh:SingleShade Offset='0, 30',
                                 BlurRadius=60,
                                 Opacity=0.20,
                                 Color='#8A959E'}">
-                <BoxView
-                  CornerRadius="24"
-                  Grid.Row="1"
-                  Grid.RowSpan="2"
-                  BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
-              </sh:Shadows>
-              <Grid
-                Grid.Row="2"
-                VerticalOptions="Start"
-                Margin="24,0"
-                RowDefinitions="24,24,*"
-                ColumnDefinitions="*,*,*">
-                <Label
-                  Grid.ColumnSpan="3"
-                  Text="{Binding Name}"
-                  FontFamily="DMSansBold"
-                  FontSize="20" />
-                <Label
-                  Grid.ColumnSpan="2"
-                  Grid.Row="1"
-                  Text="{Binding Description}"
-                  TextColor="{StaticResource TextSecondaryColor_Light}"
-                  FontSize="18" />
-                <Label
-                  Grid.Column="2"
-                  Grid.ColumnSpan="2"
-                  FontSize="18"
-                  HorizontalOptions="End">
-                  <Label.FormattedText>
-                    <FormattedString>
-                      <Span
-                        FontFamily="FontAwesome"
-                        Text="{x:Static theme:IconFont.Star}"
-                        TextColor="{StaticResource ThemeTertiary}" />
-                      <Span
-                        Text="{Binding Stars, StringFormat=' ({0:F2})'}"
-                        TextColor="{StaticResource NeutralSecondary}" />
-                    </FormattedString>
-                  </Label.FormattedText>
-                </Label>
-                <Label
-                  Grid.ColumnSpan="2"
-                  Grid.Row="2"
-                  VerticalOptions="Center"
-                  Text="{Binding Price}"
-                  FontSize="20" />
-                <StackLayout
-                  Orientation="Horizontal"
-                  Grid.Row="2"
-                  Grid.Column="2"
-                  Grid.ColumnSpan="2">
-                  <sh:Shadows
-                    CornerRadius="25"
-                    Shades="{sh:SingleShade Offset='0, 5',
+          <BoxView
+            CornerRadius="24"
+            Grid.Row="1"
+            Grid.RowSpan="2"
+            BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
+        </sh:Shadows>
+        <Grid
+          Grid.Row="2"
+          VerticalOptions="Start"
+          Margin="24,0"
+          RowDefinitions="24,24,*"
+          ColumnDefinitions="*,*,*">
+          <Label
+            Grid.ColumnSpan="3"
+            Text="{Binding Name}"
+            FontFamily="DMSansBold"
+            FontSize="20" />
+          <Label
+            Grid.ColumnSpan="2"
+            Grid.Row="1"
+            Text="{Binding Tag}"
+            TextColor="{StaticResource TextSecondaryColor_Light}"
+            FontSize="18" />
+          <Label
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            FontSize="18"
+            HorizontalOptions="End">
+            <Label.FormattedText>
+              <FormattedString>
+                <Span
+                  FontFamily="FontAwesome"
+                  Text="{x:Static theme:IconFont.Star}"
+                  TextColor="{StaticResource ThemeTertiary}" />
+                <Span
+                  Text="{Binding Stars, StringFormat=' ({0:F2})'}"
+                  TextColor="{StaticResource NeutralSecondary}" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+          <Label
+            Grid.ColumnSpan="2"
+            Grid.Row="2"
+            VerticalOptions="Center"
+            Text="{Binding Price}"
+            FontSize="20" />
+          <StackLayout
+            Orientation="Horizontal"
+            Grid.Row="2"
+            Grid.Column="2"
+            Grid.ColumnSpan="2">
+            <sh:Shadows
+              CornerRadius="25"
+              Shades="{sh:SingleShade Offset='0, 5',
                                         BlurRadius=20,
                                         Opacity=0.40,
                                         Color={StaticResource ThemePrimary}}">
-                    <Button
-                      CornerRadius="25"
-                      BorderWidth="0"
-                      Padding="0"
-                      VerticalOptions="Center"
-                      WidthRequest="50"
-                      HeightRequest="50"
-                      HorizontalOptions="End"
-                      BackgroundColor="{StaticResource ThemePrimary}"
-                      FontFamily="FontAwesome"
-                      Text="{x:Static theme:IconFont.Heart}"
-                      TextColor="White"
-                      FontSize="16" />
-                  </sh:Shadows>
-                  <sh:Shadows
-                    CornerRadius="25"
-                    Shades="{sh:SingleShade Offset='0, 5',
+              <Button
+                CornerRadius="25"
+                BorderWidth="0"
+                Padding="0"
+                VerticalOptions="Center"
+                WidthRequest="50"
+                HeightRequest="50"
+                HorizontalOptions="End"
+                BackgroundColor="{StaticResource ThemePrimary}"
+                FontFamily="FontAwesome"
+                Text="{x:Static theme:IconFont.Heart}"
+                TextColor="White"
+                FontSize="16" />
+            </sh:Shadows>
+            <sh:Shadows
+              CornerRadius="25"
+              Shades="{sh:SingleShade Offset='0, 5',
                                         BlurRadius=20,
                                         Opacity=0.40,
                                         Color={StaticResource ThemeSecondary}}">
-                    <Button
-                      x:Name="AddToCardBtn"
-                      CornerRadius="25"
-                      Padding="0"
-                      BorderWidth="0"
-                      VerticalOptions="Center"
-                      WidthRequest="50"
-                      HeightRequest="50"
-                      HorizontalOptions="End"
-                      BackgroundColor="{StaticResource ThemeSecondary}"
-                      FontFamily="FontAwesome"
-                      Text="{x:Static theme:IconFont.Plus}"
-                      TextColor="White"
-                      FontSize="16" 
-                      Clicked="AddToCardBtn_Clicked"
-                      />
-                  </sh:Shadows>
-                </StackLayout>
-              </Grid>
-              <Image
-                Source="{Binding ProductImage}"
-                VerticalOptions="Start"
-                HorizontalOptions="Center"
-                WidthRequest="300" 
-                InputTransparent="False"
-                Aspect="AspectFit"
-                Grid.Row="0"
-                Grid.RowSpan="3">
-                <Image.Clip>
-                  <RectangleGeometry
-                    Rect="0,0,300,120" />
-                </Image.Clip>
-              </Image>
-            <Grid.GestureRecognizers>
-              <DragGestureRecognizer 
-                DragStarting="DragGestureRecognizer_OnDragStarting"
-                DropCompleted="DragGestureRecognizer_OnDropCompleted"
-                CanDrag="True"/>
-            </Grid.GestureRecognizers>
-            </Grid>
+              <Button
+                x:Name="AddToCardBtn"
+                CornerRadius="25"
+                Padding="0"
+                BorderWidth="0"
+                VerticalOptions="Center"
+                WidthRequest="50"
+                HeightRequest="50"
+                HorizontalOptions="End"
+                BackgroundColor="{StaticResource ThemeSecondary}"
+                FontFamily="FontAwesome"
+                Text="{x:Static theme:IconFont.Plus}"
+                TextColor="White"
+                FontSize="16"
+                Clicked="AddToCardBtn_Clicked" />
+            </sh:Shadows>
+          </StackLayout>
+        </Grid>
+        <Image
+          Source="{Binding ProductImage}"
+          VerticalOptions="Start"
+          HorizontalOptions="Center"
+          WidthRequest="300"
+          InputTransparent="False"
+          Aspect="AspectFit"
+          Grid.Row="0"
+          Grid.RowSpan="3">
+          <Image.Clip>
+            <RectangleGeometry
+              Rect="0,0,300,120" />
+          </Image.Clip>
+        </Image>
+        <Grid.GestureRecognizers>
+          <DragGestureRecognizer
+            DragStarting="DragGestureRecognizer_OnDragStarting"
+            DropCompleted="DragGestureRecognizer_OnDropCompleted"
+            CanDrag="True" />
+        </Grid.GestureRecognizers>
+      </Grid>
+    </DataTemplate>
+
+    <DataTemplate
+      x:Key="PopularProduct"
+      x:DataType="models:Gatos">
+      <sh:Shadows
+        IsClippedToBounds="False"
+        CornerRadius="24"
+        Margin="0,20,0,0"
+        Shades="{sh:SingleShade Offset='0, 30',
+                            BlurRadius=60,
+                            Opacity=0.20,
+                            Color='#8A959E'}">
+        <Grid
+          RowDefinitions="140"
+          ColumnDefinitions="110,180">
+          <Grid.GestureRecognizers>
+            <TapGestureRecognizer
+              Command="{Binding SelectedCommand}"
+              />
+          </Grid.GestureRecognizers>
+          <BoxView
+            Grid.ColumnSpan="2"
+            CornerRadius="24"
+            BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
+          <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="Center"
+            Grid.Column="1">
+            <Label
+              Text="{Binding Name}"
+              FontAttributes="Bold"
+              FontSize="20" />
+            <Label
+              Text="{Binding Tag}"
+              TextColor="{StaticResource TextSecondaryColor_Light}"
+              FontSize="18" />
+            <Label
+              VerticalOptions="Center"
+              Text="{Binding Price}"
+              FontSize="20" />
+          </StackLayout>
+          <Image
+            Source="{Binding ProductImage}"
+            sharedTransitions:Transition.Name="CatTransition"
+            sharedTransitions:Transition.Group="{Binding Name}"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Margin="15"
+            Aspect="AspectFit"
+            Grid.Column="0" />
+        </Grid>
+      </sh:Shadows>
     </DataTemplate>
   </ContentView.Resources>
 
@@ -178,15 +232,13 @@
             <controls:CategoryCardView
               Title="Casual"
               ProductImage="shutterstock_183490631.png"
-              BackgroundGradient="{StaticResource GreenGradient}"
-              />
+              BackgroundGradient="{StaticResource GreenGradient}" />
 
             <controls:CategoryCardView
               Title="Party"
               ProductImage="shutterstock_186919337.png"
-              BackgroundGradient="{StaticResource GreenGradient}"
-              />
-            
+              BackgroundGradient="{StaticResource GreenGradient}" />
+
           </StackLayout>
         </ScrollView>
 
@@ -204,8 +256,8 @@
             BindableLayout.ItemsSource="{Binding Gatos}"
             BindableLayout.ItemTemplate="{StaticResource FeaturedProduct}"
             IsClippedToBounds="False">
-            
-            
+
+
           </StackLayout>
         </ScrollView>
 
@@ -226,138 +278,8 @@
             Orientation="Horizontal"
             Padding="15,0,0,0"
             Spacing="20"
-            IsClippedToBounds="False">
-
-            <sh:Shadows
-              IsClippedToBounds="False"
-              CornerRadius="24"
-              Margin="0,20,0,0"
-              Shades="{sh:SingleShade Offset='0, 30',
-                            BlurRadius=60,
-                            Opacity=0.20,
-                            Color='#8A959E'}">
-              <Grid
-                RowDefinitions="140"
-                ColumnDefinitions="110,180">
-                <Grid.GestureRecognizers>
-                  <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
-                </Grid.GestureRecognizers>
-                <BoxView
-                  Grid.ColumnSpan="2"
-                  CornerRadius="24"
-                  BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
-                <StackLayout
-                  Orientation="Vertical"
-                  VerticalOptions="Center"
-                  Grid.Column="1">
-                  <Label
-                    Text="Lausanne chair"
-                    FontAttributes="Bold"
-                    FontSize="20" />
-                  <Label
-                    Text="Illustration"
-                    TextColor="{StaticResource TextSecondaryColor_Light}"
-                    FontSize="18" />
-                  <Label
-                    VerticalOptions="Center"
-                    Text="$200"
-                    FontSize="20" />
-                </StackLayout>
-                <Image
-                  Source="shutterstock_183490631.png"
-                  VerticalOptions="Center"
-                  HorizontalOptions="Center"
-                  Margin="15"
-                  Aspect="AspectFit"
-                  Grid.Column="0" />
-              </Grid>
-            </sh:Shadows>
-
-            <sh:Shadows
-              IsClippedToBounds="False"
-              CornerRadius="24"
-              Margin="0,20,0,0"
-              Shades="{sh:SingleShade Offset='0, 30',
-                            BlurRadius=60,
-                            Opacity=0.20,
-                            Color='#8A959E'}">
-              <Grid
-                RowDefinitions="140"
-                ColumnDefinitions="110,180">
-                <BoxView
-                  Grid.ColumnSpan="2"
-                  CornerRadius="24"
-                  BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
-                <StackLayout
-                  Orientation="Vertical"
-                  VerticalOptions="Center"
-                  Grid.Column="1">
-                  <Label
-                    Text="Lausanne chair"
-                    FontAttributes="Bold"
-                    FontSize="20" />
-                  <Label
-                    Text="Illustration"
-                    TextColor="{StaticResource TextSecondaryColor_Light}"
-                    FontSize="18" />
-                  <Label
-                    VerticalOptions="Center"
-                    Text="$200"
-                    FontSize="20" />
-                </StackLayout>
-                <Image
-                  Source="shutterstock_188816654.png"
-                  VerticalOptions="Center"
-                  HorizontalOptions="Center"
-                  Margin="15"
-                  Aspect="AspectFit"
-                  Grid.Column="0" />
-              </Grid>
-            </sh:Shadows>
-
-            <sh:Shadows
-              IsClippedToBounds="False"
-              CornerRadius="24"
-              Margin="0,20,0,0"
-              Shades="{sh:SingleShade Offset='0, 30',
-                            BlurRadius=60,
-                            Opacity=0.20,
-                            Color='#8A959E'}">
-              <Grid
-                RowDefinitions="140"
-                ColumnDefinitions="110,180">
-                <BoxView
-                  Grid.ColumnSpan="2"
-                  CornerRadius="24"
-                  BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
-                <StackLayout
-                  Orientation="Vertical"
-                  VerticalOptions="Center"
-                  Grid.Column="1">
-                  <Label
-                    Text="Lausanne chair"
-                    FontAttributes="Bold"
-                    FontSize="20" />
-                  <Label
-                    Text="Illustration"
-                    TextColor="{StaticResource TextSecondaryColor_Light}"
-                    FontSize="18" />
-                  <Label
-                    VerticalOptions="Center"
-                    Text="$200"
-                    FontSize="20" />
-                </StackLayout>
-                <Image
-                  Source="shutterstock_186919337.png"
-                  VerticalOptions="Center"
-                  HorizontalOptions="Center"
-                  Margin="15"
-                  Aspect="AspectFit"
-                  Grid.Column="0" />
-              </Grid>
-            </sh:Shadows>
-
-            
+            BindableLayout.ItemsSource="{Binding PopularGatos}"
+            BindableLayout.ItemTemplate="{StaticResource PopularProduct}">
           </StackLayout>
         </ScrollView>
       </Grid>

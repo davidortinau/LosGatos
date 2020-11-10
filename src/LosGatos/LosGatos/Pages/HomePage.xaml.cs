@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using LosGatos.Models;
 using LosGatos.ViewModels.Messages;
 using TinyMessenger;
@@ -14,12 +15,15 @@ namespace LosGatos.Pages
         {
             BindingContext = this;
 
+            DependencyService.Get<TinyMessengerHub>().Subscribe<GoToProductDetailMessage>(OnGoToProductDetail);
+
             InitializeComponent();
         }
 
-        public async void TapGestureRecognizer_Tapped(object s, EventArgs e)
+        private async void OnGoToProductDetail(GoToProductDetailMessage obj)
         {
-            await Navigation.PushModalAsync(new ProductDetailPage(), false);
+            App.Model.SelectedGatos = obj.Gatos;
+            await Navigation.PushAsync(new ProductDetailPage());
         }
 
         public void AddToCardBtn_Clicked(object s, EventArgs e)
@@ -28,7 +32,16 @@ namespace LosGatos.Pages
         }
 
 
-        public List<Gatos> Gatos { get; set; } = App.Model.Gatos;
+        public List<Gatos> Gatos { get; set; } = App.Model.Gatos.Take(3).ToList();
+
+        public List<Gatos> PopularGatos {
+            get
+            {
+                var rand = new Random();
+                var randomList = App.Model.Gatos.OrderBy(x => rand.Next()).ToList();
+                return randomList.Take(3).ToList();
+            }
+        } 
 
         private void DragGestureRecognizer_OnDragStarting(object sender, DragStartingEventArgs e)
         {

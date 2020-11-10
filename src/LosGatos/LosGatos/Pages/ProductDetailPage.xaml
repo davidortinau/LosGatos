@@ -3,14 +3,22 @@
   xmlns="http://xamarin.com/schemas/2014/forms"
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:theme="clr-namespace:LosGatos.Styles"
+  xmlns:vm="clr-namespace:LosGatos.ViewModels"
+  xmlns:models="clr-namespace:LosGatos.Models"
+  xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
   BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
+  NavigationPage.HasBackButton="False"
+  x:DataType="vm:ProductDetailViewModel"
   x:Class="LosGatos.Pages.ProductDetailPage">
 
+  <ContentPage.BindingContext>
+    <vm:ProductDetailViewModel/>
+  </ContentPage.BindingContext>
 
   <ContentPage.Content>
 
     <Grid
-      Margin="0,44,0,0"
+      Margin="0,-20,0,0"
       ColumnDefinitions="*,*"
       RowDefinitions="*,*">
 
@@ -20,8 +28,21 @@
         Grid.Column="0"
         Grid.ColumnSpan="2" />
 
+
+      <Polygon
+        TranslationY="-60"
+        Points="{Binding HorizonPoints}"
+        Fill="White"
+        StrokeThickness="0"
+        VerticalOptions="Start"
+        Grid.Row="1"
+        Grid.Column="0"
+        Grid.ColumnSpan="2" 
+       />
+
       <Image
-        Source="shutterstock_183490631.png"
+        sharedTransitions:Transition.Name="CatTransition"
+        Source="{Binding Gatos.ProductImage}"
         VerticalOptions="Start"
         HorizontalOptions="End"
         WidthRequest="220"
@@ -46,7 +67,7 @@
           FlexLayout.Basis="100%"
           FontSize="12" />
         <Label
-          Text="Yellow Tabby"
+          Text="{Binding Gatos.Name}"
           FlexLayout.Basis="100%"
           FontFamily="DMSansBold"
           FontSize="24" />
@@ -56,7 +77,7 @@
           FlexLayout.Basis="100%"
           FontSize="12" />
         <Label
-          Text="$29.95"
+          Text="{Binding Gatos.Price}"
           FlexLayout.Basis="100%"
           FontFamily="DMSansBold"
           FontSize="24" />
@@ -94,11 +115,11 @@
         Margin="35,0"
         VerticalOptions="Center">
         <Label
-          Text="Hakuna Matata"
+          Text="{Binding Gatos.Tag}"
           FontFamily="DMSansBold"
           FontSize="18" />
         <Label
-          Text="This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work."
+          Text="{Binding Gatos.Description}"
           FontSize="14" />
       </StackLayout>
 

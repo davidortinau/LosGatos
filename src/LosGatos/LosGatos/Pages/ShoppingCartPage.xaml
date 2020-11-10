@@ -14,16 +14,16 @@
   <ContentPage.Content>
     
     <CollectionView ItemsSource="{Binding Cart}">
-      <CollectionView.EmptyViewTemplate>
-        <DataTemplate>
-          <StackLayout BackgroundColor="Blue">
-            <Label Text="You Empty"
-                   VerticalOptions="Center"
-                   HorizontalOptions="Center"
-                   FontSize="44"/>
-          </StackLayout>
-        </DataTemplate>
-      </CollectionView.EmptyViewTemplate>
+      <CollectionView.EmptyView>
+        <Grid>
+          <Label Text="{x:Static theme:IconFont.SadTear}"
+                 FontFamily="FontAwesome"
+                 TextColor="{StaticResource ThemeSecondary}"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center"
+                 FontSize="84"/>
+        </Grid>
+      </CollectionView.EmptyView>
       <CollectionView.ItemTemplate>
         <DataTemplate>
           <SwipeView>

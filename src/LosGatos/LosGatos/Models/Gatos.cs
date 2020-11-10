@@ -1,5 +1,7 @@
 ﻿using System;
+using LosGatos.ViewModels.Messages;
 using MvvmHelpers;
+using TinyMessenger;
 using Xamarin.Forms;
 
 namespace LosGatos.Models
@@ -8,6 +10,7 @@ namespace LosGatos.Models
     {
         private int _quantity = 0;
         public string Name { get; set; }
+        public string Tag { get; set; }
         public string Description { get; set; }
         public string Stars { get; set; }
         public string Price { get; set; }
@@ -22,8 +25,17 @@ namespace LosGatos.Models
                 SetProperty(ref _quantity, value);
             }
         }
+
+        public Command SelectedCommand { get; set; }
+
         public Gatos()
         {
+            SelectedCommand = new Command(OnSelected);
+        }
+
+        private void OnSelected()
+        {
+            DependencyService.Get<TinyMessengerHub>().Publish(new GoToProductDetailMessage() { Gatos = this });
         }
     }
 }
