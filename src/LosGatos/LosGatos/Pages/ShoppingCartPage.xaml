@@ -1,19 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage
-  xmlns ="http://xamarin.com/schemas/2014/forms"
-  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-  xmlns:viewModels="clr-namespace:LosGatos.ViewModels;assembly=LosGatos"
-  xmlns:models="clr-namespace:LosGatos.Models"
-  xmlns:theme="clr-namespace:LosGatos.Styles;assembly=LosGatos"
-  Title="Shopping Cart"
-  x:Class="LosGatos.Pages.ShoppingCartPage">
+    xmlns ="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:models="clr-namespace:LosGatos.Models"
+    xmlns:theme="clr-namespace:LosGatos.Styles;assembly=LosGatos"
+    xmlns:viewModels="clr-namespace:LosGatos.ViewModels;assembly=LosGatos"
+    x:Class="LosGatos.Pages.ShoppingCartPage"
+    NavigationPage.HasNavigationBar="False"
+    iOS:Page.UseSafeArea="true">
     <ContentPage.BindingContext>
         <viewModels:ShoppingCartViewModel/>
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <Grid>
-            <CollectionView
+            <Grid
+                Margin="12, 48, 12, 0">
+                <CollectionView
                 ItemsSource="{Binding Cart}">
+                <!-- EMPTY SHOPPING CART -->
                 <CollectionView.EmptyView>
                     <Grid>
                         <Label
@@ -27,30 +32,93 @@
                 </CollectionView.EmptyView>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <SwipeView>
+                        <SwipeView
+                            Threshold="80">
                             <SwipeView.LeftItems>
-                                <SwipeItem
-                                    Text="Save" 
+                                <!-- FAVOURITE -->
+                                <SwipeItemView
                                     x:Name="SaveBtn"
-                                    Clicked="OnSaveButtonClicked"
-                                    BackgroundColor="{StaticResource ThemeTertiary}"/>
+                                    BackgroundColor="Transparent">
+                                    <Grid
+                                        RowDefinitions="Auto, *"
+                                        WidthRequest="100">
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer
+                                                Tapped="OnSaveButtonClicked"/>
+                                        </Grid.GestureRecognizers>
+                                        <BoxView
+                                            CornerRadius="24, 0, 24, 0"
+                                            Color="{StaticResource ThemeTertiary}"
+                                            Grid.RowSpan="2"/>
+                                        <Image
+                                            VerticalOptions="Center"
+                                            HorizontalOptions="Center"
+                                            Margin="0, 36, 0, 0">
+                                            <Image.Source>
+                                                <FontImageSource
+                                                    FontFamily="FontAwesome"
+                                                    Glyph="{x:Static theme:IconFont.Save}"
+                                                    Color="#ffffff" />
+                                            </Image.Source>
+                                        </Image>
+                                        <Label 
+                                            Grid.Row="1"
+                                            Text="Save"
+                                            TextColor="White"
+                                            FontSize="Medium"
+                                            HorizontalOptions="Center"
+                                            VerticalOptions="Center"
+                                            Margin="0, 0, 0, 36"/>
+                                    </Grid>
+                                </SwipeItemView>
                             </SwipeView.LeftItems>
                             <SwipeView.RightItems>
-                                <SwipeItem
-                                    Text="Remove"
+                                <!-- DELETE -->
+                                <SwipeItemView
                                     x:Name="RemoveBtn"
-                                    Clicked="OnRemoveButtonClicked"
-                                    BackgroundColor="{StaticResource ThemeSecondary}"/>
+                                    BackgroundColor="Transparent">
+                                    <Grid
+                                        RowDefinitions="Auto, *"
+                                        WidthRequest="100">
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer
+                                                Tapped="OnRemoveButtonClicked"/>
+                                        </Grid.GestureRecognizers>
+                                        <BoxView
+                                            CornerRadius="0, 24, 0, 24"
+                                            Color="{StaticResource ThemeSecondary}"
+                                            Grid.RowSpan="2"/>
+                                        <Image
+                                            VerticalOptions="Center"
+                                            HorizontalOptions="Center"
+                                            Margin="0, 36, 0, 0">
+                                            <Image.Source>
+                                                <FontImageSource
+                                                    FontFamily="FontAwesome"
+                                                    Glyph="{x:Static theme:IconFont.Edit}"
+                                                    Color="#ffffff" />
+                                            </Image.Source>
+                                        </Image>
+                                        <Label
+                                            Grid.Row="1"
+                                            Text="Delete"
+                                            TextColor="White"
+                                            FontSize="Medium"
+                                            HorizontalOptions="Center"
+                                            VerticalOptions="Center"
+                                            Margin="0, 0, 0, 36"/>
+                                    </Grid>
+                                </SwipeItemView>
                             </SwipeView.RightItems>
                             <Grid
                                 x:DataType="models:Gatos"
-                                Margin="35,8"
                                 RowDefinitions="140"
-                                ColumnDefinitions="110,*,200">
+                                ColumnDefinitions="110,*,200"
+                                Margin="0, 6">
                                 <BoxView
                                     Grid.ColumnSpan="3"
                                     CornerRadius="24"
-                                    BackgroundColor="White" />
+                                    Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
                                 <StackLayout
                                     Orientation="Vertical"
                                     VerticalOptions="Center"
@@ -67,6 +135,7 @@
                                             Text="{x:Static theme:IconFont.Minus}"
                                             FontSize="14"
                                             VerticalOptions="Center"
+                                            BackgroundColor="Transparent"
                                             BorderWidth="0" />
                                         <Entry
                                             Text="1"
@@ -77,6 +146,7 @@
                                             FontFamily="FontAwesome"
                                             Text="{x:Static theme:IconFont.Plus}"
                                             FontSize="14"
+                                            BackgroundColor="Transparent"
                                             BorderWidth="0"
                                             VerticalOptions="Center" />
                                         <Label
@@ -98,11 +168,13 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+            </Grid>
             <Grid
                 BackgroundColor="{AppThemeBinding
                 Dark={StaticResource BackgroundColorDark},
                 Light={StaticResource BackgroundColorLight}}"
                 VerticalOptions="End">
+                <!-- CHECKOUT -->
                 <Button
                     Margin="35"
                     VerticalOptions="Center"
@@ -110,6 +182,23 @@
                     BorderWidth="0"
                     Text="Checkout" />
             </Grid>
+            <!-- BACK -->
+            <ImageButton
+                Margin="35,0,0,0"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                BackgroundColor="Transparent"
+                Source="{AppThemeBinding
+                  Light={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.ArrowLeft},
+                    Color=Black,
+                    Size=18},
+                  Dark={FontImage FontFamily=FontAwesome, 
+                    Glyph={x:Static theme:IconFont.ArrowLeft},
+                    Color=White,
+                    Size=18}
+                }"
+                Clicked="OnBackButtonClicked"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

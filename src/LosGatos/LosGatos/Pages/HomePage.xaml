@@ -1,21 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView
-  xmlns="http://xamarin.com/schemas/2014/forms"
-  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-  xmlns:controls="clr-namespace:LosGatos.Controls"
-  xmlns:theme="clr-namespace:LosGatos.Styles"
-  xmlns:models="clr-namespace:LosGatos.Models"
-  xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
-  xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
-  IsClippedToBounds="False"
-  BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
-  x:Class="LosGatos.Pages.HomePage">
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:LosGatos.Controls"
+    xmlns:theme="clr-namespace:LosGatos.Styles"
+    xmlns:models="clr-namespace:LosGatos.Models"
+    xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
+    xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+    IsClippedToBounds="False"
+    BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
+    x:Class="LosGatos.Pages.HomePage">
     <ContentView.Resources>
 
         <DataTemplate
             x:Key="FeaturedProduct"
             x:DataType="models:Gatos">
             <Grid
+                BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
                 RowDefinitions="50,80,142"
                 ColumnDefinitions="284"
                 RowSpacing="0"
@@ -142,8 +143,8 @@
                 <Grid.GestureRecognizers>
                     <DragGestureRecognizer
                         DragStartingCommand="{Binding DragStartingCommand}"
-                        DragStarting="DragGestureRecognizer_OnDragStarting"
-                        DropCompleted="DragGestureRecognizer_OnDropCompleted"
+                        DragStarting="OnDragStarting"
+                        DropCompleted="OnDropCompleted"
                         CanDrag="True" />
                 </Grid.GestureRecognizers>
             </Grid>

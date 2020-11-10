@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-  xmlns="http://xamarin.com/schemas/2014/forms"
-  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-  xmlns:pages="clr-namespace:LosGatos.Pages"
-  xmlns:theme="clr-namespace:LosGatos.Styles"
-  xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
-  xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
-  x:Class="LosGatos.Pages.MainPage">
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:pages="clr-namespace:LosGatos.Pages"
+    xmlns:theme="clr-namespace:LosGatos.Styles"
+    xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
+    xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+    x:Class="LosGatos.Pages.MainPage"
+    ios:NavigationPage.HideNavigationBarSeparator="true">
     <ContentPage.Resources>
 
         <Color
@@ -36,12 +38,12 @@
                     Margin="0, 0, 0, 36"
                     Shades="{sh:SingleShade Offset='0, 24',
                     BlurRadius=24,
-                    Opacity=0.20,
+                    Opacity=0.10,
                     Color='Gray'}">
                     <ImageButton
                         InputTransparent="True"
                         Source="{TemplateBinding CurrentIcon}"
-                        Padding="18"
+                        Padding="24"
                         HorizontalOptions="Center"
                         VerticalOptions="Start"
                         x:Name="BagBtn"
@@ -87,7 +89,7 @@
         <Style
             x:Key="AnimatedTabItemStyle"
             TargetType="toolkit:TabViewItem"
-            BasedOn="{StaticResource TabItemStyle }">
+            BasedOn="{StaticResource TabItemStyle}">
             <Setter
                 Property="TabAnimation"
                 Value="{StaticResource TabViewItemAnimation}" />
@@ -152,7 +154,7 @@
                     Color=White,
                     Size=18}
                 }"
-        Clicked="ImageButton_Clicked" />
+                Clicked="OnAppThemeButtonClicked" />
         </Grid>
     </NavigationPage.TitleView>
     <Grid
@@ -198,7 +200,7 @@
             </toolkit:TabViewItem>
             <!-- BASKET TAB -->
             <toolkit:TabViewItem
-                TabTapped="TabViewItem_OnTabTapped"
+                TabTapped="OnCartTabTapped"
                 ControlTemplate="{StaticResource BasketTabItemTemplate}"
                 Style="{StaticResource TabItemStyle}">
                 <toolkit:TabViewItem.Icon>
@@ -256,9 +258,9 @@
             <Grid.GestureRecognizers>
                 <DropGestureRecognizer
                     AllowDrop="True"
-                    DragOver="DropGestureRecognizer_DragOver"
-                    DragLeave="DropGestureRecognizer_DragLeave"
-                    Drop="DropGestureRecognizer_Drop" />
+                    DragOver="OnDragOver"
+                    DragLeave="OnDragLeave"
+                    Drop="OnDrop" />
             </Grid.GestureRecognizers>
             <Image
                 VerticalOptions="Center"

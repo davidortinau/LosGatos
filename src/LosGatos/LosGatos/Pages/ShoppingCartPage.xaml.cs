@@ -10,6 +10,8 @@ namespace LosGatos.Pages
             InitializeComponent();
         }
 
+        async void OnBackButtonClicked(object sender, EventArgs e) => await Navigation.PopAsync();
+
         void OnSaveButtonClicked(object sender, EventArgs e)
         {
             // Remove from cart

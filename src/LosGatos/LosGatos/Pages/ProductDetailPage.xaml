@@ -2,20 +2,33 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:iOS="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     xmlns:theme="clr-namespace:LosGatos.Styles"
     xmlns:vm="clr-namespace:LosGatos.ViewModels"  
     xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
     BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
     x:DataType="vm:ProductDetailViewModel"
-    x:Class="LosGatos.Pages.ProductDetailPage">
+    x:Class="LosGatos.Pages.ProductDetailPage"
+    NavigationPage.HasNavigationBar="False"
+    iOS:Page.UseSafeArea="true">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <SolidColorBrush x:Key="DarkBrush" Color="#605E5D" />
+
+            <SolidColorBrush x:Key="LightBrush" Color="White" />
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.BindingContext>
-        <vm:ProductDetailViewModel/>
+        <vm:ProductDetailViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <Grid
             Margin="0,-20,0,0"
             ColumnDefinitions="*,*"
             RowDefinitions="*,*">
+            <!-- BACKGROUND -->
             <BoxView
                 BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}"
                 Grid.Row="1"
@@ -24,12 +37,13 @@
             <Polygon
                 TranslationY="-60"
                 Points="{Binding HorizonPoints}"
-                Fill="White"
+                Fill="{AppThemeBinding Dark={StaticResource DarkBrush}, Light={StaticResource LightBrush}}"
                 StrokeThickness="0"
                 VerticalOptions="Start"
                 Grid.Row="1"
                 Grid.Column="0"
-                Grid.ColumnSpan="2"  />
+                Grid.ColumnSpan="2" />
+            <!-- CAT DETAILS -->
             <Image
                 sharedTransitions:Transition.Name="CatTransition"
                 Source="{Binding Gatos.ProductImage}"
@@ -107,6 +121,7 @@
                     Text="{Binding Gatos.Description}"
                     FontSize="14" />
             </StackLayout>
+            <!-- ADD TO CART -->
             <Button
                 Grid.ColumnSpan="2"
                 Grid.Row="1"
@@ -115,6 +130,7 @@
                 BackgroundColor="{StaticResource ThemePrimary}"
                 BorderWidth="0"
                 Text="Add to Cart" />
+            <!-- BACK -->
             <ImageButton
                 Grid.Row="0"
                 Grid.Column="0"

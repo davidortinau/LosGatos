@@ -23,8 +23,7 @@ namespace LosGatos
 
             var navigationPage = new SharedTransitionNavigationPage(new MainPage())
             {
-                BarBackgroundColor = Color.Transparent,
-                BarTextColor = Color.Black
+                BarBackgroundColor = Color.Transparent
             };
 
             navigationPage.On<iOS>().SetHideNavigationBarSeparator(true);

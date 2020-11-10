@@ -8,7 +8,6 @@ namespace LosGatos.Pages
         public ProductDetailPage()
         {
             InitializeComponent();
-            NavigationPage.SetHasBackButton(this, false);
         }
 
         async void OnBackButtonClicked(object sender, EventArgs e) => await Navigation.PopAsync();
