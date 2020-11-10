@@ -93,8 +93,9 @@ namespace LosGatos.Models
 
         public void AddToCartByName(string catName)
         {
+            var g = Gatos.Where(x => x.Name == catName).Single();
             Cart.Add(
-                Gatos.FirstOrDefault(x => x.Name == catName)
+                g
             );
         }
     }

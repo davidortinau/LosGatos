@@ -1,3 +1,4 @@
+using LosGatos.Models;
 using TinyMessenger;
 
 namespace LosGatos.ViewModels.Messages
@@ -9,5 +10,7 @@ namespace LosGatos.ViewModels.Messages
         }
 
         public object Sender { get; private set; }
+
+        public Gatos Gatos { get; set; }
     }
 }

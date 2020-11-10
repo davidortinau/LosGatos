@@ -45,9 +45,9 @@ namespace LosGatos.Pages
 
         private void DragGestureRecognizer_OnDragStarting(object sender, DragStartingEventArgs e)
         {
-            e.Data.Properties.Add("Cat","Second");
+            //e.Data.Properties.Add("Cat","Second");// what is your name?!
             
-            DependencyService.Get<TinyMessengerHub>().Publish(new DragStartedMessage());
+            //DependencyService.Get<TinyMessengerHub>().Publish(new DragStartedMessage());
         }
 
         private void DragGestureRecognizer_OnDropCompleted(object sender, DropCompletedEventArgs e)

@@ -19,6 +19,8 @@ namespace LosGatos.Pages
             DependencyService.Get<TinyMessengerHub>().Subscribe<DragEndedMessage>(OnDragEnded);
         }
 
+        protected Gatos DraggingGatos;
+
         private void OnDragEnded(DragEndedMessage obj)
         {
             // hide the drop target, show the button
@@ -26,7 +28,8 @@ namespace LosGatos.Pages
         }
 
         private void OnDragStarted(DragStartedMessage obj)
-        { 
+        {
+            DraggingGatos = obj.Gatos;
             // hide the button, show the drop target
             DropTarget.TranslateTo(0, 30);
         }
@@ -55,18 +58,11 @@ namespace LosGatos.Pages
 
         void DropGestureRecognizer_Drop(System.Object sender, Xamarin.Forms.DropEventArgs e)
         {
-            // add to cart
-            App.Model.AddToCartByName((string)e.Data.Properties["Cat"]);
-
-            // StackLayout sl = ((StackLayout)(sender as DropGestureRecognizer).Parent);
-            // sl.BackgroundColor = Color.LightGray;
-            //
-            // // add new box to the stack
-            // var btn = new Button();
-            // btn.BackgroundColor = (Color)e.Data.Properties["Color"];
-            // sl.Children.Add(btn);
-            //
-            // btn.Clicked += ButtonRemove_Clicked;
+            DependencyService.Get<TinyMessengerHub>()
+                .Publish<AddToCartMessage>(new AddToCartMessage()
+                {
+                    Gatos = DraggingGatos
+                });
         }
     }
 

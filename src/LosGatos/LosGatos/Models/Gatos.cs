@@ -30,10 +30,18 @@ namespace LosGatos.Models
 
         public Command AddToCartCommand { get; set; }
 
+        public Command DragStartingCommand { get; set; }
+
         public Gatos()
         {
             SelectedCommand = new Command(OnSelected);
             AddToCartCommand = new Command(OnAddToCart);
+            DragStartingCommand = new Command(OnDragStarting);
+        }
+
+        private void OnDragStarting(object obj)
+        {
+            DependencyService.Get<TinyMessengerHub>().Publish(new DragStartedMessage() { Gatos = this });
         }
 
         private void OnAddToCart()

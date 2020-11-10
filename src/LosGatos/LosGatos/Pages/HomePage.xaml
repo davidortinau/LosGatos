@@ -140,12 +140,13 @@
               Rect="0,0,300,120" />
           </Image.Clip>
         </Image>
-        <!--<Grid.GestureRecognizers>
+        <Grid.GestureRecognizers>
           <DragGestureRecognizer
+            DragStartingCommand="{Binding DragStartingCommand}"
             DragStarting="DragGestureRecognizer_OnDragStarting"
             DropCompleted="DragGestureRecognizer_OnDropCompleted"
             CanDrag="True" />
-        </Grid.GestureRecognizers>-->
+        </Grid.GestureRecognizers>
       </Grid>
     </DataTemplate>
 
