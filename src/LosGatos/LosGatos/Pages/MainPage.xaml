@@ -1,148 +1,150 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-  xmlns="http://xamarin.com/schemas/2014/forms"
-  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-  xmlns:pages="clr-namespace:LosGatos.Pages"
-  xmlns:theme="clr-namespace:LosGatos.Styles"
-  xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
-  xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
-  x:Class="LosGatos.Pages.MainPage">
-  <ContentPage.Resources>
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:pages="clr-namespace:LosGatos.Pages"
+    xmlns:theme="clr-namespace:LosGatos.Styles"
+    xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
+    xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+    x:Class="LosGatos.Pages.MainPage"
+    ios:NavigationPage.HideNavigationBarSeparator="true">
+    <ContentPage.Resources>
 
-    <Color
-      x:Key="TabIconColor">#979797</Color>
-    <Color
-      x:Key="TabSelectedIconColor">#2E2545</Color>
+        <Color
+            x:Key="TabIconColor">#979797</Color>
+        <Color
+            x:Key="TabSelectedIconColor">#2E2545</Color>
 
-    <ControlTemplate
-      x:Key="TabItemTemplate">
-      <Grid>
-        <Image
-          x:Name="TabIcon"
-          Grid.Row="0"
-          VerticalOptions="Start"
-          HorizontalOptions="Center"
-          WidthRequest="24"
-          HeightRequest="24"
-          Margin="6"
-          Source="{TemplateBinding CurrentIcon}" />
-      </Grid>
-    </ControlTemplate>
+        <ControlTemplate
+            x:Key="TabItemTemplate">
+            <Grid>
+                <Image
+                    x:Name="TabIcon"
+                    Grid.Row="0"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center"
+                    WidthRequest="24"
+                    HeightRequest="24"
+                    Margin="6"
+                    Source="{TemplateBinding CurrentIcon}" />
+            </Grid>
+        </ControlTemplate>
 
-    <ControlTemplate
-      x:Key="BasketTabItemTemplate">
-      <Grid>
-        <sh:Shadows
-          Margin="0, 0, 0, 36"
-          Shades="{sh:SingleShade Offset='0, 24',
+        <ControlTemplate
+            x:Key="BasketTabItemTemplate">
+            <Grid>
+                <sh:Shadows
+                    Margin="0, 0, 0, 36"
+                    Shades="{sh:SingleShade Offset='0, 24',
                     BlurRadius=24,
-                    Opacity=0.20,
+                    Opacity=0.10,
                     Color='Gray'}">
-          <ImageButton
-            InputTransparent="True"
-            Source="{TemplateBinding CurrentIcon}"
-            Padding="18"
-            HorizontalOptions="Center"
-            VerticalOptions="Start"
-            x:Name="BagBtn"
-            BackgroundColor="#2E2545"
-            HeightRequest="72"
-            WidthRequest="72">
-            <ImageButton.CornerRadius>
-              <OnPlatform
-                x:TypeArguments="x:Int32">
-                <On
-                  Platform="iOS, UWP"
-                  Value="36" />
-                <On
-                  Platform="Android"
-                  Value="60" />
-              </OnPlatform>
-            </ImageButton.CornerRadius>
-          </ImageButton>
-        </sh:Shadows>
-      </Grid>
-    </ControlTemplate>
+                    <ImageButton
+                        InputTransparent="True"
+                        Source="{TemplateBinding CurrentIcon}"
+                        Padding="24"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Start"
+                        x:Name="BagBtn"
+                        BackgroundColor="#2E2545"
+                        HeightRequest="72"
+                        WidthRequest="72">
+                        <ImageButton.CornerRadius>
+                            <OnPlatform
+                                x:TypeArguments="x:Int32">
+                                <On
+                                    Platform="iOS, UWP"
+                                    Value="36" />
+                                <On
+                                    Platform="Android"
+                                    Value="60" />
+                            </OnPlatform>
+                        </ImageButton.CornerRadius>
+                    </ImageButton>
+                </sh:Shadows>
+            </Grid>
+        </ControlTemplate>
 
-    <Style
-      x:Key="TabItemStyle"
-      TargetType="toolkit:TabViewItem">
-      <Setter
-        Property="TextColor"
-        Value="#979797" />
-      <Setter
-        Property="TextColor"
-        Value="#979797" />
-      <Setter
-        Property="TextColorSelected"
-        Value="#FF0000" />
-      <Setter
-        Property="Scale"
-        Value="0.85" />
-    </Style>
+        <Style
+            x:Key="TabItemStyle"
+            TargetType="toolkit:TabViewItem">
+            <Setter
+                Property="TextColor"
+                Value="#979797" />
+            <Setter
+                Property="TextColor"
+                Value="#979797" />
+            <Setter
+                Property="TextColorSelected"
+                Value="#FF0000" />
+            <Setter
+                Property="Scale"
+                Value="0.85" />
+        </Style>
 
-    <pages:TabViewItemAnimation
-      x:Key="TabViewItemAnimation" />
+        <pages:TabViewItemAnimation
+            x:Key="TabViewItemAnimation" />
 
-    <Style
-      x:Key="AnimatedTabItemStyle"
-      TargetType="toolkit:TabViewItem"
-      BasedOn="{StaticResource TabItemStyle }">
-      <Setter
-        Property="TabAnimation"
-        Value="{StaticResource TabViewItemAnimation}" />
-    </Style>
+        <Style
+            x:Key="AnimatedTabItemStyle"
+            TargetType="toolkit:TabViewItem"
+            BasedOn="{StaticResource TabItemStyle}">
+            <Setter
+                Property="TabAnimation"
+                Value="{StaticResource TabViewItemAnimation}" />
+        </Style>
 
-    <Style
-      x:Key="CustomTabStyle"
-      TargetType="toolkit:TabView">
-      <Setter
-        Property="IsTabTransitionEnabled"
-        Value="False" />
-      <Setter
-        Property="TabStripBackgroundColor"
-        Value="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light=#E6F9F9F9}" />
-      <Setter
-        Property="TabStripHeight"
-        Value="74" />
-      <Setter
-        Property="TabContentBackgroundColor"
-        Value="#F5F5F5" />
-      <Setter
-        Property="TabStripPlacement"
-        Value="Bottom" />
-    </Style>
+        <Style
+            x:Key="CustomTabStyle"
+            TargetType="toolkit:TabView">
+            <Setter
+                Property="IsTabTransitionEnabled"
+                Value="False" />
+            <Setter
+                Property="TabStripBackgroundColor"
+                Value="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light=#E6F9F9F9}" />
+            <Setter
+                Property="TabStripHeight"
+                Value="74" />
+            <Setter
+                Property="TabContentBackgroundColor"
+                Value="#F5F5F5" />
+            <Setter
+                Property="TabStripPlacement"
+                Value="Bottom" />
+        </Style>
 
-  </ContentPage.Resources>
-  <NavigationPage.TitleView>
-    <Grid
-      ColumnDefinitions="44,*,44,44">
-      <ImageButton
-        HorizontalOptions="Center"
-        BackgroundColor="Transparent"
-        Source="{AppThemeBinding
-                  Light={FontImage FontFamily=FontAwesome, 
+    </ContentPage.Resources>
+    <NavigationPage.TitleView>
+        <Grid
+            ColumnDefinitions="44,*,44,44">
+            <ImageButton
+                HorizontalOptions="Center"
+                BackgroundColor="Transparent"
+                Source="{AppThemeBinding
+                Light={FontImage FontFamily=FontAwesome, 
                     Glyph={x:Static theme:IconFont.Cat},
                     Color=Black,
                     Size=18},
-                  Dark={FontImage FontFamily=FontAwesome, 
+                Dark={FontImage FontFamily=FontAwesome, 
                     Glyph={x:Static theme:IconFont.Cat},
                     Color=White,
                     Size=18}
                 }" />
-      <Label
-        Text="Los Gatos"
-        TextTransform="Uppercase"
-        HorizontalOptions="Center"
-        FontFamily="DMSansBold"
-        Grid.ColumnSpan="4"
-        VerticalOptions="Center" />
-      <ImageButton
-        Grid.Column="3"
-        VerticalOptions="Center"
-        HorizontalOptions="Center"
-        BackgroundColor="Transparent"
-        Source="{AppThemeBinding
+            <Label
+                Text="Los Gatos"
+                TextTransform="Uppercase"
+                HorizontalOptions="Center"
+                FontFamily="DMSansBold"
+                Grid.ColumnSpan="4"
+                VerticalOptions="Center" />
+            <ImageButton
+                Grid.Column="3"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                BackgroundColor="Transparent"
+                Source="{AppThemeBinding
                   Light={FontImage FontFamily=FontAwesome, 
                     Glyph={x:Static theme:IconFont.Lightbulb},
                     Color=Black,
@@ -152,148 +154,124 @@
                     Color=White,
                     Size=18}
                 }"
-        Clicked="ImageButton_Clicked" />
-      <!--<ImageButton
-        Grid.Column="2"
-        VerticalOptions="Center"
-        HorizontalOptions="Center"
-        BackgroundColor="Transparent"
-        Source="{AppThemeBinding
-                  Light={FontImage FontFamily=FontAwesome, 
-                    Glyph={x:Static theme:IconFont.Search},
-                    Color=Black,
-                    Size=18},
-                  Dark={FontImage FontFamily=FontAwesome, 
-                    Glyph={x:Static theme:IconFont.Search},
-                    Color=White,
-                    Size=18}
-                }" />-->
-    </Grid>
-  </NavigationPage.TitleView>
-  <Grid
-    IsClippedToBounds="False">
-    <!-- Tabs -->
-    <toolkit:TabView
-      IsClippedToBounds="False"
-      Style="{StaticResource CustomTabStyle}">
-      <!-- HOME TAB -->
-      <toolkit:TabViewItem
-        ControlTemplate="{StaticResource TabItemTemplate}"
-        Style="{StaticResource AnimatedTabItemStyle}">
-        <toolkit:TabViewItem.Icon>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.Home}"
-            Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
-        </toolkit:TabViewItem.Icon>
-        <toolkit:TabViewItem.IconSelected>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.Home}"
-            Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
-        </toolkit:TabViewItem.IconSelected>
-        <pages:HomePage />
-      </toolkit:TabViewItem>
-      <!-- FAVOURITE TAB -->
-      <toolkit:TabViewItem
-        ControlTemplate="{StaticResource TabItemTemplate}"
-        Style="{StaticResource AnimatedTabItemStyle}">
-        <toolkit:TabViewItem.Icon>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.Heart}"
-            Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
-        </toolkit:TabViewItem.Icon>
-        <toolkit:TabViewItem.IconSelected>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.Heart}"
-            Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
-        </toolkit:TabViewItem.IconSelected>
-        <pages:FavouritePage />
-      </toolkit:TabViewItem>
-      <!-- BASKET TAB -->
-      <toolkit:TabViewItem
-        TabTapped="TabViewItem_OnTabTapped"
-        ControlTemplate="{StaticResource BasketTabItemTemplate}"
-        Style="{StaticResource TabItemStyle}">
-        <toolkit:TabViewItem.Icon>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.ShoppingBag}"
-            Color="{AppThemeBinding Dark={StaticResource NeutralLighter}, Light={StaticResource White}}" />
-        </toolkit:TabViewItem.Icon>
-
-      </toolkit:TabViewItem>
-      <!-- SETTINGS TAB -->
-      <toolkit:TabViewItem
-        ControlTemplate="{StaticResource TabItemTemplate}"
-        Style="{StaticResource AnimatedTabItemStyle}">
-        <toolkit:TabViewItem.Icon>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.Cog}"
-            Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
-        </toolkit:TabViewItem.Icon>
-        <toolkit:TabViewItem.IconSelected>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.Cog}"
-            Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
-        </toolkit:TabViewItem.IconSelected>
-        <pages:SettingsPage />
-      </toolkit:TabViewItem>
-      <!-- PROFILE TAB -->
-      <toolkit:TabViewItem
-        ControlTemplate="{StaticResource TabItemTemplate}"
-        Style="{StaticResource AnimatedTabItemStyle}">
-        <toolkit:TabViewItem.Icon>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.User}"
-            Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
-        </toolkit:TabViewItem.Icon>
-        <toolkit:TabViewItem.IconSelected>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.User}"
-            Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
-        </toolkit:TabViewItem.IconSelected>
-        <pages:ProfilePage />
-      </toolkit:TabViewItem>
-    </toolkit:TabView>
-
+                Clicked="OnAppThemeButtonClicked" />
+        </Grid>
+    </NavigationPage.TitleView>
     <Grid
-      x:Name="DropTarget"
-      VerticalOptions="End"
-      Margin="0,0,0,30"
-      HeightRequest="120"
-      IsVisible="True"
-      BackgroundColor="#2E2545"
-      TranslationY="180">
-      <Grid.GestureRecognizers>
-        <DropGestureRecognizer
-          AllowDrop="True"
-          DragOver="DropGestureRecognizer_DragOver"
-          DragLeave="DropGestureRecognizer_DragLeave"
-          Drop="DropGestureRecognizer_Drop" />
-      </Grid.GestureRecognizers>
-
-
-
-      <Image
-        VerticalOptions="Center"
-        HorizontalOptions="Center">
-        <Image.Source>
-          <FontImageSource
-            FontFamily="FontAwesome"
-            Glyph="{x:Static theme:IconFont.ShoppingBag}"
-            Color="#ffffff" />
-        </Image.Source>
-      </Image>
+        IsClippedToBounds="False">
+        <toolkit:TabView
+            IsClippedToBounds="False"
+            Style="{StaticResource CustomTabStyle}">
+            <!-- HOME TAB -->
+            <toolkit:TabViewItem
+                ControlTemplate="{StaticResource TabItemTemplate}"
+                Style="{StaticResource AnimatedTabItemStyle}">
+                <toolkit:TabViewItem.Icon>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.Home}"
+                        Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
+                </toolkit:TabViewItem.Icon>
+                <toolkit:TabViewItem.IconSelected>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.Home}"
+                        Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
+                </toolkit:TabViewItem.IconSelected>
+                <pages:HomePage />
+            </toolkit:TabViewItem>
+            <!-- FAVOURITE TAB -->
+            <toolkit:TabViewItem
+                ControlTemplate="{StaticResource TabItemTemplate}"
+                Style="{StaticResource AnimatedTabItemStyle}">
+                <toolkit:TabViewItem.Icon>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.Heart}"
+                        Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
+                </toolkit:TabViewItem.Icon>
+                <toolkit:TabViewItem.IconSelected>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.Heart}"
+                        Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
+                </toolkit:TabViewItem.IconSelected>
+                <pages:FavouritePage />
+            </toolkit:TabViewItem>
+            <!-- BASKET TAB -->
+            <toolkit:TabViewItem
+                TabTapped="OnCartTabTapped"
+                ControlTemplate="{StaticResource BasketTabItemTemplate}"
+                Style="{StaticResource TabItemStyle}">
+                <toolkit:TabViewItem.Icon>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.ShoppingBag}"
+                        Color="{AppThemeBinding Dark={StaticResource NeutralLighter}, Light={StaticResource White}}" />
+                </toolkit:TabViewItem.Icon>
+            </toolkit:TabViewItem>
+            <!-- SETTINGS TAB -->
+            <toolkit:TabViewItem
+                ControlTemplate="{StaticResource TabItemTemplate}"
+                Style="{StaticResource AnimatedTabItemStyle}">
+                <toolkit:TabViewItem.Icon>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.Cog}"
+                        Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
+                </toolkit:TabViewItem.Icon>
+                <toolkit:TabViewItem.IconSelected>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.Cog}"
+                        Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
+                </toolkit:TabViewItem.IconSelected>
+                <pages:SettingsPage />
+            </toolkit:TabViewItem>
+            <!-- PROFILE TAB -->
+            <toolkit:TabViewItem
+                ControlTemplate="{StaticResource TabItemTemplate}"
+                Style="{StaticResource AnimatedTabItemStyle}">
+                <toolkit:TabViewItem.Icon>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.User}"
+                        Color="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource TabIconColor}}" />
+                </toolkit:TabViewItem.Icon>
+                <toolkit:TabViewItem.IconSelected>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.User}"
+                        Color="{AppThemeBinding Dark={StaticResource ThemeDark}, Light={StaticResource TabSelectedIconColor}}" />
+                </toolkit:TabViewItem.IconSelected>
+                <pages:ProfilePage />
+            </toolkit:TabViewItem>
+        </toolkit:TabView>
+        <Grid
+            x:Name="DropTarget"
+            VerticalOptions="End"
+            Margin="0,0,0,30"
+            HeightRequest="120"
+            IsVisible="True"
+            BackgroundColor="#2E2545"
+            TranslationY="180">
+            <Grid.GestureRecognizers>
+                <DropGestureRecognizer
+                    AllowDrop="True"
+                    DragOver="OnDragOver"
+                    DragLeave="OnDragLeave"
+                    Drop="OnDrop" />
+            </Grid.GestureRecognizers>
+            <Image
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+                <Image.Source>
+                    <FontImageSource
+                        FontFamily="FontAwesome"
+                        Glyph="{x:Static theme:IconFont.ShoppingBag}"
+                        Color="#ffffff" />
+                </Image.Source>
+            </Image>
+        </Grid>
     </Grid>
-
-
-  </Grid>
-
 </ContentPage>

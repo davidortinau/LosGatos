@@ -1,8 +1,6 @@
-﻿using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using LosGatos.Models;
 using LosGatos.ViewModels.Messages;
-using Sharpnado.Shades;
 using TinyMessenger;
 using Xamarin.CommunityToolkit.UI.Views;
 using Xamarin.Forms;
@@ -21,45 +19,58 @@ namespace LosGatos.Pages
 
         protected Gatos DraggingGatos;
 
-        private void OnDragEnded(DragEndedMessage obj)
+        void OnDragEnded(DragEndedMessage obj)
         {
-            // hide the drop target, show the button
+            // Hide the drop target, show the button
             DropTarget.TranslateTo(0, 180);
         }
 
-        private void OnDragStarted(DragStartedMessage obj)
+        void OnDragStarted(DragStartedMessage obj)
         {
             DraggingGatos = obj.Gatos;
-            // hide the button, show the drop target
+
+            // Hide the button, show the drop target
             DropTarget.TranslateTo(0, 30);
         }
 
-        void ImageButton_Clicked(System.Object sender, System.EventArgs e)
+        void OnAppThemeButtonClicked(object sender, System.EventArgs e)
         {
-            App.Current.UserAppTheme = (App.Current.UserAppTheme == OSAppTheme.Dark)
+            Application.Current.UserAppTheme = (Application.Current.UserAppTheme == OSAppTheme.Dark)
                 ? OSAppTheme.Light
                 : OSAppTheme.Dark;
         }
 
-        private async void TabViewItem_OnTabTapped(object sender, TabTappedEventArgs e)
+        async void OnCartTabTapped(object sender, TabTappedEventArgs e)
         {
-            await Navigation.PushAsync(new ShoppingCartPage(), true);
+            if (sender is TabViewItem tabViewItem)
+            {
+                // Tap animation
+                var tabViewOriginalScale = tabViewItem.Scale;
+                await tabViewItem.ScaleTo(tabViewOriginalScale - 0.1, 50, Easing.Linear);
+                await Task.Delay(100);
+                await tabViewItem.ScaleTo(tabViewOriginalScale, 50, Easing.Linear);
+            }
+
+            if (App.Model.Cart.Count > 0)
+                await Navigation.PushAsync(new ShoppingCartPage(), true);
+            else
+                await DisplayAlert("Cart is empty", "There is nothing added to the cart.", "Ok");
         }
         
-        void DropGestureRecognizer_DragOver(System.Object sender, Xamarin.Forms.DragEventArgs e)
+        void OnDragOver(object sender, DragEventArgs e)
         {
-            // Grid sl = ((Grid)(sender as DropGestureRecognizer).Parent);
+           
         }
 
-        void DropGestureRecognizer_DragLeave(System.Object sender, Xamarin.Forms.DragEventArgs e)
+        void OnDragLeave(object sender, DragEventArgs e)
         {
-            // Grid sl = ((Grid)(sender as DropGestureRecognizer).Parent);
+         
         }
 
-        void DropGestureRecognizer_Drop(System.Object sender, Xamarin.Forms.DropEventArgs e)
+        void OnDrop(object sender, DropEventArgs e)
         {
             DependencyService.Get<TinyMessengerHub>()
-                .Publish<AddToCartMessage>(new AddToCartMessage()
+                .Publish(new AddToCartMessage()
                 {
                     Gatos = DraggingGatos
                 });

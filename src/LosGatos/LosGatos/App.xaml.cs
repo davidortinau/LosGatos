@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using LosGatos.Models;
+﻿using LosGatos.Models;
 using LosGatos.Pages;
 using LosGatos.ViewModels.Messages;
 using Plugin.SharedTransitions;
@@ -17,8 +15,6 @@ namespace LosGatos
 
         public App()
         {
-            //Device.SetFlags(new string[] { "Brush_Experimental", "Shapes_Experimental" });
-
             InitializeComponent();
             
             DependencyService.Register<TinyMessengerHub>();
@@ -27,31 +23,12 @@ namespace LosGatos
 
             var navigationPage = new SharedTransitionNavigationPage(new MainPage())
             {
-                BarBackgroundColor = Color.Transparent,
-                BarTextColor = Color.Black
+                BarBackgroundColor = Color.Transparent
             };
 
             navigationPage.On<iOS>().SetHideNavigationBarSeparator(true);
 
             MainPage = navigationPage;
-            //MainPage = new ProductDetailPage();
-        }
-
-        private void Subscribe()
-        {
-            var hub = DependencyService.Get<TinyMessengerHub>();
-            hub.Subscribe<AddToCartMessage>(OnAddToCart);
-            hub.Subscribe<RemoveFromCartMessage>(OnRemoveFromCart);
-        }
-
-        private void OnRemoveFromCart(RemoveFromCartMessage obj)
-        {
-            Model.Cart.Remove(obj.Gatos);
-        }
-
-        private void OnAddToCart(AddToCartMessage obj)
-        {
-            Model.Cart.Add(obj.Gatos);
         }
 
         protected override void OnStart()
@@ -66,6 +43,21 @@ namespace LosGatos
         {
         }
 
-        
+        void Subscribe()
+        {
+            var hub = DependencyService.Get<TinyMessengerHub>();
+            hub.Subscribe<AddToCartMessage>(OnAddToCart);
+            hub.Subscribe<RemoveFromCartMessage>(OnRemoveFromCart);
+        }
+
+        void OnRemoveFromCart(RemoveFromCartMessage obj)
+        {
+            Model.Cart.Remove(obj.Gatos);
+        }
+
+        void OnAddToCart(AddToCartMessage obj)
+        {
+            Model.Cart.Add(obj.Gatos);
+        }
     }
 }

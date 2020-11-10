@@ -11,7 +11,6 @@ namespace LosGatos.ViewModels
         public ShoppingCartViewModel()
         {
             Cart = App.Model.Cart;
-        }
-        
+        }       
     }
 }

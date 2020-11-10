@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace LosGatos.Pages
@@ -12,15 +10,17 @@ namespace LosGatos.Pages
             InitializeComponent();
         }
 
-        private void SaveBtn_OnClicked(object sender, EventArgs e)
+        async void OnBackButtonClicked(object sender, EventArgs e) => await Navigation.PopAsync();
+
+        void OnSaveButtonClicked(object sender, EventArgs e)
         {
-            // remove from cart
-            // add to saved for later
+            // Remove from cart
+            // Add to saved for later
         }
 
-        private void RemoveBtn_OnClicked(object sender, EventArgs e)
+        void OnRemoveButtonClicked(object sender, EventArgs e)
         {
-            // remove from cart
+            // Remove from cart
         }
     }
 }

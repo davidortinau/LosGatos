@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using LosGatos.Models;
 using LosGatos.ViewModels.Messages;
@@ -20,7 +19,7 @@ namespace LosGatos.Pages
             InitializeComponent();
         }
 
-        private async void OnGoToProductDetail(GoToProductDetailMessage obj)
+        async void OnGoToProductDetail(GoToProductDetailMessage obj)
         {
             App.Model.SelectedGatos = obj.Gatos;
             await Navigation.PushAsync(new ProductDetailPage());
@@ -31,26 +30,24 @@ namespace LosGatos.Pages
             App.Model.Cart.Add(App.Model.Gatos[0]);
         }
 
-
         public List<Gatos> Gatos { get; set; } = App.Model.Gatos.Take(3).ToList();
 
-        public List<Gatos> PopularGatos {
+        public List<Gatos> PopularGatos
+        {
             get
             {
                 var rand = new Random();
                 var randomList = App.Model.Gatos.OrderBy(x => rand.Next()).ToList();
                 return randomList.Take(3).ToList();
             }
-        } 
+        }    
 
-        private void DragGestureRecognizer_OnDragStarting(object sender, DragStartingEventArgs e)
+        void OnDragStarting(object sender, DragStartingEventArgs e)
         {
-            //e.Data.Properties.Add("Cat","Second");// what is your name?!
-            
-            //DependencyService.Get<TinyMessengerHub>().Publish(new DragStartedMessage());
+
         }
 
-        private void DragGestureRecognizer_OnDropCompleted(object sender, DropCompletedEventArgs e)
+        void OnDropCompleted(object sender, DropCompletedEventArgs e)
         {
             DependencyService.Get<TinyMessengerHub>().Publish(new DragEndedMessage());
         }

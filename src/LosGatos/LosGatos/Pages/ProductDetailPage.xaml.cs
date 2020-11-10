@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace LosGatos.Pages
@@ -12,9 +10,6 @@ namespace LosGatos.Pages
             InitializeComponent();
         }
 
-        async void ImageButton_Clicked(System.Object sender, System.EventArgs e)
-        {
-            await Navigation.PopAsync();
-        }
+        async void OnBackButtonClicked(object sender, EventArgs e) => await Navigation.PopAsync();
     }
 }
