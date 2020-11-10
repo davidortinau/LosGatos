@@ -1,361 +1,448 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
-    xmlns:theme="clr-namespace:LosGatos.Styles"
-    x:Class="LosGatos.Pages.SettingsPage"
-    BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}">
-    <ContentView.Resources>
-        <ResourceDictionary>
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
+  xmlns:theme="clr-namespace:LosGatos.Styles"
+  x:Class="LosGatos.Pages.SettingsPage"
+  BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}">
+  <ContentView.Resources>
+    <ResourceDictionary>
 
-            <Color x:Key="LightRadioButtonColor">#F3F2F1</Color>
-            <Color x:Key="DarkRadioButtonColor">#9B9A99</Color>
+      <Color
+        x:Key="LightRadioButtonColor">#F3F2F1</Color>
+      <Color
+        x:Key="DarkRadioButtonColor">#9B9A99</Color>
 
-            <ControlTemplate x:Key="ImageQualityRadioTemplate">
-                <Frame
-                    BorderColor="{AppThemeBinding Dark={StaticResource DarkRadioButtonColor}, Light={StaticResource LightRadioButtonColor}}"
-                    BackgroundColor="{AppThemeBinding Dark={StaticResource DarkRadioButtonColor}, Light={StaticResource LightRadioButtonColor}}"
-                    HasShadow="False" 
-                    HeightRequest="100"
-                    WidthRequest="100"
-                    HorizontalOptions="Start"
-                    VerticalOptions="Start"
-                    Padding="0">
-                    <VisualStateManager.VisualStateGroups>
-			            <VisualStateGroupList>
-				            <VisualStateGroup x:Name="CheckedStates">
-					            <VisualState x:Name="Checked">
-						            <VisualState.Setters>
-							            <Setter Property="BorderColor" Value="#FF3300"/>
-							            <Setter TargetName="Check" Property="Opacity" Value="1"/>
-						            </VisualState.Setters>
-					            </VisualState>
-					            <VisualState x:Name="Unchecked">
-						            <VisualState.Setters>
-							            <Setter Property="BorderColor" Value="#F3F2F1"/>
-							            <Setter TargetName="Check" Property="Opacity" Value="0"/>
-						            </VisualState.Setters>
-					            </VisualState>
-				            </VisualStateGroup>
-			            </VisualStateGroupList>
-		            </VisualStateManager.VisualStateGroups>
-                    <Grid
-                       Margin="4"
-                       WidthRequest="100">
-			            <Grid
-                            WidthRequest="18"
-                            HeightRequest="18"
-                            HorizontalOptions="End"
-                            VerticalOptions="Start">
-                            <Ellipse
-                                Stroke="#2E2545"
-                                WidthRequest="16"
-                                HeightRequest="16"
-                                StrokeThickness="0.5"
-                                VerticalOptions="Center"
-                                HorizontalOptions="Center"
-                                Fill="White" />
-				            <Ellipse
-                                x:Name="Check"
-                                WidthRequest="8"
-                                HeightRequest="8"
-                                Fill="#2E2545"
-                                VerticalOptions="Center"
-                                HorizontalOptions="Center" />
-                        </Grid>
-                        <ContentPresenter />
-                    </Grid>
-                </Frame>
-            </ControlTemplate>
-
-            <Style TargetType="RadioButton">
-                <Setter Property="ControlTemplate" Value="{StaticResource ImageQualityRadioTemplate}"/>
-            </Style>
-
-        </ResourceDictionary>
-    </ContentView.Resources>
-    <ContentView.Content>
-        <ScrollView>
+      <ControlTemplate
+        x:Key="ImageQualityRadioTemplate">
+        <Frame
+          BorderColor="{AppThemeBinding Dark={StaticResource DarkRadioButtonColor}, Light={StaticResource LightRadioButtonColor}}"
+          BackgroundColor="{AppThemeBinding Dark={StaticResource DarkRadioButtonColor}, Light={StaticResource LightRadioButtonColor}}"
+          HasShadow="False"
+          HeightRequest="100"
+          WidthRequest="100"
+          HorizontalOptions="Start"
+          VerticalOptions="Start"
+          Padding="0">
+          <VisualStateManager.VisualStateGroups>
+            <VisualStateGroupList>
+              <VisualStateGroup
+                x:Name="CheckedStates">
+                <VisualState
+                  x:Name="Checked">
+                  <VisualState.Setters>
+                    <Setter
+                      Property="BorderColor"
+                      Value="#FF3300" />
+                    <Setter
+                      TargetName="Check"
+                      Property="Opacity"
+                      Value="1" />
+                  </VisualState.Setters>
+                </VisualState>
+                <VisualState
+                  x:Name="Unchecked">
+                  <VisualState.Setters>
+                    <Setter
+                      Property="BorderColor"
+                      Value="#F3F2F1" />
+                    <Setter
+                      TargetName="Check"
+                      Property="Opacity"
+                      Value="0" />
+                  </VisualState.Setters>
+                </VisualState>
+              </VisualStateGroup>
+            </VisualStateGroupList>
+          </VisualStateManager.VisualStateGroups>
+          <Grid
+            Margin="4"
+            WidthRequest="100">
             <Grid
-                RowDefinitions="Auto, Auto, 300, Auto, 300"
-                Margin="12">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition />
-                    <ColumnDefinition />
-                </Grid.ColumnDefinitions>
-                <!-- WELCOME -->
-                <Grid
-                    Grid.ColumnSpan="2"
-                    ColumnDefinitions="Auto, *"
-                    Margin="0, 12">
-                    <Image
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        WidthRequest="50"
-                        HeightRequest="50"
-                        Source="https://devblogs.microsoft.com/xamarin/wp-content/uploads/sites/44/2019/03/Screen-Shot-2017-01-03-at-3.35.53-PM-150x150.png">
-                        <Image.Clip>
-                            <EllipseGeometry
-                                Center="25, 25"
-                                RadiusX="25"
-                                RadiusY="25"/>
-                        </Image.Clip>
-                    </Image>
-                    <Label
-                        Grid.Column="1"
-                        LineBreakMode="NoWrap"
-                        VerticalOptions="Center">
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span
-                                    FontSize="24"
-                                    Text="Welcome, "
-                                    FontAttributes="Bold" />
-                                <Span
-                                    FontSize="24"
-                                    Text="David Ortinau" />
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                </Grid>
-                <!-- NOTIFICATIONS -->
-                <Label
-                    Grid.Row="1"
-                    Text="Notifications"
-                    FontAttributes="Bold"
-                    FontSize="20"/>
-                <sh:Shadows
-                    Grid.Row="2"
-                    IsClippedToBounds="False"
-                    CornerRadius="24"
-                    Shades="{sh:SingleShade Offset='0, 30',
+              WidthRequest="18"
+              HeightRequest="18"
+              HorizontalOptions="End"
+              VerticalOptions="Start">
+              <Ellipse
+                Stroke="#2E2545"
+                WidthRequest="16"
+                HeightRequest="16"
+                StrokeThickness="0.5"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Fill="White" />
+              <Ellipse
+                x:Name="Check"
+                WidthRequest="8"
+                HeightRequest="8"
+                Fill="#2E2545"
+                VerticalOptions="Center"
+                HorizontalOptions="Center" />
+            </Grid>
+            <ContentPresenter />
+          </Grid>
+        </Frame>
+      </ControlTemplate>
+
+      <Style
+        TargetType="RadioButton">
+        <Setter
+          Property="ControlTemplate"
+          Value="{StaticResource ImageQualityRadioTemplate}" />
+      </Style>
+
+    </ResourceDictionary>
+  </ContentView.Resources>
+  <ContentView.Content>
+    <ScrollView>
+      <Grid
+        RowDefinitions="Auto, Auto, 300, Auto, 300, Auto, *"
+        ColumnDefinitions="*,*"
+        ColumnSpacing="15"
+        Margin="15">
+        <!-- WELCOME -->
+        <Grid
+          Grid.ColumnSpan="2"
+          ColumnSpacing="15"
+          ColumnDefinitions="Auto, *"
+          Margin="0, 15">
+          <Image
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            WidthRequest="50"
+            HeightRequest="50"
+            Source="https://devblogs.microsoft.com/xamarin/wp-content/uploads/sites/44/2019/03/Screen-Shot-2017-01-03-at-3.35.53-PM-150x150.png">
+            <Image.Clip>
+              <EllipseGeometry
+                Center="25, 25"
+                RadiusX="25"
+                RadiusY="25" />
+            </Image.Clip>
+          </Image>
+          <Label
+            Grid.Column="1"
+            LineBreakMode="NoWrap"
+            VerticalOptions="Center">
+            <Label.FormattedText>
+              <FormattedString>
+                <Span
+                  FontSize="24"
+                  Text="Welcome, "
+                  FontAttributes="Bold" />
+                <Span
+                  FontSize="24"
+                  Text="David Ortinau" />
+              </FormattedString>
+            </Label.FormattedText>
+          </Label>
+        </Grid>
+        <!-- NOTIFICATIONS -->
+        <Label
+          Grid.Row="1"
+          Margin="0,8"
+          Text="Notifications"
+          FontAttributes="Bold"
+          FontSize="20" />
+        <sh:Shadows
+          Grid.Row="2"
+          IsClippedToBounds="False"
+          CornerRadius="24"
+          Shades="{sh:SingleShade Offset='0, 30',
                     BlurRadius=60,
                     Opacity=0.20,
                     Color='#8A959E'}">
-                  <Grid
-                      ColumnDefinitions="Auto,*"
-                      RowDefinitions="Auto, *"
-                      RowSpacing="0">
-                      <BoxView
-                          Grid.ColumnSpan="2"
-                          Grid.RowSpan="2"
-                          CornerRadius="24"
-                          BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
-                      <Grid
-                          Grid.Column="0"
-                          ColumnDefinitions="Auto, *"
-                          VerticalOptions="Start"
-                          HorizontalOptions="Center"
-                          Margin="12, 24">
-                          <Grid>
-                              <Ellipse
-                                  HeightRequest="40"
-                                  WidthRequest="40"
-                                  Stroke="{StaticResource ThemePrimaryBrush}"
-                                  Fill="{StaticResource ThemePrimaryBrush}"/>
-                              <Image
-                                  Source="{FontImage FontFamily=FontAwesome, 
+          <Grid
+            ColumnDefinitions="Auto,*"
+            RowDefinitions="Auto, *"
+            RowSpacing="0">
+            <BoxView
+              Grid.ColumnSpan="2"
+              Grid.RowSpan="2"
+              CornerRadius="24"
+              BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
+            <Grid
+              Grid.Column="0"
+              ColumnDefinitions="Auto, *"
+              VerticalOptions="Start"
+              HorizontalOptions="Center"
+              Margin="15, 24">
+              <Grid>
+                <Ellipse
+                  HeightRequest="40"
+                  WidthRequest="40"
+                  Stroke="{StaticResource ThemePrimaryBrush}"
+                  Fill="{StaticResource ThemePrimaryBrush}" />
+                <Image
+                  Source="{FontImage FontFamily=FontAwesome, 
                                     Glyph={x:Static theme:IconFont.Image}, 
                                     Color=#FFFFFF}"
-                                    Scale="0.5"/>
-                          </Grid>
-                          <Label
-                              Grid.Column="1"
-                              Text="Orders"
-                              FontAttributes="Bold"
-                              FontSize="18"
-                              VerticalOptions="Center"/>
-                      </Grid>
-                      <StackLayout 
-                          Orientation="Vertical"
-                          VerticalOptions="Start"
-                          Grid.Row="1"
-                          Grid.ColumnSpan="2"
-                          Padding="12">
-                          <Label
-                              Text="Do you want to receive notifications with order information, status and distribution information?"
-                              TextColor="{StaticResource TextSecondaryColor_Light}"
-                              FontSize="14" />
-                          <Switch
-                              IsToggled="True"
-                              Margin="0, 24"/>
-                    </StackLayout>
-                  </Grid>
-                </sh:Shadows>
-                <sh:Shadows
-                    Grid.Column="1"
-                    Grid.Row="2"
-                    IsClippedToBounds="False"
-                    CornerRadius="24"
-                    Shades="{sh:SingleShade Offset='0, 30',
+                  Scale="0.5" />
+              </Grid>
+              <Label
+                Grid.Column="1"
+                Text="Orders"
+                FontAttributes="Bold"
+                FontSize="18"
+                VerticalOptions="Center" />
+            </Grid>
+            <Label
+              VerticalOptions="Start"
+              Grid.Row="1"
+              Grid.ColumnSpan="2"
+              Margin="15,0"
+              Text="Do you want to receive notifications with order information, status and distribution information?"
+              TextColor="{StaticResource TextSecondaryColor_Light}"
+              FontSize="14" />
+            <Switch
+              VerticalOptions="End"
+              Grid.Row="1"
+              Grid.ColumnSpan="2"
+              IsToggled="True"
+              Margin="15, 24" />
+
+          </Grid>
+        </sh:Shadows>
+        <sh:Shadows
+          Grid.Column="1"
+          Grid.Row="2"
+          IsClippedToBounds="False"
+          CornerRadius="24"
+          Shades="{sh:SingleShade Offset='0, 30',
                     BlurRadius=60,
                     Opacity=0.20,
                     Color='#8A959E'}">
-                  <Grid
-                      ColumnDefinitions="Auto,*"
-                      RowDefinitions="Auto, *"
-                      RowSpacing="0">
-                      <BoxView
-                          Grid.ColumnSpan="2"
-                          Grid.RowSpan="2"
-                          CornerRadius="24"
-                          BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}"  />
-                      <Grid
-                          Grid.Column="0"
-                          ColumnDefinitions="Auto, *"
-                          VerticalOptions="Start"
-                          HorizontalOptions="Center"
-                          Margin="12, 24">
-                          <Grid>
-                              <Ellipse
-                                  HeightRequest="40"
-                                  WidthRequest="40"
-                                  Stroke="{StaticResource ThemeTertiaryBrush}"
-                                  Fill="{StaticResource ThemeTertiaryBrush}"/>
-                              <Image
-                                  Source="{FontImage FontFamily=FontAwesome, 
+          <Grid
+            ColumnDefinitions="Auto,*"
+            RowDefinitions="Auto, *"
+            RowSpacing="0">
+            <BoxView
+              Grid.ColumnSpan="2"
+              Grid.RowSpan="2"
+              CornerRadius="24"
+              BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
+            <Grid
+              Grid.Column="0"
+              ColumnDefinitions="Auto, *"
+              VerticalOptions="Start"
+              HorizontalOptions="Center"
+              Margin="15, 24">
+              <Grid>
+                <Ellipse
+                  HeightRequest="40"
+                  WidthRequest="40"
+                  Stroke="{StaticResource ThemeTertiaryBrush}"
+                  Fill="{StaticResource ThemeTertiaryBrush}" />
+                <Image
+                  Source="{FontImage FontFamily=FontAwesome, 
                                     Glyph={x:Static theme:IconFont.Image}, 
                                     Color=#FFFFFF}"
-                                    Scale="0.5"/>
-                          </Grid>
-                          <Label
-                              Grid.Column="1"
-                              Text="Promotions"
-                              FontAttributes="Bold"
-                              FontSize="18"
-                              VerticalOptions="Center"/>
-                      </Grid>
-                      <StackLayout 
-                          Orientation="Vertical"
-                          VerticalOptions="Start"
-                          Grid.Row="1"
-                          Grid.ColumnSpan="2"
-                          Padding="12">
-                          <Label
-                              Text="Do you want to receive notifications with promotions, exclusive coupons and other offers?"
-                              TextColor="{StaticResource TextSecondaryColor_Light}"
-                              FontSize="14" />
-                          <Switch
-                              Margin="0, 24"/>
-                    </StackLayout>
-                  </Grid>
-                </sh:Shadows>
-                <!-- IMAGE QUALITY -->
-                <Label
-                    Grid.Row="3"
-                    Text="Image Quality"
-                    FontAttributes="Bold"
-                    FontSize="20"/>
-                <sh:Shadows
-                    Grid.Row="4"
-                    Grid.ColumnSpan="2"
-                    IsClippedToBounds="False"
-                    CornerRadius="24"
-                    Shades="{sh:SingleShade Offset='0, 30',
+                  Scale="0.5" />
+              </Grid>
+              <Label
+                Grid.Column="1"
+                Text="Promotions"
+                FontAttributes="Bold"
+                FontSize="18"
+                VerticalOptions="Center" />
+            </Grid>
+
+            <Label
+              Grid.Row="1"
+              Grid.ColumnSpan="2"
+              VerticalOptions="Start"
+              Margin="15,0"
+              Text="Do you want to receive notifications with promotions, exclusive coupons and other offers?"
+              TextColor="{StaticResource TextSecondaryColor_Light}"
+              FontSize="14" />
+            <Switch
+              VerticalOptions="End"
+              Grid.Row="1"
+              Grid.ColumnSpan="2"
+              Margin="15, 24" />
+
+          </Grid>
+        </sh:Shadows>
+        <!-- IMAGE QUALITY -->
+        <Label
+          Grid.Row="3"
+          Margin="0,16,0,8"
+          Text="Options"
+          FontAttributes="Bold"
+          FontSize="20" />
+        <sh:Shadows
+          Grid.Row="4"
+          Grid.ColumnSpan="2"
+          IsClippedToBounds="False"
+          CornerRadius="24"
+          Shades="{sh:SingleShade Offset='0, 30',
                     BlurRadius=60,
                     Opacity=0.20,
                     Color='#8A959E'}">
-                  <Grid
-                      ColumnDefinitions="Auto,*"
-                      RowDefinitions="Auto, *">
-                      <BoxView
-                          Grid.ColumnSpan="2"
-                          Grid.RowSpan="2"
-                          CornerRadius="24"
-                          BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
-                      <Grid
-                          Grid.Column="0"
-                          ColumnDefinitions="Auto, *"
-                          VerticalOptions="Start"
-                          HorizontalOptions="Center"
-                          Margin="12, 24">
-                          <Grid>
-                              <Ellipse
-                                  HeightRequest="40"
-                                  WidthRequest="40"
-                                  Stroke="{StaticResource ThemeSecondaryBrush}"
-                                  Fill="{StaticResource ThemeSecondaryBrush}"/>
-                              <Image
-                                  Source="{FontImage FontFamily=FontAwesome, 
+          <Grid
+            ColumnDefinitions="Auto,*"
+            RowDefinitions="Auto, *">
+            <BoxView
+              Grid.ColumnSpan="2"
+              Grid.RowSpan="2"
+              CornerRadius="24"
+              BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
+            <Grid
+              Grid.Column="0"
+              ColumnDefinitions="Auto, *"
+              VerticalOptions="Start"
+              HorizontalOptions="Center"
+              Margin="15, 24">
+              <Grid>
+                <Ellipse
+                  HeightRequest="40"
+                  WidthRequest="40"
+                  Stroke="{StaticResource ThemeSecondaryBrush}"
+                  Fill="{StaticResource ThemeSecondaryBrush}" />
+                <Image
+                  Source="{FontImage FontFamily=FontAwesome, 
                                   Glyph={x:Static theme:IconFont.Image}, 
                                   Color=#FFFFFF}"
-                                  Scale="0.5"/>
-                          </Grid>
-                          <Label
-                              Grid.Column="1"
-                              Text="Image Quality"
-                              FontAttributes="Bold"
-                              FontSize="18"
-                              VerticalOptions="Center"/>
-                      </Grid>
-                      <StackLayout
-                          Orientation="Vertical"
-                          Grid.Row="1"
-                          Grid.ColumnSpan="2"
-                          Padding="12">
-                          <StackLayout 
-                              RadioButtonGroup.GroupName="ImageQualityRadios"
-                              Orientation="Horizontal"
-                              HorizontalOptions="Center">
-                              <RadioButton
-                                  IsChecked="True">
-                                  <RadioButton.Content>
-                                    <StackLayout 
-                                        HorizontalOptions="Center" 
-                                        VerticalOptions="Center">
-                                        <Image
-                                            Source="{FontImage FontFamily=FontAwesome, 
-                                            Glyph={x:Static theme:IconFont.Image}, 
-                                            Color=#323130}"
-                                            Scale="0.75"/>
-                                        <Label
-                                            Text="Automatic"
-                                            TextColor="#323130"/>
-                                    </StackLayout>
-                                  </RadioButton.Content>
-                              </RadioButton>
-                              <RadioButton>
-                                  <RadioButton.Content>
-                                    <StackLayout 
-                                        HorizontalOptions="Center" 
-                                        VerticalOptions="Center">
-                                        <Image
-                                            Source="{FontImage FontFamily=FontAwesome, 
-                                            Glyph={x:Static theme:IconFont.Image}, 
-                                            Color=#323130}"
-                                            Scale="0.5"/>
-                                        <Label
-                                            Text="Low"
-                                            TextColor="#323130"/>
-                                    </StackLayout>
-                                  </RadioButton.Content>
-                              </RadioButton>
-                              <RadioButton>
-                                   <RadioButton.Content>
-                                    <StackLayout 
-                                        HorizontalOptions="Center" 
-                                        VerticalOptions="Center">
-                                        <Image
-                                            Source="{FontImage FontFamily=FontAwesome, 
-                                            Glyph={x:Static theme:IconFont.Image}, 
-                                            Color=#323130}"/>
-                                        <Label
-                                            Text="High"
-                                            TextColor="#323130"/>
-                                    </StackLayout>
-                                  </RadioButton.Content>
-                              </RadioButton>
-                          </StackLayout>
-                          <Label
-                              Text="Image quality affects the speed of page refresh. Adjust the quality according to the speed of your internet connection."
-                              TextColor="{StaticResource TextSecondaryColor_Light}"
-                              FontSize="14"
-                              Margin="12"/>
-                    </StackLayout>
-                  </Grid>
-                </sh:Shadows>
+                  Scale="0.5" />
+              </Grid>
+              <Label
+                Grid.Column="1"
+                Text="Image Quality"
+                FontAttributes="Bold"
+                FontSize="18"
+                VerticalOptions="Center" />
             </Grid>
-        </ScrollView>
-    </ContentView.Content>
+            <StackLayout
+              Orientation="Vertical"
+              Grid.Row="1"
+              Grid.ColumnSpan="2"
+              Padding="15">
+              <StackLayout
+                RadioButtonGroup.GroupName="ImageQualityRadios"
+                Orientation="Horizontal"
+                HorizontalOptions="Center">
+                <RadioButton
+                  IsChecked="True">
+                  <RadioButton.Content>
+                    <StackLayout
+                      HorizontalOptions="Center"
+                      VerticalOptions="Center">
+                      <Image
+                        Source="{FontImage FontFamily=FontAwesome, 
+                                            Glyph={x:Static theme:IconFont.Image}, 
+                                            Color=#323130}"
+                        Scale="0.75" />
+                      <Label
+                        Text="Automatic"
+                        TextColor="#323130" />
+                    </StackLayout>
+                  </RadioButton.Content>
+                </RadioButton>
+                <RadioButton>
+                  <RadioButton.Content>
+                    <StackLayout
+                      HorizontalOptions="Center"
+                      VerticalOptions="Center">
+                      <Image
+                        Source="{FontImage FontFamily=FontAwesome, 
+                                            Glyph={x:Static theme:IconFont.Image}, 
+                                            Color=#323130}"
+                        Scale="0.5" />
+                      <Label
+                        Text="Low"
+                        TextColor="#323130" />
+                    </StackLayout>
+                  </RadioButton.Content>
+                </RadioButton>
+                <RadioButton>
+                  <RadioButton.Content>
+                    <StackLayout
+                      HorizontalOptions="Center"
+                      VerticalOptions="Center">
+                      <Image
+                        Source="{FontImage FontFamily=FontAwesome, 
+                                            Glyph={x:Static theme:IconFont.Image}, 
+                                            Color=#323130}" />
+                      <Label
+                        Text="High"
+                        TextColor="#323130" />
+                    </StackLayout>
+                  </RadioButton.Content>
+                </RadioButton>
+              </StackLayout>
+              <Label
+                Text="Image quality affects the speed of page refresh. Adjust the quality according to the speed of your internet connection."
+                TextColor="{StaticResource TextSecondaryColor_Light}"
+                FontSize="14"
+                Margin="15" />
+            </StackLayout>
+          </Grid>
+        </sh:Shadows>
+
+        <!-- Acknowledgements -->
+        <Label
+          Grid.Row="5"
+          Grid.ColumnSpan="2"
+          Margin="0,16,0,8"
+          Text="Acknowledgements"
+          FontAttributes="Bold"
+          FontSize="20" />
+        <sh:Shadows
+          Grid.Row="6"
+          Grid.ColumnSpan="2"
+          IsClippedToBounds="False"
+          CornerRadius="24"
+          Shades="{sh:SingleShade Offset='0, 30',
+                    BlurRadius=60,
+                    Opacity=0.20,
+                    Color='#8A959E'}">
+          <Grid
+            ColumnDefinitions="Auto,*"
+            RowDefinitions="Auto, *">
+            <BoxView
+              Grid.ColumnSpan="2"
+              Grid.RowSpan="2"
+              CornerRadius="24"
+              BackgroundColor="{AppThemeBinding Dark={StaticResource NeutralDark}, Light={StaticResource White}}" />
+            <Grid
+              Grid.Column="0"
+              ColumnDefinitions="Auto, *"
+              VerticalOptions="Start"
+              HorizontalOptions="Center"
+              Margin="15, 24, 15, 0">
+              <Grid>
+                <Ellipse
+                  HeightRequest="40"
+                  WidthRequest="40"
+                  Stroke="{StaticResource ThemeSecondaryBrush}"
+                  Fill="{StaticResource ThemeSecondaryBrush}" />
+                <Image
+                  Source="{FontImage FontFamily=FontAwesome, 
+                                  Glyph={x:Static theme:IconFont.PaintBrush}, 
+                                  Color=#FFFFFF}"
+                  Scale="0.5" />
+              </Grid>
+              <Label
+                Grid.Column="1"
+                Text="Artwork"
+                FontAttributes="Bold"
+                FontSize="18"
+                VerticalOptions="Center" />
+            </Grid>
+            <StackLayout
+              Orientation="Vertical"
+              Grid.Row="1"
+              Grid.ColumnSpan="2"
+              Padding="15">
+              <Label
+                Text="Illustrations licensed from Shutterstock and authored by the very talented Olga_Angelloz."
+                TextColor="{StaticResource TextSecondaryColor_Light}"
+                FontSize="14"
+                Margin="15" />
+            </StackLayout>
+          </Grid>
+        </sh:Shadows>
+      </Grid>
+    </ScrollView>
+  </ContentView.Content>
 </ContentView>
