@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using LosGatos.Models;
 using LosGatos.Pages;
+using LosGatos.ViewModels.Messages;
 using Plugin.SharedTransitions;
 using TinyMessenger;
 using Xamarin.Forms;
@@ -20,6 +22,8 @@ namespace LosGatos
             InitializeComponent();
             
             DependencyService.Register<TinyMessengerHub>();
+            Subscribe();
+            
 
             var navigationPage = new SharedTransitionNavigationPage(new MainPage())
             {
@@ -31,6 +35,23 @@ namespace LosGatos
 
             MainPage = navigationPage;
             //MainPage = new ProductDetailPage();
+        }
+
+        private void Subscribe()
+        {
+            var hub = DependencyService.Get<TinyMessengerHub>();
+            hub.Subscribe<AddToCartMessage>(OnAddToCart);
+            hub.Subscribe<RemoveFromCartMessage>(OnRemoveFromCart);
+        }
+
+        private void OnRemoveFromCart(RemoveFromCartMessage obj)
+        {
+            Model.Cart.Remove(obj.Gatos);
+        }
+
+        private void OnAddToCart(AddToCartMessage obj)
+        {
+            Model.Cart.Add(obj.Gatos);
         }
 
         protected override void OnStart()

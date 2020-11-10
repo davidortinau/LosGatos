@@ -28,9 +28,17 @@ namespace LosGatos.Models
 
         public Command SelectedCommand { get; set; }
 
+        public Command AddToCartCommand { get; set; }
+
         public Gatos()
         {
             SelectedCommand = new Command(OnSelected);
+            AddToCartCommand = new Command(OnAddToCart);
+        }
+
+        private void OnAddToCart()
+        {
+            DependencyService.Get<TinyMessengerHub>().Publish(new AddToCartMessage() { Gatos = this });
         }
 
         private void OnSelected()

@@ -3,6 +3,7 @@
   xmlns ="http://xamarin.com/schemas/2014/forms"
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
   xmlns:viewModels="clr-namespace:LosGatos.ViewModels;assembly=LosGatos"
+  xmlns:models="clr-namespace:LosGatos.Models"
   xmlns:theme="clr-namespace:LosGatos.Styles;assembly=LosGatos"
   Title="Shopping Cart"
   x:Class="LosGatos.Pages.ShoppingCartPage">
@@ -12,7 +13,7 @@
   </ContentPage.BindingContext>
   
   <ContentPage.Content>
-    
+    <Grid>
     <CollectionView ItemsSource="{Binding Cart}">
       <CollectionView.EmptyView>
         <Grid>
@@ -41,6 +42,7 @@
             </SwipeView.RightItems>
             
             <Grid
+              x:DataType="models:Gatos"
               Margin="35,8"
               RowDefinitions="140"
               ColumnDefinitions="110,*,200">
@@ -53,7 +55,7 @@
                 VerticalOptions="Center"
                 Grid.Column="2">
                 <Label
-                  Text="Lausanne chair"
+                  Text="{Binding Name}"
                   FontAttributes="Bold"
                   FontSize="20" />
                 <StackLayout Orientation="Horizontal" Spacing="0">
@@ -75,14 +77,14 @@
                     BorderWidth="0"
                     VerticalOptions="Center"
                   />
-                  <Label Text="$29.95"
+                  <Label Text="{Binding Price}"
                          FontSize="18"
                          HorizontalOptions="End"
                          VerticalOptions="Center"/>
                 </StackLayout>
               </StackLayout>
               <Image
-                Source="shutterstock_186919337.png"
+                Source="{Binding ProductImage}"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 Margin="15"
@@ -93,15 +95,22 @@
           </SwipeView>
         </DataTemplate>
       </CollectionView.ItemTemplate>
-      <CollectionView.FooterTemplate>
-        <DataTemplate>
-          <Grid Padding="35">
+      
+    </CollectionView>
+
+      <Grid BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark},
+        Light={StaticResource BackgroundColorLight}}"
+            VerticalOptions="End"
+            >
             
-            <Button Text="Checkout" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button
+              Margin="35"
+              VerticalOptions="Center"
+              BackgroundColor="{StaticResource ThemePrimary}"
+              BorderWidth="0"
+              Text="Checkout" />
             
           </Grid>
-        </DataTemplate>
-      </CollectionView.FooterTemplate>
-    </CollectionView>
+    </Grid>
   </ContentPage.Content>
 </ContentPage>
