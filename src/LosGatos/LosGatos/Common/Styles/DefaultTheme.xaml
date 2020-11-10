@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-                    x:Class="Common.Styles.DefaultTheme">
+<ResourceDictionary
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Common.Styles.DefaultTheme">
 
     <!-- COLORS -->
     <Color x:Key="ThemePrimary">#fd7b38</Color>
@@ -49,16 +50,22 @@
 
     <!-- BRUSHES -->
     <Color
-      x:Key="DarkBlue">#FDEE3D</Color>
+        x:Key="DarkBlue">#FDEE3D</Color>
 
     <Color
-      x:Key="LightBlue">#FFFFFF</Color>
+        x:Key="LightBlue">#FFFFFF</Color>
 
     <Color
-      x:Key="DarkGreen">#76B3AF</Color>
+        x:Key="DarkGreen">#76B3AF</Color>
 
     <Color
-      x:Key="LightGreen">#FFFFFF</Color>
+        x:Key="LightGreen">#FFFFFF</Color>
+
+    <SolidColorBrush x:Key="DarkBrush" Color="#605E5D" />
+    <SolidColorBrush x:Key="LightBrush" Color="White" />
+    <SolidColorBrush x:Key="ThemePrimaryBrush" Color="{StaticResource ThemePrimary}" />
+    <SolidColorBrush x:Key="ThemeTertiaryBrush" Color="{StaticResource ThemeTertiary}" />
+    <SolidColorBrush x:Key="ThemeSecondaryBrush" Color="{StaticResource ThemeSecondary}" />
 
     <LinearGradientBrush
       x:Key="BlueGradient"
@@ -341,7 +348,6 @@
                     <VisualState x:Name="Normal">
                         <VisualState.Setters>
                             <Setter Property="ThumbColor" Value="{StaticResource NeutralPrimaryAlt}"/>
-
                         </VisualState.Setters>
                     </VisualState>
                     <VisualState x:Name="Selected">

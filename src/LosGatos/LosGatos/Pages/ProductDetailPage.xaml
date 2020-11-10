@@ -11,15 +11,6 @@
     x:Class="LosGatos.Pages.ProductDetailPage"
     NavigationPage.HasNavigationBar="False"
     iOS:Page.UseSafeArea="true">
-    <ContentPage.Resources>
-        <ResourceDictionary>
-
-            <SolidColorBrush x:Key="DarkBrush" Color="#605E5D" />
-
-            <SolidColorBrush x:Key="LightBrush" Color="White" />
-
-        </ResourceDictionary>
-    </ContentPage.Resources>
     <ContentPage.BindingContext>
         <vm:ProductDetailViewModel />
     </ContentPage.BindingContext>
