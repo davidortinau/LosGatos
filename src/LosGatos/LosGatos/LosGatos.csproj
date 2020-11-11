@@ -44,18 +44,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <SharedImage Include="Common\Assets\business_cat.png" />
-    <SharedImage Include="Common\Assets\shutterstock_183490616.svg" />
-    <SharedImage Include="Common\Assets\shutterstock_183490631.svg" />
-    <SharedImage Include="Common\Assets\shutterstock_186919337.svg" />
-    <SharedImage Include="Common\Assets\shutterstock_188816654.svg" />
-    <SharedImage Include="Common\Assets\shutterstock_208551202.svg" />
-    <SharedImage Include="Common\Assets\shutterstock_553119223.svg" />
+    <SharedImage Include="Common\Assets\business_cat.png" BaseSize="200,200" />
+    <SharedImage Include="Common\Assets\shutterstock_183490616.svg" BaseSize="200,200" />
+    <SharedImage Include="Common\Assets\shutterstock_183490631.svg" BaseSize="200,200" />
+    <SharedImage Include="Common\Assets\shutterstock_186919337.svg" BaseSize="200,200" />
+    <SharedImage Include="Common\Assets\shutterstock_188816654.svg" BaseSize="200,200" />
+    <SharedImage Include="Common\Assets\shutterstock_208551202.svg" BaseSize="200,200" />
+    <SharedImage Include="Common\Assets\shutterstock_553119223.svg" BaseSize="200,200" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controls\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+
   <ItemGroup>
     <Compile Remove="Common\VisualTreeHelper.cs" />
   </ItemGroup>
