@@ -8,6 +8,7 @@
     xmlns:sharedTransitions="clr-namespace:Plugin.SharedTransitions;assembly=Plugin.SharedTransitions"
     xmlns:sh="clr-namespace:Sharpnado.Shades;assembly=Sharpnado.Shadows"
     IsClippedToBounds="False"
+    
     BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundColorDark}, Light={StaticResource BackgroundColorLight}}"
     x:Class="LosGatos.Pages.HomePage">
     <ContentView.Resources>
@@ -228,7 +229,7 @@
                             Scale="1.2"
                             TranslationX="10"
                             TranslationY="20"
-                          Margin="0,0,20,0"
+                            Margin="0,0,20,0"
                             Title="New Arrivals"
                             ProductImage="shutterstock_183490616.png"
                             BackgroundGradient="{StaticResource YellowGradient}" />

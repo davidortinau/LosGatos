@@ -51,8 +51,6 @@
     <!-- BRUSHES -->
     <Color
         x:Key="Yellow">#FDEE3D</Color>
-
-
     <Color
         x:Key="Teal">#76B3AF</Color>
 

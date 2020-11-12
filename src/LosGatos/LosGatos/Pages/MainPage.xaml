@@ -161,6 +161,7 @@
         IsClippedToBounds="False">
         <toolkit:TabView
             IsClippedToBounds="False"
+          IsSwipeEnabled="False"
             Style="{StaticResource CustomTabStyle}">
             <!-- HOME TAB -->
             <toolkit:TabViewItem

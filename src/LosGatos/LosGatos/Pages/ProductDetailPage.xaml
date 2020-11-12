@@ -36,7 +36,6 @@
                 Grid.ColumnSpan="2" />
             <!-- CAT DETAILS -->
             <Image
-                sharedTransitions:Transition.Name="CatTransition"
                 Source="{Binding Gatos.ProductImage}"
                 VerticalOptions="Start"
                 HorizontalOptions="End"
@@ -46,7 +45,8 @@
                 Grid.Column="0"
                 Grid.ColumnSpan="2"
                 Grid.Row="0"
-                Grid.RowSpan="2" />
+                Grid.RowSpan="2"
+                sharedTransitions:Transition.Name="CatTransition" />
             <FlexLayout
                 Grid.Column="0"
                 Grid.Row="0"

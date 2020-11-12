@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using LosGatos.Models;
 using LosGatos.ViewModels.Messages;
+using Plugin.SharedTransitions;
 using TinyMessenger;
 using Xamarin.Forms;
 
@@ -22,6 +23,8 @@ namespace LosGatos.Pages
         async void OnGoToProductDetail(GoToProductDetailMessage obj)
         {
             App.Model.SelectedGatos = obj.Gatos;
+            Page p = ((NavigationPage)App.Current.MainPage).CurrentPage;
+            SharedTransitionNavigationPage.SetTransitionSelectedGroup(p, obj.Gatos.Name);
             await Navigation.PushAsync(new ProductDetailPage());
         }
 

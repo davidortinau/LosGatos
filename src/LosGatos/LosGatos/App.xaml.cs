@@ -20,7 +20,6 @@ namespace LosGatos
             DependencyService.Register<TinyMessengerHub>();
             Subscribe();
             
-
             var navigationPage = new SharedTransitionNavigationPage(new MainPage())
             {
                 BarBackgroundColor = Color.Transparent
