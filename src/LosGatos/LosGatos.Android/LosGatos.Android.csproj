@@ -62,7 +62,7 @@
     <PackageReference Include="Xamarin.CommunityToolkit">
       <Version>1.0.0-preview1093</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1558-pre3" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0-pre3" />
     <PackageReference Include="Xamarin.Plugin.SharedTransitions">
       <Version>2.4.0</Version>
