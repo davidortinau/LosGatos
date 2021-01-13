@@ -37,35 +37,32 @@
                     </CollectionView.ItemsLayout>
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
+
                             <SwipeView
                                 Threshold="80">
                                 <SwipeView.LeftItems>
-                                    <!-- FAVOURITE -->
+                                    <!-- Favorite Item -->
                                     <SwipeItemView
                                         x:Name="SaveBtn"
                                         BackgroundColor="Transparent">
-                                        <Grid
-                                            RowDefinitions="Auto, *"
-                                            WidthRequest="100">
+                                        <Grid RowDefinitions="Auto,*"
+                                              WidthRequest="100">
                                             <Grid.GestureRecognizers>
                                                 <TapGestureRecognizer
-                                                    Tapped="OnSaveButtonClicked" />
+                                                    Tapped="OnSaveButtonClicked"/>
                                             </Grid.GestureRecognizers>
                                             <BoxView
-                                                CornerRadius="24, 0, 24, 0"
+                                                CornerRadius="24,0,24,0"
                                                 Color="{StaticResource ThemeTertiary}"
-                                                Grid.RowSpan="2" />
+                                                Grid.RowSpan="2"/>
                                             <Image
                                                 VerticalOptions="Center"
                                                 HorizontalOptions="Center"
-                                                Margin="0, 36, 0, 0">
-                                                <Image.Source>
-                                                    <FontImageSource
-                                                        FontFamily="FontAwesome"
-                                                        Glyph="{x:Static theme:IconFont.Save}"
-                                                        Color="#ffffff" />
-                                                </Image.Source>
-                                            </Image>
+                                                Margin="0,36,0,0"
+                                                Source="{FontImage FontFamily=FontAwesome,
+                                                    Glyph={x:Static theme:IconFont.Save},
+                                                    Color=#FFFFFF}
+                                                "/>
                                             <Label
                                                 Grid.Row="1"
                                                 Text="Save"
@@ -78,7 +75,7 @@
                                     </SwipeItemView>
                                 </SwipeView.LeftItems>
                                 <SwipeView.RightItems>
-                                    <!-- DELETE -->
+                                    <!-- Delete -->
                                     <SwipeItemView
                                         x:Name="RemoveBtn"
                                         BackgroundColor="Transparent">
@@ -114,6 +111,7 @@
                                                 Margin="0, 0, 0, 36" />
                                         </Grid>
                                     </SwipeItemView>
+
                                 </SwipeView.RightItems>
                                 <Grid
                                     x:DataType="models:Gatos"
