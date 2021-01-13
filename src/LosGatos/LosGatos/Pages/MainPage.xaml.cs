@@ -35,6 +35,11 @@ namespace LosGatos.Pages
 
         void OnAppThemeButtonClicked(object sender, System.EventArgs e)
         {
+            if(Application.Current.UserAppTheme == OSAppTheme.Unspecified)
+            {
+                Application.Current.UserAppTheme = Application.Current.RequestedTheme;
+            }
+
             Application.Current.UserAppTheme = (Application.Current.UserAppTheme == OSAppTheme.Dark)
                 ? OSAppTheme.Light
                 : OSAppTheme.Dark;
